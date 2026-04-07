@@ -10,14 +10,7 @@
       "twitterDescription": "Doom By Fate Wiki tracks active codes, killer and survivor guides, tier lists, maps, skins, and update notes for Roblox's asymmetrical horror hit."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
