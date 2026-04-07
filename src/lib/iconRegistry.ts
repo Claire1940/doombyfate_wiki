@@ -25,6 +25,7 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Package: LucideIcons.Package,
   AlertTriangle: LucideIcons.AlertTriangle,
   Eye: LucideIcons.Eye,
+  Heart: LucideIcons.Heart,
   Home: LucideIcons.Home,
   MessageCircle: LucideIcons.MessageCircle,
   Settings: LucideIcons.Settings,

@@ -118,6 +118,26 @@
         "icon": "Clock",
         "title": "Doom by Fate Update Log",
         "description": "Patch history and major content beats shaping the current meta"
+      },
+      {
+        "title": "Doom By Fate 1x1x1x1 Guide",
+        "description": "Stats, lore, visual identity, and update context for the next confirmed killer.",
+        "icon": "Sparkles"
+      },
+      {
+        "title": "Doom By Fate Martyr Guide",
+        "description": "Martyr's blood economy kit: Sacrificial Blood, Blessed state, and risk-reward playstyle.",
+        "icon": "Sword"
+      },
+      {
+        "title": "Doom By Fate Jeff The Killer Guide",
+        "description": "Jeff's two-phase stealth-to-rage loop, damage tools, and best skin picks.",
+        "icon": "Eye"
+      },
+      {
+        "title": "Doom By Fate John Doe Guide",
+        "description": "John Doe's tank pressure, spike control, grab tools, and domination strategy.",
+        "icon": "Shield"
       }
     ]
   },
@@ -683,9 +703,24 @@
           "summary": "Three codes are currently active and together provide 4500 Tix, plus one code-exclusive Jeff skin.",
           "type": "codes",
           "entries": [
-            { "code": "DOOMEDBYFATE", "reward": "Jeff The Killer Merchandise skin + 2000 Tix", "status": "Active", "notes": "Requires joining the group to redeem." },
-            { "code": "SORRYFORTHELONGWAIT", "reward": "1500 Tix", "status": "Active", "notes": "Added in the latest code wave." },
-            { "code": "THEOLDMAN", "reward": "1000 Tix", "status": "Active", "notes": "Pairs well with an early killer unlock plan." }
+            {
+              "code": "DOOMEDBYFATE",
+              "reward": "Jeff The Killer Merchandise skin + 2000 Tix",
+              "status": "Active",
+              "notes": "Requires joining the group to redeem."
+            },
+            {
+              "code": "SORRYFORTHELONGWAIT",
+              "reward": "1500 Tix",
+              "status": "Active",
+              "notes": "Added in the latest code wave."
+            },
+            {
+              "code": "THEOLDMAN",
+              "reward": "1000 Tix",
+              "status": "Active",
+              "notes": "Pairs well with an early killer unlock plan."
+            }
           ]
         },
         {
@@ -693,11 +728,36 @@
           "summary": "The strongest low-cost starting buys are Jane Doe and Jester at 450 Tix each.",
           "type": "characters",
           "entries": [
-            { "name": "Jane Doe", "cost_tix": 450, "role": "Support / survivalist", "why_buy": "S-tier pick with team healing, self-heal, and killer slow." },
-            { "name": "Jester", "cost_tix": 450, "role": "Ambush trickster", "why_buy": "S-tier pick with debuffs, slows, and blinds." },
-            { "name": "Brawler", "cost_tix": 500, "role": "Sentinel front-liner", "why_buy": "Strong offensive defender with long stun pressure." },
-            { "name": "Soldier", "cost_tix": 750, "role": "Sentinel protector", "why_buy": "Higher cost, but offers block, counterplay, and carry utility." },
-            { "name": "Bacon", "cost_tix": 0, "role": "Starter survivalist", "why_buy": "Free learning pick with tracking and chase reset tools." }
+            {
+              "name": "Jane Doe",
+              "cost_tix": 450,
+              "role": "Support / survivalist",
+              "why_buy": "S-tier pick with team healing, self-heal, and killer slow."
+            },
+            {
+              "name": "Jester",
+              "cost_tix": 450,
+              "role": "Ambush trickster",
+              "why_buy": "S-tier pick with debuffs, slows, and blinds."
+            },
+            {
+              "name": "Brawler",
+              "cost_tix": 500,
+              "role": "Sentinel front-liner",
+              "why_buy": "Strong offensive defender with long stun pressure."
+            },
+            {
+              "name": "Soldier",
+              "cost_tix": 750,
+              "role": "Sentinel protector",
+              "why_buy": "Higher cost, but offers block, counterplay, and carry utility."
+            },
+            {
+              "name": "Bacon",
+              "cost_tix": 0,
+              "role": "Starter survivalist",
+              "why_buy": "Free learning pick with tracking and chase reset tools."
+            }
           ]
         },
         {
@@ -705,10 +765,30 @@
           "summary": "If you want your first paid killer fast, Jeff is the cheapest entry. For the strongest premium target, save for John Doe.",
           "type": "characters",
           "entries": [
-            { "name": "C000lkid", "cost_tix": 0, "tier": "B", "why_buy": "Free starting killer for learning routes and pressure basics." },
-            { "name": "Jeff The Killer", "cost_tix": 1000, "tier": "A", "why_buy": "Cheapest paid killer and a strong first unlock." },
-            { "name": "Captain Rampage", "cost_tix": 2250, "tier": "A", "why_buy": "Good mid-game purchase for players who like movement-heavy chase kits." },
-            { "name": "John Doe", "cost_tix": 2750, "tier": "S", "why_buy": "Best long-term killer target if you want a top-tier brute/rushdown pick." }
+            {
+              "name": "C000lkid",
+              "cost_tix": 0,
+              "tier": "B",
+              "why_buy": "Free starting killer for learning routes and pressure basics."
+            },
+            {
+              "name": "Jeff The Killer",
+              "cost_tix": 1000,
+              "tier": "A",
+              "why_buy": "Cheapest paid killer and a strong first unlock."
+            },
+            {
+              "name": "Captain Rampage",
+              "cost_tix": 2250,
+              "tier": "A",
+              "why_buy": "Good mid-game purchase for players who like movement-heavy chase kits."
+            },
+            {
+              "name": "John Doe",
+              "cost_tix": 2750,
+              "tier": "S",
+              "why_buy": "Best long-term killer target if you want a top-tier brute/rushdown pick."
+            }
           ]
         },
         {
@@ -716,11 +796,26 @@
           "summary": "These breakpoints are the cleanest ways to turn code rewards into a better roster.",
           "type": "paths",
           "entries": [
-            { "target_tix": 450, "plan": "Unlock Jane Doe or Jester first." },
-            { "target_tix": 900, "plan": "Unlock both Jane Doe and Jester for the strongest low-cost survivor core." },
-            { "target_tix": 1000, "plan": "Unlock Jeff The Killer if you want your first paid killer quickly." },
-            { "target_tix": 1400, "plan": "Unlock Jane Doe, Jester, and Brawler for a broad early survivor pool." },
-            { "target_tix": 2750, "plan": "Save toward John Doe if your goal is a premium top-tier killer." }
+            {
+              "target_tix": 450,
+              "plan": "Unlock Jane Doe or Jester first."
+            },
+            {
+              "target_tix": 900,
+              "plan": "Unlock both Jane Doe and Jester for the strongest low-cost survivor core."
+            },
+            {
+              "target_tix": 1000,
+              "plan": "Unlock Jeff The Killer if you want your first paid killer quickly."
+            },
+            {
+              "target_tix": 1400,
+              "plan": "Unlock Jane Doe, Jester, and Brawler for a broad early survivor pool."
+            },
+            {
+              "target_tix": 2750,
+              "plan": "Save toward John Doe if your goal is a premium top-tier killer."
+            }
           ]
         }
       ]
@@ -736,13 +831,48 @@
           "character": "Jane Doe",
           "category": "Shop",
           "cards": [
-            { "name": "Sinner #2", "price_tix": 500, "status": "Available", "note": "Faust-inspired shop skin." },
-            { "name": "Overtime", "price_tix": 700, "status": "Available", "note": "Formal outfit with white crosses in the eyes." },
-            { "name": "First Time We Met", "price_tix": 750, "status": "Available", "note": "Black bride-style outfit." },
-            { "name": "Banana Lady", "price_tix": 1000, "status": "Available", "note": "Nang Tani folklore-inspired skin." },
-            { "name": "Blossom", "price_tix": 1000, "status": "Available", "note": "Current shop skin." },
-            { "name": "Bouquet", "price_tix": 1300, "status": "Available", "note": "Flower-heavy pastel variant." },
-            { "name": "Yourself", "price_tix": 5000, "status": "Available", "note": "Highest-priced Jane Doe shop skin." }
+            {
+              "name": "Sinner #2",
+              "price_tix": 500,
+              "status": "Available",
+              "note": "Faust-inspired shop skin."
+            },
+            {
+              "name": "Overtime",
+              "price_tix": 700,
+              "status": "Available",
+              "note": "Formal outfit with white crosses in the eyes."
+            },
+            {
+              "name": "First Time We Met",
+              "price_tix": 750,
+              "status": "Available",
+              "note": "Black bride-style outfit."
+            },
+            {
+              "name": "Banana Lady",
+              "price_tix": 1000,
+              "status": "Available",
+              "note": "Nang Tani folklore-inspired skin."
+            },
+            {
+              "name": "Blossom",
+              "price_tix": 1000,
+              "status": "Available",
+              "note": "Current shop skin."
+            },
+            {
+              "name": "Bouquet",
+              "price_tix": 1300,
+              "status": "Available",
+              "note": "Flower-heavy pastel variant."
+            },
+            {
+              "name": "Yourself",
+              "price_tix": 5000,
+              "status": "Available",
+              "note": "Highest-priced Jane Doe shop skin."
+            }
           ]
         },
         {
@@ -750,9 +880,24 @@
           "character": "Jane Doe",
           "category": "Upcoming",
           "cards": [
-            { "name": "Frisk / Prophesied Angel", "price_tix": null, "status": "Coming Soon", "note": "Undertale-inspired planned skin." },
-            { "name": "Promise", "price_tix": null, "status": "Coming Soon", "note": "Garden-themed upcoming entry." },
-            { "name": "Baker", "price_tix": null, "status": "Coming Soon", "note": "Chef-outfit upcoming entry." }
+            {
+              "name": "Frisk / Prophesied Angel",
+              "price_tix": null,
+              "status": "Coming Soon",
+              "note": "Undertale-inspired planned skin."
+            },
+            {
+              "name": "Promise",
+              "price_tix": null,
+              "status": "Coming Soon",
+              "note": "Garden-themed upcoming entry."
+            },
+            {
+              "name": "Baker",
+              "price_tix": null,
+              "status": "Coming Soon",
+              "note": "Chef-outfit upcoming entry."
+            }
           ]
         },
         {
@@ -760,9 +905,24 @@
           "character": "Jeff The Killer",
           "category": "Shop",
           "cards": [
-            { "name": "The Jokester", "price_tix": 100, "status": "Available", "note": "Joker-inspired shop skin." },
-            { "name": "Tinsel", "price_tix": 1225, "status": "Available", "note": "Holiday-themed Jeff variant." },
-            { "name": "Purple Guy", "price_tix": 1987, "status": "Available", "note": "FNaF crossover-style themed skin." }
+            {
+              "name": "The Jokester",
+              "price_tix": 100,
+              "status": "Available",
+              "note": "Joker-inspired shop skin."
+            },
+            {
+              "name": "Tinsel",
+              "price_tix": 1225,
+              "status": "Available",
+              "note": "Holiday-themed Jeff variant."
+            },
+            {
+              "name": "Purple Guy",
+              "price_tix": 1987,
+              "status": "Available",
+              "note": "FNaF crossover-style themed skin."
+            }
           ]
         },
         {
@@ -770,11 +930,36 @@
           "character": "Jeff The Killer",
           "category": "Milestone",
           "cards": [
-            { "name": "Milestone 1", "price_tix": null, "status": "Reach Level 5", "note": "Reverts Jeff to an early Area 51-style look." },
-            { "name": "Milestone 2", "price_tix": null, "status": "Reach Level 15", "note": "Adds a scarred face variant." },
-            { "name": "Milestone 3", "price_tix": null, "status": "Reach Level 25", "note": "Glitchy yellow distorted form." },
-            { "name": "Milestone 4", "price_tix": null, "status": "Reach Level 50", "note": "Blue-toned endgame milestone skin." },
-            { "name": "Merchandise", "price_tix": null, "status": "Code: DOOMEDBYFATE", "note": "Grey hoodie with the Doom by Fate logo." }
+            {
+              "name": "Milestone 1",
+              "price_tix": null,
+              "status": "Reach Level 5",
+              "note": "Reverts Jeff to an early Area 51-style look."
+            },
+            {
+              "name": "Milestone 2",
+              "price_tix": null,
+              "status": "Reach Level 15",
+              "note": "Adds a scarred face variant."
+            },
+            {
+              "name": "Milestone 3",
+              "price_tix": null,
+              "status": "Reach Level 25",
+              "note": "Glitchy yellow distorted form."
+            },
+            {
+              "name": "Milestone 4",
+              "price_tix": null,
+              "status": "Reach Level 50",
+              "note": "Blue-toned endgame milestone skin."
+            },
+            {
+              "name": "Merchandise",
+              "price_tix": null,
+              "status": "Code: DOOMEDBYFATE",
+              "note": "Grey hoodie with the Doom by Fate logo."
+            }
           ]
         }
       ]
@@ -784,26 +969,121 @@
       "eyebrow": "Shop",
       "subtitle": "A quick reference table for every survivor, killer, and featured skin in the current Doom by Fate shop.",
       "intro": "The current shop covers survivors, killers, and cosmetics — all purchased with Tix. Compare gameplay unlock costs against skin prices at a glance.",
-      "tableHeaders": ["Category", "Name", "Price (Tix)", "Value Note"],
+      "tableHeaders": [
+        "Category",
+        "Name",
+        "Price (Tix)",
+        "Value Note"
+      ],
       "items": [
-        { "category": "Survivor", "name": "Bacon", "price_tix": 0, "value_note": "Free starter survivor." },
-        { "category": "Survivor", "name": "Jane Doe", "price_tix": 450, "value_note": "Low-cost S-tier healer." },
-        { "category": "Survivor", "name": "Jester", "price_tix": 450, "value_note": "Low-cost S-tier debuff survivor." },
-        { "category": "Survivor", "name": "Brawler", "price_tix": 500, "value_note": "Cheap front-line sentinel." },
-        { "category": "Survivor", "name": "Martyr", "price_tix": 500, "value_note": "Paid survivor with dagger-based utility." },
-        { "category": "Survivor", "name": "Soldier", "price_tix": 750, "value_note": "Highest-priced current survivor unlock." },
-        { "category": "Killer", "name": "C000lkid", "price_tix": 0, "value_note": "Free starter killer." },
-        { "category": "Killer", "name": "Jeff The Killer", "price_tix": 1000, "value_note": "Cheapest paid killer." },
-        { "category": "Killer", "name": "The Priest", "price_tix": 1000, "value_note": "Combo-style killer with AoE toolkit." },
-        { "category": "Killer", "name": "1x1x1x1", "price_tix": 1700, "value_note": "Newest myth-styled killer." },
-        { "category": "Killer", "name": "Captain Rampage", "price_tix": 2250, "value_note": "Mobility-heavy mid-premium killer." },
-        { "category": "Killer", "name": "John Doe", "price_tix": 2750, "value_note": "Premium S-tier killer target." },
-        { "category": "Killer", "name": "The Old Man", "price_tix": 3500, "value_note": "Most expensive active killer." },
-        { "category": "Skin", "name": "Jeff — The Jokester", "price_tix": 100, "value_note": "Lowest-priced featured shop skin." },
-        { "category": "Skin", "name": "Jane Doe — Sinner #2", "price_tix": 500, "value_note": "Entry-level Jane Doe skin." },
-        { "category": "Skin", "name": "Jane Doe — Banana Lady", "price_tix": 1000, "value_note": "Mid-tier premium Jane skin." },
-        { "category": "Skin", "name": "Jeff — Tinsel", "price_tix": 1225, "value_note": "Event-style Jeff skin." },
-        { "category": "Skin", "name": "Jane Doe — Yourself", "price_tix": 5000, "value_note": "Highest-priced featured skin." }
+        {
+          "category": "Survivor",
+          "name": "Bacon",
+          "price_tix": 0,
+          "value_note": "Free starter survivor."
+        },
+        {
+          "category": "Survivor",
+          "name": "Jane Doe",
+          "price_tix": 450,
+          "value_note": "Low-cost S-tier healer."
+        },
+        {
+          "category": "Survivor",
+          "name": "Jester",
+          "price_tix": 450,
+          "value_note": "Low-cost S-tier debuff survivor."
+        },
+        {
+          "category": "Survivor",
+          "name": "Brawler",
+          "price_tix": 500,
+          "value_note": "Cheap front-line sentinel."
+        },
+        {
+          "category": "Survivor",
+          "name": "Martyr",
+          "price_tix": 500,
+          "value_note": "Paid survivor with dagger-based utility."
+        },
+        {
+          "category": "Survivor",
+          "name": "Soldier",
+          "price_tix": 750,
+          "value_note": "Highest-priced current survivor unlock."
+        },
+        {
+          "category": "Killer",
+          "name": "C000lkid",
+          "price_tix": 0,
+          "value_note": "Free starter killer."
+        },
+        {
+          "category": "Killer",
+          "name": "Jeff The Killer",
+          "price_tix": 1000,
+          "value_note": "Cheapest paid killer."
+        },
+        {
+          "category": "Killer",
+          "name": "The Priest",
+          "price_tix": 1000,
+          "value_note": "Combo-style killer with AoE toolkit."
+        },
+        {
+          "category": "Killer",
+          "name": "1x1x1x1",
+          "price_tix": 1700,
+          "value_note": "Newest myth-styled killer."
+        },
+        {
+          "category": "Killer",
+          "name": "Captain Rampage",
+          "price_tix": 2250,
+          "value_note": "Mobility-heavy mid-premium killer."
+        },
+        {
+          "category": "Killer",
+          "name": "John Doe",
+          "price_tix": 2750,
+          "value_note": "Premium S-tier killer target."
+        },
+        {
+          "category": "Killer",
+          "name": "The Old Man",
+          "price_tix": 3500,
+          "value_note": "Most expensive active killer."
+        },
+        {
+          "category": "Skin",
+          "name": "Jeff — The Jokester",
+          "price_tix": 100,
+          "value_note": "Lowest-priced featured shop skin."
+        },
+        {
+          "category": "Skin",
+          "name": "Jane Doe — Sinner #2",
+          "price_tix": 500,
+          "value_note": "Entry-level Jane Doe skin."
+        },
+        {
+          "category": "Skin",
+          "name": "Jane Doe — Banana Lady",
+          "price_tix": 1000,
+          "value_note": "Mid-tier premium Jane skin."
+        },
+        {
+          "category": "Skin",
+          "name": "Jeff — Tinsel",
+          "price_tix": 1225,
+          "value_note": "Event-style Jeff skin."
+        },
+        {
+          "category": "Skin",
+          "name": "Jane Doe — Yourself",
+          "price_tix": 5000,
+          "value_note": "Highest-priced featured skin."
+        }
       ]
     },
     "doomByFateUpdateLog": {
@@ -884,6 +1164,128 @@
             "Jolly Winter was removed.",
             "Mystery Hotel was removed."
           ]
+        }
+      ]
+    },
+    "doomByFate1x1x1x1Guide": {
+      "eyebrow": "Hot Character",
+      "title": "Doom By Fate 1x1x1x1 Guide",
+      "subtitle": "Stats, lore, visual identity, and update context for the next confirmed killer in Doom By Fate.",
+      "intro": "1x1x1x1 is one of the clearest hype characters in Doom By Fate right now. The live Roblox experience is currently branded around the 1x1x1x1 and Martyr update, and the wiki presents him as the next confirmed killer, so this module works best as a fast-read primer for players tracking the update.",
+      "items": [
+        {
+          "title": "Update Snapshot",
+          "meta": "Current update focus",
+          "description": "The Roblox experience is currently titled [1x1x1x1 & Martyr] Doom By Fate, and the wiki states that 1x1x1x1 is the next confirmed killer to be added."
+        },
+        {
+          "title": "Identity",
+          "meta": "The Adversary / 81619",
+          "description": "1x1x1x1 is also referred to as The Adversary or 81619. He is based on the classic Roblox myth/account 1x1x1x1, associated with Shedletsky / Telamon."
+        },
+        {
+          "title": "Cost and Base Stats",
+          "meta": "1700 cost",
+          "description": "The current page lists 1x1x1x1 at 1700 cost, 1500 health, Normal sprint speed, and 100 stamina."
+        },
+        {
+          "title": "Visual Read",
+          "meta": "Easy to recognize",
+          "description": "His design centers on a black skull, red eyes, a green dominus, green shoulder pads, black limbs, a rib-cage torso, and a glitching green outline across the body."
+        },
+        {
+          "title": "Lore Hook",
+          "meta": "Badlands myth",
+          "description": "The lore describes him as a fourth-dimensional entity and the adversary of 2x2, banished to the Badlands and now hunting survivors across dimensions with the Daemonshank."
+        }
+      ]
+    },
+    "doomByFateMartyrGuide": {
+      "eyebrow": "New Survivor",
+      "title": "Doom By Fate Martyr Guide",
+      "subtitle": "Martyr's blood economy kit: Sacrificial Blood, Blessed state, and risk-reward utility explained.",
+      "intro": "Martyr is one of the newest survivor searches tied directly to the current Doom By Fate update cycle. Her kit is built around generating Sacrificial Blood with offense, then converting it into healing, utility, or Blessed-state pressure.",
+      "items": [
+        {
+          "title": "Role Snapshot",
+          "meta": "Survivor • 500 cost",
+          "description": "Martyr is listed as a survivor with 500 cost, 100 health, Average walk speed, Average sprint speed, and 100 stamina."
+        },
+        {
+          "title": "Redemption",
+          "meta": "Q • 30s cooldown",
+          "description": "Martyr slashes forward with a dagger. On hit, it slows the killer for 2.5 to 3 seconds and gives 1 Sacrificial Blood. In Blessed state, the hit becomes a 2-second stun and consumes the Blessed effect after a successful hit."
+        },
+        {
+          "title": "Ascension",
+          "meta": "E • 25s cooldown",
+          "description": "Tap Ascension to spend 1 Sacrificial Blood and heal 25 to 30 HP. Hold Ascension to enter Blessed state instead of healing, changing how the rest of her kit works."
+        },
+        {
+          "title": "Sinner's Last Wish",
+          "meta": "R • 45s cooldown",
+          "description": "Tap to reveal the killer for 10 seconds while Martyr is briefly locked in place. Hold to stab herself three times for a burst of speed, taking 1.5x damage while weakened. In Blessed state, the move becomes a cleaner speed burst."
+        },
+        {
+          "title": "Playstyle Read",
+          "meta": "Aggressive utility",
+          "description": "Martyr's kit rewards players who are willing to trade safety for tempo and utility. Hit to build Sacrificial Blood, then convert into healing, crowd control, or Blessed-state pressure."
+        }
+      ]
+    },
+    "doomByFateJeffTheKillerGuide": {
+      "eyebrow": "Popular Killer",
+      "title": "Doom By Fate Jeff The Killer Guide",
+      "subtitle": "Jeff's two-phase stealth-to-rage loop, damage numbers, skin picks, and winning habits explained.",
+      "intro": "Jeff The Killer is a classic high-interest killer who combines name recognition with a very understandable gameplay loop. He is an ambusher-rushdown hybrid who wants to stalk, build meter, force awkward survivor reactions, and then explode into a short but deadly Rage window.",
+      "items": [
+        {
+          "label": "Why Jeff is strong",
+          "content": "Jeff is a hybrid Ambusher-Rushdown killer with a two-phase playstyle: use Murderous Intent to build Stealth Gauge, then activate Rage to gain stronger attacks, better pressure, more speed, and shorter stun duration. He costs 1000, has 950 health, and 110 stamina."
+        },
+        {
+          "label": "The core game plan",
+          "content": "Murderous Intent on Q has a 6-second cooldown and turns Jeff invisible while briefly highlighting survivors and building his Stalk Gauge. Once the meter is full, Rage on T activates his ENRAGED state for around 10 seconds, buffs all abilities, and increases movement speed."
+        },
+        {
+          "label": "Best damage tools",
+          "content": "Slash and Stab deals 22 front damage or 24 back damage, rising to 24.9 / 27.1 in Rage. Nighty Night on E deals 20 total damage and 5 seconds of Bleeding; the back-hit version deals 25 total damage and 10 seconds of Bleeding. Bloodthirst on R is a forward dash slash that deals 15 damage and 3 seconds of Bleeding."
+        },
+        {
+          "label": "How to play him well",
+          "content": "Use crouch ambushes on generator-focused survivors, prioritize back hits for higher damage, and save Bloodthirst for low-stamina targets. Nighty Night does not bypass Soldier's block, and Bloodthirst is your catch-up tool, not a combo extender."
+        },
+        {
+          "label": "Useful skin picks",
+          "content": "My name is Jeff The Killer yo? costs 500. Classic costs 600 and restores the original look. Screech costs 750 and has a darker visual profile that makes stealth easier. Tinsel costs 1225."
+        }
+      ]
+    },
+    "doomByFateJohnDoeGuide": {
+      "eyebrow": "Myth Killer",
+      "title": "Doom By Fate John Doe Guide",
+      "subtitle": "John Doe's tank pressure, spike control, grab tools, and the habits that make him dominate matches.",
+      "intro": "John Doe? is not a simple stat-check character. He is expensive, heavy, and extremely punishing when the player knows maps and spacing. His anti-stun passive, route-control, grab and rush tools all combine to make him overwhelming once he starts chaining space control into damage.",
+      "items": [
+        {
+          "label": "What kind of killer he is",
+          "content": "John Doe? is a bulky, charging tank killer focused on brute force, rushdown, and punishing survivor ability usage. He is also listed as the second most expensive killer in the game. His current statline shows 2750 cost, 2000 health, 37.55 sprint speed, and 100 stamina."
+        },
+        {
+          "label": "Passive and basic pressure",
+          "content": "His passive, Invincible, means he cannot be stunned in the normal way. Stuns become slowdown instead, and his moves cannot be interrupted. His M1, Punch and Slash, has a 1.5-second cooldown and deals 30 damage after a short windup."
+        },
+        {
+          "label": "Corroded Wave control",
+          "content": "Corroded Wave on Q creates corrupted trails that deal 2.5 damage per second for 5 seconds and briefly highlights survivors. The second Q use sends out a straight line of spikes that deals 15 damage and ragdolls for roughly 4 seconds, making it one of his best anti-loop and cut-off tools."
+        },
+        {
+          "label": "Grab and chase tools",
+          "content": "Command Grab on E deals 25 damage on a successful grab, and the thrown survivor can knock down and deal 15 damage to another survivor they collide with. Corrupted Force on R is a rush that drags a target for 12 damage plus 10 more when it ends; if the rush misses, the ending swing still deals 32 damage."
+        },
+        {
+          "label": "How strong players use him",
+          "content": "Learn every map, focus one survivor at a time, use Corroded Wave to ragdoll and close distance, and save Command Grab or Corrupted Force for open space or low-stamina targets. John Doe? becomes overwhelming once he starts chaining space control into damage."
         }
       ]
     }

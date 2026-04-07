@@ -9,6 +9,7 @@ import {
   Clock,
   Coins,
   Copy,
+  Eye,
   ExternalLink,
   Gift,
   Map,
@@ -364,7 +365,8 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
               const sectionIds = [
                 'doom-by-fate-codes', 'doom-by-fate-tier-list', 'doom-by-fate-survivors', 'doom-by-fate-killers',
                 'doom-by-fate-beginner-guide', 'doom-by-fate-maps', 'doom-by-fate-survivors-tier-list', 'doom-by-fate-killers-tier-list',
-                'doom-by-fate-tix-guide', 'doom-by-fate-skins', 'doom-by-fate-shop-prices', 'doom-by-fate-update-log'
+                'doom-by-fate-tix-guide', 'doom-by-fate-skins', 'doom-by-fate-shop-prices', 'doom-by-fate-update-log',
+                'doom-by-fate-1x1x1x1-guide', 'doom-by-fate-martyr-guide', 'doom-by-fate-jeff-the-killer-guide', 'doom-by-fate-john-doe-guide'
               ]
               const sectionId = sectionIds[index]
 
@@ -1040,6 +1042,154 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 </div>
               ))}
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Module 13: Doom By Fate 1x1x1x1 Guide */}
+      <section id="doom-by-fate-1x1x1x1-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Sparkles className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.doomByFate1x1x1x1Guide.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['doomByFate1x1x1x1Guide']} locale={locale}>
+                {t.modules.doomByFate1x1x1x1Guide.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.doomByFate1x1x1x1Guide.subtitle}</p>
+          </div>
+          <p className="scroll-reveal text-muted-foreground text-center mb-10 max-w-2xl mx-auto">{t.modules.doomByFate1x1x1x1Guide.intro}</p>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-6">
+            {t.modules.doomByFate1x1x1x1Guide.items.map((item: any, idx: number) => (
+              <div key={idx} className="rounded-xl border border-border bg-card p-6 hover:border-[hsl(var(--nav-theme)/0.4)] transition-colors">
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center shrink-0">
+                    <Sparkles className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold">{item.title}</h3>
+                    <span className="text-xs text-[hsl(var(--nav-theme-light))]">{item.meta}</span>
+                  </div>
+                </div>
+                <p className="text-sm text-muted-foreground leading-relaxed">{item.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 14: Doom By Fate Martyr Guide */}
+      <section id="doom-by-fate-martyr-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Sword className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.doomByFateMartyrGuide.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['doomByFateMartyrGuide']} locale={locale}>
+                {t.modules.doomByFateMartyrGuide.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.doomByFateMartyrGuide.subtitle}</p>
+          </div>
+          <p className="scroll-reveal text-muted-foreground text-center mb-10 max-w-2xl mx-auto">{t.modules.doomByFateMartyrGuide.intro}</p>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-6">
+            {t.modules.doomByFateMartyrGuide.items.map((item: any, idx: number) => (
+              <div key={idx} className="rounded-xl border border-border bg-card p-6 hover:border-[hsl(var(--nav-theme)/0.4)] transition-colors">
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center shrink-0">
+                    <Sword className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold">{item.title}</h3>
+                    <span className="text-xs text-[hsl(var(--nav-theme-light))]">{item.meta}</span>
+                  </div>
+                </div>
+                <p className="text-sm text-muted-foreground leading-relaxed">{item.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 15: Doom By Fate Jeff The Killer Guide */}
+      <section id="doom-by-fate-jeff-the-killer-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Eye className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.doomByFateJeffTheKillerGuide.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['doomByFateJeffTheKillerGuide']} locale={locale}>
+                {t.modules.doomByFateJeffTheKillerGuide.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.doomByFateJeffTheKillerGuide.subtitle}</p>
+          </div>
+          <p className="scroll-reveal text-muted-foreground text-center mb-10 max-w-2xl mx-auto">{t.modules.doomByFateJeffTheKillerGuide.intro}</p>
+
+          <div className="scroll-reveal space-y-3 max-w-3xl mx-auto">
+            {t.modules.doomByFateJeffTheKillerGuide.items.map((item: any, idx: number) => (
+              <details key={idx} className="group rounded-xl border border-border bg-card overflow-hidden">
+                <summary className="flex items-center justify-between px-6 py-4 cursor-pointer hover:bg-white/[0.03] transition-colors list-none">
+                  <div className="flex items-center gap-3">
+                    <div className="w-8 h-8 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center shrink-0">
+                      <Eye className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <span className="font-semibold">{item.label}</span>
+                  </div>
+                  <ChevronDown className="w-5 h-5 text-muted-foreground transition-transform group-open:rotate-180 shrink-0" />
+                </summary>
+                <div className="px-6 pb-5 pt-1 border-t border-border/50">
+                  <p className="text-sm text-muted-foreground leading-relaxed">{item.content}</p>
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 16: Doom By Fate John Doe Guide */}
+      <section id="doom-by-fate-john-doe-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Shield className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.doomByFateJohnDoeGuide.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['doomByFateJohnDoeGuide']} locale={locale}>
+                {t.modules.doomByFateJohnDoeGuide.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.doomByFateJohnDoeGuide.subtitle}</p>
+          </div>
+          <p className="scroll-reveal text-muted-foreground text-center mb-10 max-w-2xl mx-auto">{t.modules.doomByFateJohnDoeGuide.intro}</p>
+
+          <div className="scroll-reveal space-y-3 max-w-3xl mx-auto">
+            {t.modules.doomByFateJohnDoeGuide.items.map((item: any, idx: number) => (
+              <details key={idx} className="group rounded-xl border border-border bg-card overflow-hidden">
+                <summary className="flex items-center justify-between px-6 py-4 cursor-pointer hover:bg-white/[0.03] transition-colors list-none">
+                  <div className="flex items-center gap-3">
+                    <div className="w-8 h-8 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center shrink-0">
+                      <Shield className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <span className="font-semibold">{item.label}</span>
+                  </div>
+                  <ChevronDown className="w-5 h-5 text-muted-foreground transition-transform group-open:rotate-180 shrink-0" />
+                </summary>
+                <div className="px-6 pb-5 pt-1 border-t border-border/50">
+                  <p className="text-sm text-muted-foreground leading-relaxed">{item.content}</p>
+                </div>
+              </details>
+            ))}
           </div>
         </div>
       </section>
