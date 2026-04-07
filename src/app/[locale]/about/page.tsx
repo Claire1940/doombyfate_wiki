@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: 'About Doom By Fate Wiki - Your Ultimate Roblox Game Resource',
-    description: 'Learn about Doom By Fate Wiki, a community-driven resource hub providing comprehensive guides, codes, killer guides, survivor tips, and strategies for the Doom By Fate Steam game.',
+    description: 'Learn about Doom By Fate Wiki, a community-driven resource hub providing comprehensive guides, codes, killer guides, survivor tips, and strategies for the Doom By Fate Roblox game.',
     keywords: [
       'about Doom By Fate Wiki',
       'Doom By Fate community',
