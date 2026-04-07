@@ -9,10 +9,13 @@ import {
   Copy,
   ExternalLink,
   Gift,
+  Map,
   Shield,
   Skull,
   Sparkles,
+  Star,
   Sword,
+  TrendingUp,
   Trophy,
   Users,
 } from 'lucide-react'
@@ -291,7 +294,8 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
             {t.tools.cards.map((card: any, index: number) => {
               // 映射卡片索引到 section ID
               const sectionIds = [
-                'doom-by-fate-codes', 'doom-by-fate-tier-list', 'doom-by-fate-survivors', 'doom-by-fate-killers'
+                'doom-by-fate-codes', 'doom-by-fate-tier-list', 'doom-by-fate-survivors', 'doom-by-fate-killers',
+                'doom-by-fate-beginner-guide', 'doom-by-fate-maps', 'doom-by-fate-survivors-tier-list', 'doom-by-fate-killers-tier-list'
               ]
               const sectionId = sectionIds[index]
 
@@ -543,6 +547,238 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 <p className="text-sm text-muted-foreground mb-3 flex-1">{killer.overview}</p>
                 <div className="pt-3 border-t border-border">
                   <p className="text-xs text-[hsl(var(--nav-theme-light))] font-medium">{killer.bestFor}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 5: Doom By Fate Beginner Guide */}
+      <section id="doom-by-fate-beginner-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <BookOpen className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.doomByFateBeginnerGuide.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['doomByFateBeginnerGuide']} locale={locale}>
+                {t.modules.doomByFateBeginnerGuide.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.doomByFateBeginnerGuide.subtitle}</p>
+          </div>
+
+          <p className="scroll-reveal text-muted-foreground text-center mb-10 max-w-2xl mx-auto">{t.modules.doomByFateBeginnerGuide.intro}</p>
+
+          <div className="scroll-reveal space-y-4">
+            {t.modules.doomByFateBeginnerGuide.steps.map((step: any, i: number) => (
+              <div key={i} className="flex gap-4 p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.4)] transition-colors">
+                {/* Step number */}
+                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.4)] flex items-center justify-center font-bold text-[hsl(var(--nav-theme-light))] text-sm">
+                  {step.step}
+                </div>
+                <div className="flex-1 min-w-0">
+                  <h3 className="font-bold text-base mb-2">{step.title}</h3>
+                  <p className="text-sm text-muted-foreground mb-3">{step.description}</p>
+                  {step.highlights && (
+                    <ul className="space-y-1">
+                      {step.highlights.map((h: string, hi: number) => (
+                        <li key={hi} className="flex items-start gap-2 text-xs text-muted-foreground">
+                          <Check className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] flex-shrink-0 mt-0.5" />
+                          <span>{h}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 6: Doom By Fate Maps */}
+      <section id="doom-by-fate-maps" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Map className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.doomByFateMaps.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['doomByFateMaps']} locale={locale}>
+                {t.modules.doomByFateMaps.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.doomByFateMaps.subtitle}</p>
+          </div>
+
+          <p className="scroll-reveal text-muted-foreground text-center mb-10 max-w-2xl mx-auto">{t.modules.doomByFateMaps.intro}</p>
+
+          {/* Desktop table */}
+          <div className="scroll-reveal hidden md:block overflow-x-auto rounded-xl border border-border">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-[hsl(var(--nav-theme)/0.08)] border-b border-border">
+                  {t.modules.doomByFateMaps.tableHeaders.map((h: string, i: number) => (
+                    <th key={i} className="px-4 py-3 text-left font-semibold text-[hsl(var(--nav-theme-light))]">{h}</th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-border">
+                {t.modules.doomByFateMaps.items.map((row: any, i: number) => (
+                  <tr key={i} className="hover:bg-white/[0.03] transition-colors">
+                    <td className="px-4 py-4 font-semibold">{row.map}</td>
+                    <td className="px-4 py-4 text-muted-foreground">{row.objective}</td>
+                    <td className="px-4 py-4 text-muted-foreground max-w-xs">{row.layout_notes}</td>
+                    <td className="px-4 py-4 text-emerald-400 text-xs">{row.survivor_angle}</td>
+                    <td className="px-4 py-4 text-red-400 text-xs">{row.killer_angle}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {/* Mobile cards */}
+          <div className="md:hidden scroll-reveal space-y-4">
+            {t.modules.doomByFateMaps.items.map((row: any, i: number) => (
+              <div key={i} className="p-5 bg-white/5 border border-border rounded-xl">
+                <div className="flex items-center justify-between mb-3">
+                  <h3 className="font-bold text-base">{row.map}</h3>
+                  <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">{row.objective}</span>
+                </div>
+                <p className="text-xs text-muted-foreground mb-3">{row.layout_notes}</p>
+                <div className="grid grid-cols-2 gap-2">
+                  <div className="p-2 bg-emerald-500/5 border border-emerald-500/20 rounded-lg">
+                    <p className="text-xs text-emerald-400 font-medium mb-1">Survivor</p>
+                    <p className="text-xs text-muted-foreground">{row.survivor_angle}</p>
+                  </div>
+                  <div className="p-2 bg-red-500/5 border border-red-500/20 rounded-lg">
+                    <p className="text-xs text-red-400 font-medium mb-1">Killer</p>
+                    <p className="text-xs text-muted-foreground">{row.killer_angle}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 7: Doom By Fate Survivors Tier List */}
+      <section id="doom-by-fate-survivors-tier-list" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Star className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.doomByFateSurvivorsTierList.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['doomByFateSurvivorsTierList']} locale={locale}>
+                {t.modules.doomByFateSurvivorsTierList.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.doomByFateSurvivorsTierList.subtitle}</p>
+          </div>
+
+          <p className="scroll-reveal text-muted-foreground text-center mb-10 max-w-2xl mx-auto">{t.modules.doomByFateSurvivorsTierList.intro}</p>
+
+          <div className="scroll-reveal space-y-6">
+            {t.modules.doomByFateSurvivorsTierList.tiers.map((tier: any, ti: number) => (
+              <div key={ti} className="rounded-xl border border-border overflow-hidden">
+                {/* Tier header */}
+                <div className="flex items-center gap-3 px-6 py-4 bg-[hsl(var(--nav-theme)/0.06)] border-b border-border">
+                  <div className={`w-10 h-10 rounded-lg flex items-center justify-center font-bold text-sm border-2 ${
+                    tier.tier === 'S' ? 'bg-red-500/20 border-red-500/50 text-red-400' :
+                    tier.tier === 'A' ? 'bg-orange-500/20 border-orange-500/50 text-orange-400' :
+                    tier.tier === 'New' ? 'bg-[hsl(var(--nav-theme)/0.2)] border-[hsl(var(--nav-theme)/0.5)] text-[hsl(var(--nav-theme-light))]' :
+                    'bg-zinc-500/20 border-zinc-500/50 text-zinc-400'
+                  }`}>{tier.tier}</div>
+                  <div>
+                    <p className="font-semibold">{tier.label}</p>
+                  </div>
+                </div>
+                {/* Entries */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-0 divide-y md:divide-y-0 md:divide-x divide-border">
+                  {tier.entries.map((entry: any, ei: number) => (
+                    <div key={ei} className={`p-5 ${ei > 0 && tier.entries.length > 1 ? 'md:border-l border-border' : ''}`}>
+                      <div className="flex items-center justify-between mb-2">
+                        <h3 className="font-bold">{entry.name}</h3>
+                        <div className="flex items-center gap-2">
+                          <span className="text-xs px-2 py-0.5 rounded-full bg-white/5 border border-border">{entry.role}</span>
+                          <span className="text-xs text-[hsl(var(--nav-theme-light))] font-medium">{entry.cost}</span>
+                        </div>
+                      </div>
+                      <p className="text-xs text-muted-foreground mb-3">{entry.why}</p>
+                      <p className="text-xs text-[hsl(var(--nav-theme-light))] font-medium mb-2">{entry.best_for}</p>
+                      <div className="flex flex-wrap gap-1">
+                        {entry.tools.map((tool: string, tl: number) => (
+                          <span key={tl} className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.2)] text-muted-foreground">{tool}</span>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 8: Doom By Fate Killers Tier List */}
+      <section id="doom-by-fate-killers-tier-list" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <TrendingUp className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.doomByFateKillersTierList.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['doomByFateKillersTierList']} locale={locale}>
+                {t.modules.doomByFateKillersTierList.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.doomByFateKillersTierList.subtitle}</p>
+          </div>
+
+          <p className="scroll-reveal text-muted-foreground text-center mb-10 max-w-2xl mx-auto">{t.modules.doomByFateKillersTierList.intro}</p>
+
+          <div className="scroll-reveal space-y-6">
+            {t.modules.doomByFateKillersTierList.tiers.map((tier: any, ti: number) => (
+              <div key={ti} className="rounded-xl border border-border overflow-hidden">
+                {/* Tier header */}
+                <div className="flex items-center gap-3 px-6 py-4 bg-[hsl(var(--nav-theme)/0.06)] border-b border-border">
+                  <div className={`w-10 h-10 rounded-lg flex items-center justify-center font-bold text-sm border-2 ${
+                    tier.tier === 'S' ? 'bg-red-500/20 border-red-500/50 text-red-400' :
+                    tier.tier === 'A' ? 'bg-orange-500/20 border-orange-500/50 text-orange-400' :
+                    tier.tier === 'New' ? 'bg-[hsl(var(--nav-theme)/0.2)] border-[hsl(var(--nav-theme)/0.5)] text-[hsl(var(--nav-theme-light))]' :
+                    'bg-zinc-500/20 border-zinc-500/50 text-zinc-400'
+                  }`}>{tier.tier}</div>
+                  <div>
+                    <p className="font-semibold">{tier.label}</p>
+                  </div>
+                </div>
+                {/* Entries */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-0 divide-y md:divide-y-0 divide-border">
+                  {tier.entries.map((entry: any, ei: number) => (
+                    <div key={ei} className={`p-5 ${tier.entries.length > 1 && ei > 0 ? 'md:border-l border-border' : ''}`}>
+                      <div className="flex items-center justify-between mb-2">
+                        <h3 className="font-bold">{entry.name}</h3>
+                        <div className="flex items-center gap-2">
+                          <span className="text-xs px-2 py-0.5 rounded-full bg-white/5 border border-border">{entry.type}</span>
+                          <span className="text-xs text-[hsl(var(--nav-theme-light))] font-medium">{entry.cost}</span>
+                        </div>
+                      </div>
+                      <p className="text-xs text-muted-foreground mb-3">{entry.why}</p>
+                      <p className="text-xs text-[hsl(var(--nav-theme-light))] font-medium mb-2">{entry.best_for}</p>
+                      <div className="flex flex-wrap gap-1">
+                        {entry.tools.map((tool: string, tl: number) => (
+                          <span key={tl} className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.2)] text-muted-foreground">{tool}</span>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
             ))}

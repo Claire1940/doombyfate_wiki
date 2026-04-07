@@ -78,6 +78,26 @@
         "icon": "Skull",
         "title": "Doom By Fate Killers",
         "description": "Full killer roster with pressure patterns and guides"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Doom By Fate Beginner Guide",
+        "description": "Step-by-step guide for new players starting Doom By Fate"
+      },
+      {
+        "icon": "Map",
+        "title": "Doom By Fate Maps",
+        "description": "All maps with routes, objectives, and chase angles"
+      },
+      {
+        "icon": "Star",
+        "title": "Doom By Fate Survivors Tier List",
+        "description": "Best survivors to buy and learn first"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Doom By Fate Killers Tier List",
+        "description": "Which killers are worth your Tix right now"
       }
     ]
   },
@@ -293,6 +313,342 @@
           "role": "Newest",
           "overview": "1x1x1x1 (also called The Adversary or 81619) is the myth-themed headline killer of the current [1x1x1x1 & Martyr] live build.",
           "bestFor": "Players chasing the newest myth-styled killer in the current Doom By Fate update."
+        }
+      ]
+    },
+    "doomByFateBeginnerGuide": {
+      "title": "Doom By Fate Beginner Guide",
+      "eyebrow": "Starter Guide",
+      "subtitle": "Start with the round flow, then learn one survivor role before branching into harder kits. This version is built for players who want usable match advice instead of lore or filler.",
+      "intro": "Doom By Fate is an 8v1 Roblox asymmetrical horror game where one Killer pressures the lobby while Survivors clear objectives, protect each other, and try to make it out before the match snowballs. The fastest way to improve is to understand your role, use map geometry well, and spend your first Tix on a playstyle you will actually repeat.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Learn the round win condition first",
+          "description": "Every match is built around one Killer versus eight Survivors. Survivors win by completing objectives and escaping pressure; the Killer wins by hunting the team down before the round gets away.",
+          "highlights": [
+            "Survivors should value objective time over random duels.",
+            "Killers want early pressure before routes and support tools stabilize the team."
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Use Bacon to learn information play",
+          "description": "Bacon is free and works as a recon-support starter. His kit teaches spacing, timing, and team awareness without forcing you into pure frontline play.",
+          "highlights": [
+            "Flashlight can stagger and slow the Killer if aimed well.",
+            "Pizza heals 20 HP and helps you survive small mistakes.",
+            "Tracker helps identify the Killer's exact location and distance."
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Pick a role path before you buy anything",
+          "description": "The current survivor roster splits cleanly into role families. Choose one path and stay on it until you understand when to peel, heal, or disengage.",
+          "highlights": [
+            "Survivalist: self-support and objective pressure.",
+            "Sentinel: stuns, disruption, and frontline peel.",
+            "Support: heals, buffs, debuffs, and chase utility."
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Make your first paid survivor a purpose pick",
+          "description": "Jane Doe is the easiest premium pick to justify because she can heal herself and teammates while still peeling with Syringe. If you want to protect others and force space in chases, Brawler or Soldier are the cleaner frontline options.",
+          "highlights": [
+            "Jane Doe: 450 Tix, self-heal plus team heal.",
+            "Brawler: 500 Tix, long stun window and strong punish.",
+            "Soldier: 750 Tix, block, carry, and shotgun control."
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Treat loops and cover as your real defense",
+          "description": "Good survivors do not try to win in the open. Use walls, doors, stairs, houses, decks, and choke points to stretch chase time and force bad Killer angles.",
+          "highlights": [
+            "Neighborhood has many connected loop spots and strong hiding routes behind the houses.",
+            "Rampaged Ship has strong upper-deck loops and stair interactions.",
+            "Killers are much more dangerous when they catch you in open lanes."
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Turn every match into Tix progress",
+          "description": "Your early economy matters because survivor and killer purchases open the game up quickly. Play rounds, finish objectives, and redeem active codes when available so your first few buys come faster.",
+          "highlights": [
+            "Use early Tix on a role you already enjoy.",
+            "Do not spread purchases across characters you will not main.",
+            "Codes and round success are the cleanest early progression sources."
+          ]
+        }
+      ]
+    },
+    "doomByFateMaps": {
+      "title": "Doom By Fate Maps",
+      "eyebrow": "Map Guide",
+      "subtitle": "This module turns the current map pool into quick-read match notes. Learn where to kite, hide, rotate, or cut people off before the round gets messy.",
+      "intro": "Doom By Fate maps are not just background art. Each one changes how safe your rotations feel, how much value support tools get, and whether the Killer can force a clean chase or has to keep guessing.",
+      "tableHeaders": [
+        "Map",
+        "Objective",
+        "Layout",
+        "Survivor Angle",
+        "Killer Angle"
+      ],
+      "items": [
+        {
+          "map": "Crossroads",
+          "status": "Playable",
+          "objective": "Fix Generators",
+          "layout_notes": "Old Roblox-inspired map with large outer routes, bridges, and high-ground areas around the mountain.",
+          "survivor_angle": "Strong when you stay disciplined and use the long outer pathing to burn time.",
+          "killer_angle": "Rush early so Survivors do not take the mountain and bridge routes for free."
+        },
+        {
+          "map": "Neighborhood",
+          "status": "Playable",
+          "objective": "Fix Generators",
+          "layout_notes": "Two houses, a damaged arcade, tight halls, and many connected loop spots across the block.",
+          "survivor_angle": "One of the best maps for extended kiting, trap setups, and last-second reroutes.",
+          "killer_angle": "Use the back side of the houses for surprise entries instead of always pathing straight through the front."
+        },
+        {
+          "map": "Rampaged Ship",
+          "status": "Playable",
+          "objective": "Fix Generators",
+          "layout_notes": "Massive damaged ship with four decks, stairs between levels, and most early action centered on the upper decks.",
+          "survivor_angle": "Upper-deck loops and stairs are strong for resets, especially with stun or trap support.",
+          "killer_angle": "Mobility matters here because Survivors can chain upper-deck pressure into long relos."
+        },
+        {
+          "map": "Library Of Eternity",
+          "status": "Playable",
+          "objective": "Complete Generators",
+          "layout_notes": "Large library space where tall bookshelves function like walls and sight blockers.",
+          "survivor_angle": "Best played with disciplined pathing and line-of-sight breaks instead of panic sprinting.",
+          "killer_angle": "Track shelf routes carefully and force commit points instead of overchasing blind corners."
+        },
+        {
+          "map": "Camp Lakewood",
+          "status": "Playable",
+          "objective": "Fix Generators",
+          "layout_notes": "Core rotation map in the current pool built around standard generator pressure and routing practice.",
+          "survivor_angle": "Good map for learning clean objective timing and safe rotations between tasks.",
+          "killer_angle": "Pressure generator timing early and do not let the lobby settle into free objective rhythm."
+        }
+      ]
+    },
+    "doomByFateSurvivorsTierList": {
+      "title": "Doom By Fate Survivors Tier List",
+      "eyebrow": "Meta Picks",
+      "subtitle": "Built around current role value, self-sufficiency, and how easy each survivor is to turn into actual wins. Aimed at players deciding where their next Tix should go.",
+      "intro": "The best survivor picks either keep themselves alive, rescue team momentum, or force the Killer to respect space they would normally take for free.",
+      "tiers": [
+        {
+          "tier": "S",
+          "color": "red",
+          "label": "Best first serious investments",
+          "entries": [
+            {
+              "name": "Jane Doe",
+              "role": "Support / Hybrid",
+              "cost": "450 Tix",
+              "why": "Peel with Syringe, heal teammates for 30 HP, heal herself for 35 HP. The cleanest all-rounder for solo queue and team play.",
+              "best_for": "Players who want one survivor that stays useful in almost every lobby.",
+              "tools": [
+                "Syringe",
+                "Set Health",
+                "Patch Up"
+              ]
+            },
+            {
+              "name": "Soldier",
+              "role": "Sentinel",
+              "cost": "750 Tix",
+              "why": "Carry, Block, and Shotgun let him bodyguard, peel, and turn bad chases into recoverable situations.",
+              "best_for": "Players who enjoy frontline rescue, team defense, and hard peel.",
+              "tools": [
+                "Carry",
+                "Block",
+                "Shotgun"
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "color": "orange",
+          "label": "Strong mains with clear specialties",
+          "entries": [
+            {
+              "name": "Jester",
+              "role": "Support",
+              "cost": "450 Tix",
+              "why": "Hat Trap kills sprint paths, Banana Trap punishes loops, and Pie adds blind plus slow. Rewards players who think ahead.",
+              "best_for": "Trap players and route planners.",
+              "tools": [
+                "Hat Trap",
+                "Banana Trap",
+                "Pie"
+              ]
+            },
+            {
+              "name": "Brawler",
+              "role": "Sentinel",
+              "cost": "500 Tix",
+              "why": "Pocket Sand and Liver Blow give him one of the cleanest direct disruption kits. Excellent for aggressive peel on demand.",
+              "best_for": "Players who like decisive close-range saves.",
+              "tools": [
+                "Pocket Sand",
+                "Liver Blow"
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "color": "zinc",
+          "label": "Useful starter utility",
+          "entries": [
+            {
+              "name": "Bacon",
+              "role": "Recon / Support",
+              "cost": "Free",
+              "why": "Teaches real fundamentals: killer tracking, spacing, and resource timing. Flashlight, Pizza, and Tracker keep him relevant while you learn.",
+              "best_for": "New players who want a no-cost practice character with real team value.",
+              "tools": [
+                "Flashlight",
+                "Pizza",
+                "Tracker"
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "New",
+          "color": "theme",
+          "label": "Fresh option to watch",
+          "entries": [
+            {
+              "name": "Martyr",
+              "role": "Support",
+              "cost": "500 Tix",
+              "why": "Martyr has entered the roster as the newest survivor in the current live build. Track her page as the module ecosystem expands.",
+              "best_for": "Players who want the newest survivor in their rotation.",
+              "tools": [
+                "Newest roster page",
+                "Latest update coverage"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "doomByFateKillersTierList": {
+      "title": "Doom By Fate Killers Tier List",
+      "eyebrow": "Killer Meta",
+      "subtitle": "Focuses on chase pressure, punish windows, and how consistently each killer converts contact into downs. Made for players choosing a main.",
+      "intro": "A strong Doom By Fate killer either creates unavoidable pressure or turns one mistake into a real punish sequence. The best options force bad movement, crush weak spacing, or make Survivors abandon routes they would normally trust.",
+      "tiers": [
+        {
+          "tier": "S",
+          "color": "red",
+          "label": "Best overall carry pick",
+          "entries": [
+            {
+              "name": "John Doe?",
+              "type": "Brute / Rushdown",
+              "cost": "2750 Tix",
+              "why": "Combines oppressive body presence with Corroded Wave, Command Grab, and Corrupted Force. The cleanest premium killer for top-end pressure.",
+              "best_for": "Players who want one expensive killer that can dominate most lobbies.",
+              "tools": [
+                "Corroded Wave",
+                "Command Grab",
+                "Corrupted Force"
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "color": "orange",
+          "label": "High-value mains",
+          "entries": [
+            {
+              "name": "C000lkid",
+              "type": "Rushdown / Combo",
+              "cost": "Free",
+              "why": "Fast, punish-heavy kit with ranged pressure, chase speed, and combo routing. For a free killer, the ceiling is absurdly high.",
+              "best_for": "Players who want a strong main without spending Tix first.",
+              "tools": [
+                "Dual Blade",
+                "Lacerate",
+                "Speed Hack",
+                "Velocity Strike"
+              ]
+            },
+            {
+              "name": "Jeff The Killer",
+              "type": "Stealth / Burst",
+              "cost": "1000 Tix",
+              "why": "Gets value from invisibility, front-or-back grabs, and a direct burst route with Bloodthirst. Easy to turn into fast picks.",
+              "best_for": "Players who like stealth entries and simple finishing power.",
+              "tools": [
+                "Murderous Intent",
+                "Sweet Dreams and Nighty Night",
+                "Bloodthirst"
+              ]
+            },
+            {
+              "name": "The Priest",
+              "type": "Target / Combo",
+              "cost": "1000 Tix",
+              "why": "Specializes in locking onto one target and chaining pressure through combo routing and area coverage.",
+              "best_for": "Players who like technical combo killers with strong target focus.",
+              "tools": [
+                "Snap",
+                "Combo routing",
+                "AOE pressure"
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "color": "zinc",
+          "label": "Strong specialist pressure",
+          "entries": [
+            {
+              "name": "Captain Rampage",
+              "type": "Hunter / Mobility",
+              "cost": "2250 Tix",
+              "why": "Excels at movement-led pressure with Shatter Slash, Tiger Mark, and Tidal Cleaver. Lethal when you keep pace high and force Survivors off safe loops.",
+              "best_for": "Players who enjoy mobility, tempo, and route cutting.",
+              "tools": [
+                "Shatter Slash",
+                "Tiger Mark",
+                "Tidal Cleaver"
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "New",
+          "color": "theme",
+          "label": "Newest killer page to watch",
+          "entries": [
+            {
+              "name": "1x1x1x1",
+              "type": "Myth Killer",
+              "cost": "1700 Tix",
+              "why": "1x1x1x1 has entered the killer lineup with 1500 health as one of the most important current roster additions to track.",
+              "best_for": "Players following the newest killer coverage and update-driven pages.",
+              "tools": [
+                "Newest roster interest",
+                "Dedicated killer page"
+              ]
+            }
+          ]
         }
       ]
     }
