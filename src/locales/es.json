@@ -1,20 +1,20 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "description": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricación, biomas, logros, supervivencia, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "ogDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "twitterDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros y consejos de supervivencia para el sandbox surrealista de vóxeles en Steam."
+      "title": "Doom By Fate Wiki - Codes, Killers & Tier List",
+      "description": "Doom By Fate Wiki sigue Codes activos, guías de Killer y Survivor, Tier List, mapas, skins y notas de actualización para el éxito de terror asimétrico de Roblox.",
+      "keywords": "Doom By Fate, Roblox, Codes, Killers, Survivors, Tier List, mapas, skins, actualizaciones",
+      "ogTitle": "Doom By Fate Wiki - Codes, Killers & Tier List",
+      "ogDescription": "Doom By Fate Wiki sigue Codes activos, guías de Killer y Survivor, Tier List, mapas, skins y notas de actualización para el éxito de terror asimétrico de Roblox.",
+      "twitterTitle": "Doom By Fate Wiki - Codes, Killers & Tier List",
+      "twitterDescription": "Doom By Fate Wiki sigue Codes activos, guías de Killer y Survivor, Tier List, mapas, skins y notas de actualización para el éxito de terror asimétrico de Roblox."
     }
   },
   "nav": {
-    "codes": "Códigos",
+    "codes": "Codes",
     "guide": "Guía",
-    "killers": "Asesinos",
-    "survivors": "Supervivientes",
+    "killers": "Killers",
+    "survivors": "Survivors",
     "skins": "Skins",
     "lore": "Historia",
     "audio": "Audio"
@@ -22,7 +22,7 @@
   "common": {
     "home": "Inicio",
     "more": "Más",
-    "playNow": "Juega en Steam",
+    "playNow": "Jugar en Steam",
     "switchLanguage": "Cambiar idioma",
     "switchTheme": "Cambiar tema",
     "lightMode": "Modo claro",
@@ -34,899 +34,1464 @@
     "readMore": "Leer más"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de supervivencia de vóxeles",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explora biomas oníricos, fusiona objetos con Apotheosis, construye libremente y sobrevive a criaturas extrañas en este sandbox surrealista de mundo abierto en Steam.",
-    "getFreeCodesCTA": "Explorar guía de fabricación",
-    "playOnSteamCTA": "Jugar en Steam",
+    "badge": "Terror asimétrico de Roblox",
+    "title": "Doom By Fate Wiki",
+    "description": "Sigue Codes, Killers, Survivors, mapas, skins y cobertura rápida de actualizaciones para Doom By Fate, el creciente juego de terror asimétrico de Roblox.",
+    "getFreeCodesCTA": "Obtener Codes gratis",
+    "playOnRobloxCTA": "Jugar en Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Jugadores en línea"
+        "value": "26.8M+",
+        "label": "Visitas totales"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Pico de CCU"
+        "value": "109.6K",
+        "label": "Favoritos"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Reseñas positivas"
+        "value": "263.5K+",
+        "label": "Miembros del grupo"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Fecha de lanzamiento"
+        "value": "2026-04-06",
+        "label": "Última actualización"
       }
     }
   },
   "gameFeature": {
-    "title": "Jugabilidad de Lucid Blocks",
-    "description": "Explora biomas surrealistas, fusiona objetos con Apotheosis y sobrevive a criaturas extrañas en este sandbox de vóxeles onírico en Steam."
+    "title": "Jugabilidad de Doom By Fate",
+    "description": "Doom By Fate es un juego de terror asimétrico de Roblox donde Killers cazan Survivors en mapas aterradores en intensas partidas de 6 jugadores."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Recursos",
-    "subtitle": "Todo lo que necesitas para explorar, fabricar y sobrevivir en Lucid Blocks",
+    "title": "Doom By Fate",
+    "titleHighlight": "Centro de Guías",
+    "subtitle": "Todo lo que necesitas para dominar Doom By Fate — Codes, Tier List, guías de Survivor y Killer",
     "cards": [
       {
+        "icon": "Gift",
+        "title": "Doom By Fate Codes",
+        "description": "Tix gratis y recompensas de skins con Codes de canje activos"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Doom By Fate Tier List",
+        "description": "Survivors y Killers clasificados para el meta actual"
+      },
+      {
+        "icon": "Users",
+        "title": "Doom By Fate Survivors",
+        "description": "Lista completa de Survivors con costos, habilidades y consejos"
+      },
+      {
+        "icon": "Skull",
+        "title": "Doom By Fate Killers",
+        "description": "Lista completa de Killers con patrones de presión y guías"
+      },
+      {
         "icon": "BookOpen",
-        "title": "Guía para principiantes",
-        "description": "Primeros pasos, exploración y progresión inicial"
+        "title": "Guía para principiantes de Doom By Fate",
+        "description": "Guía paso a paso para nuevos jugadores que comienzan en Doom By Fate"
       },
       {
-        "icon": "Sparkles",
-        "title": "Fabricación de Apotheosis",
-        "description": "Sistema de fusión libre y recetas iniciales"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Herramientas y armas",
-        "description": "Pico de escarcha, Azrael, __PROTECTED_6a765cb2__ y más"
-      },
-      {
-        "icon": "Package",
-        "title": "Almacenamiento e inventario",
-        "description": "Cubos de suministros, gabinetes y almacenamiento de Qualia"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia y construcción de bases",
-        "description": "Qualia personal y configuración de la base"
-      },
-      {
-        "icon": "Eye",
-        "title": "Regiones del mundo",
-        "description": "Fog Meadow, Ciénaga de la Esencia y más"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Criaturas y enemigos",
-        "description": "Maniquíes, arañas y cómo sobrevivir"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Equipo de movilidad",
-        "description": "__PROTECTED_6a765cb2__, Guante planeador, __PROTECTED_163b9bec__"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Cultivo y crecimiento",
-        "description": "Progresión de semillas y recolección de materiales"
+        "icon": "Map",
+        "title": "Mapas de Doom By Fate",
+        "description": "Todos los mapas con rutas, objetivos y ángulos de persecución"
       },
       {
         "icon": "Star",
-        "title": "Mejores desbloqueos iniciales",
-        "description": "Mejoras prioritarias para la primera hora"
+        "title": "Doom By Fate Survivors Tier List",
+        "description": "Los mejores Survivors para comprar y aprender primero"
       },
       {
-        "icon": "ClipboardCheck",
-        "title": "Seguimiento de logros",
-        "description": "Los 19 logros y condiciones de Steam"
+        "icon": "TrendingUp",
+        "title": "Doom By Fate Killers Tier List",
+        "description": "Qué Killers valen tus Tix en este momento"
       },
       {
-        "icon": "MessageCircle",
-        "title": "Preguntas frecuentes del modo un jugador",
-        "description": "Preguntas sobre plataformas, precio, cooperativo e idiomas"
+        "icon": "Coins",
+        "title": "Guía de Tix de Doom by Fate",
+        "description": "Gasta tus Tix sabiamente con el mejor orden de compra para Survivors y Killers"
       },
       {
-        "icon": "Gamepad2",
-        "title": "Steam Deck y controles",
-        "description": "Configuración de Proton 9.0.4 y consejos para el control"
+        "icon": "Palette",
+        "title": "Skins de Doom by Fate",
+        "description": "Skins destacadas, tipos de desbloqueo y categorías cosméticas para Jane Doe y Jeff"
       },
       {
-        "icon": "Settings",
-        "title": "Ajustes y accesibilidad",
-        "description": "Ocultar manos, __PROTECTED_38625270__ y opciones de pantalla"
+        "icon": "ShoppingCart",
+        "title": "Precios de la tienda de Doom by Fate",
+        "description": "Referencia de precios actuales de Survivor, Killer y skins para una comparación rápida"
       },
       {
         "icon": "Clock",
-        "title": "Actualizaciones y notas del parche",
-        "description": "Correcciones recientes y notas de la hoja de ruta"
+        "title": "Registro de actualizaciones de Doom by Fate",
+        "description": "Historial de parches y principales contenidos que definen el meta actual"
       },
       {
-        "icon": "Shield",
-        "title": "Solución de cierres inesperados",
-        "description": "Verificación de __PROTECTED_38625270__, ruta de registros y reporte de errores"
+        "title": "Guía de 1x1x1x1 en Doom By Fate",
+        "description": "Estadísticas, historia, identidad visual y contexto de actualización para el próximo Killer confirmado.",
+        "icon": "Sparkles"
+      },
+      {
+        "title": "Guía de Martyr en Doom By Fate",
+        "description": "Kit de economía de sangre de Martyr: Sangre Sacrificial, estado Bendito y estilo de juego de riesgo-recompensa.",
+        "icon": "Sword"
+      },
+      {
+        "title": "Guía de Jeff The Killer en Doom By Fate",
+        "description": "Ciclo de dos fases de sigilo a furia de Jeff, herramientas de daño y mejores elecciones de skins.",
+        "icon": "Eye"
+      },
+      {
+        "title": "Guía de John Doe en Doom By Fate",
+        "description": "Presión de tanque de John Doe, control de picos, herramientas de agarre y estrategia de dominación.",
+        "icon": "Shield"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Guía para principiantes de Lucid Blocks",
-      "displayType": "steps",
-      "intro": "Comienza aprendiendo cómo se conectan la exploración, la fusión y la progresión. Lucid Blocks premia la experimentación, por lo que el progreso temprano proviene de recolectar materiales inusuales, probar combinaciones y desbloquear tu Qualia personal.",
+    "doomByFateCodes": {
+      "title": "Codes de Doom By Fate",
+      "intro": "Canjea estos Codes activos para obtener Tix gratis y recompensas de skins exclusivas. Copia un Code, abre el menú de engranaje en el juego, pégalo en el cuadro de CODE y presiona Enter.",
+      "redeemSteps": [
+        "Únete al grupo oficial de Roblox 'what is what is' (necesario para que los Codes funcionen)",
+        "Inicia Doom By Fate en Roblox",
+        "Haz clic en el icono de engranaje en la parte inferior de la pantalla",
+        "Escribe o pega tu Code en el cuadro de CODE",
+        "Presiona Enter para reclamar tu recompensa gratuita"
+      ],
+      "activeTitle": "Codes Activos",
+      "inactiveTitle": "Codes Expirados",
+      "items": [
+        {
+          "code": "sorryforissues",
+          "status": "Activo",
+          "reward": "2,500 Tix",
+          "highlight": "El Code de recompensa más reciente que funciona; reclámalo primero para obtener el mejor valor de Tix."
+        },
+        {
+          "code": "DOOMEDBYFATE",
+          "status": "Activo",
+          "reward": "Skin de mercancía especial + 2,000 Tix",
+          "highlight": "El Code con mejor valor: otorga tanto una skin gratuita como Tix en un solo canje."
+        },
+        {
+          "code": "SORRYFORTHELONGWAIT",
+          "status": "Activo",
+          "reward": "1,500 Tix",
+          "highlight": "Un Code de relleno sólido para jugadores que ahorran Tix para su primer Killer o Survivor."
+        },
+        {
+          "code": "THEOLDMAN",
+          "status": "Activo",
+          "reward": "1,000 Tix",
+          "highlight": "Una obtención confiable de Tix de valor medio que sigue activa en los rastreadores de Codes actuales."
+        },
+        {
+          "code": "SORRYFORDELAY",
+          "status": "Inactivo",
+          "reward": "2,500 Tix",
+          "highlight": "Expirado: mantener solo para el registro."
+        }
+      ]
+    },
+    "doomByFateTierList": {
+      "title": "Tier List de Doom By Fate",
+      "intro": "Un resumen rápido del meta que clasifica a Survivors y Killers en la versión actual de Doom By Fate. Úsalo como referencia rápida antes de elegir a tu personaje principal.",
+      "factions": [
+        {
+          "faction": "Survivors",
+          "tiers": [
+            {
+              "tier": "S",
+              "units": [
+                "Jane Doe",
+                "Jester"
+              ],
+              "summary": "Jane Doe ofrece el mejor sustento y curación de equipo, mientras que el kit de trampas de Jester proporciona un control de ceguera y lentitud por capas que cambia el rumbo de las persecuciones de forma decisiva."
+            },
+            {
+              "tier": "A",
+              "units": [
+                "Brawler",
+                "Soldier"
+              ],
+              "summary": "Ambos aportan una fuerte disrupción en la línea frontal y son efectivos, pero requieren un tiempo más preciso que las selecciones de Tier S."
+            },
+            {
+              "tier": "B",
+              "units": [
+                "Bacon"
+              ],
+              "summary": "Bacon es el Survivor inicial gratuito. Es bueno para aprender el juego, pero es superado por las opciones de pago en el juego competitivo."
+            }
+          ]
+        },
+        {
+          "faction": "Killers",
+          "tiers": [
+            {
+              "tier": "S",
+              "units": [
+                "John Doe?"
+              ],
+              "summary": "El Killer destacado con HP masivo, inmunidad anti-aturdimiento, zonificación con Corroded Wave y Command Grab; la opción más opresiva en todos los niveles de habilidad."
+            },
+            {
+              "tier": "A",
+              "units": [
+                "Jeff The Killer",
+                "Captain Rampage"
+              ],
+              "summary": "Jeff recompensa las configuraciones de sigilo y las ráfagas de Rage, mientras que Captain Rampage proporciona una presión constante a distancia y opciones de ráfagas de movimiento."
+            },
+            {
+              "tier": "B",
+              "units": [
+                "C000lkid"
+              ],
+              "summary": "El Killer inicial gratuito. Enseña las mecánicas básicas de persecución, pero tiene un techo de habilidad más bajo que los Killers de pago."
+            }
+          ]
+        }
+      ]
+    },
+    "doomByFateSurvivors": {
+      "title": "Survivors de Doom By Fate",
+      "intro": "Compara cada Survivor en Doom By Fate (costo, HP, habilidades y mejor caso de uso) antes de gastar tus Tix.",
+      "items": [
+        {
+          "name": "Bacon",
+          "cost": "Gratis",
+          "hp": "100 HP",
+          "role": "Inicial",
+          "overview": "Bacon es el Survivor inicial gratuito con Flashlight (lentitud + ceguera), Pizza (cura 20 HP) y Tracker (revela la distancia del Killer y pulsos de aura).",
+          "bestFor": "Jugadores nuevos que quieren conciencia del mapa y utilidad sin gastar Tix primero."
+        },
+        {
+          "name": "Brawler",
+          "cost": "500 Tix",
+          "hp": "110 HP",
+          "role": "Centinela",
+          "overview": "Brawler es un centinela de línea frontal basado en Pocket Sand y Liver Blow, que inflige 50 de daño con su golpe pesado y mantiene a los Killers alejados de sus compañeros.",
+          "bestFor": "Jugadores que quieren jugar como guardaespaldas agresivos, asestar aturdimientos largos y proteger a su equipo."
+        },
+        {
+          "name": "Jane Doe",
+          "cost": "450 Tix",
+          "hp": "90 HP",
+          "role": "Soporte",
+          "overview": "Jane Doe es una soporte-superviviente que cura a los aliados por 30 HP, se cura a sí misma por 35 HP y aplica lentitud al Killer para extender o reiniciar persecuciones.",
+          "bestFor": "El mejor primer Survivor de pago: el valor más seguro en general con el sustento más fuerte durante toda la ronda."
+        },
+        {
+          "name": "Jester",
+          "cost": "450 Tix",
+          "hp": "100 HP",
+          "role": "Trickster",
+          "overview": "Jester es un Trickster de emboscada con Hat Trap (corta el sprint), Banana Trap (derriba a los Killers) y Pie (añade ceguera y lentitud) para un juego basado en configuraciones.",
+          "bestFor": "Jugadores enfocados en trampas a los que les gusta preparar esquinas, escaleras y rutas de rescate antes de que el Killer ataque."
+        },
+        {
+          "name": "Soldier",
+          "cost": "750 Tix",
+          "hp": "115 HP",
+          "role": "Defensor",
+          "overview": "Soldier es un centinela con HP alto con Carry (rescate), Block (parada) y Shotgun (aturdimiento de corto alcance), lo que le permite disputar la presión del Killer directamente.",
+          "bestFor": "Jugadores que quieren cuidar a compañeros más débiles, detener la presión y sobrevivir más tiempo en persecuciones prolongadas."
+        },
+        {
+          "name": "Martyr",
+          "cost": "500 Tix",
+          "hp": "100 HP",
+          "role": "Más reciente",
+          "overview": "Martyr es el Survivor más reciente en la versión actual [1x1x1x1 & Martyr], listado junto al nuevo Killer principal en la sesión de juego activa.",
+          "bestFor": "Jugadores que buscan el espacio del Survivor más reciente en la actualización actual de Doom By Fate."
+        }
+      ]
+    },
+    "doomByFateKillers": {
+      "title": "Killers de Doom By Fate",
+      "intro": "Cada Killer en Doom By Fate comparado por costo, HP, estilo de presión y dificultad, para que sepas exactamente qué estás comprando antes de gastar tus Tix.",
+      "items": [
+        {
+          "name": "C000lkid",
+          "cost": "Gratis",
+          "hp": "1000 HP",
+          "role": "Principiante",
+          "overview": "C000lkid es una opción de combo y arremetida con cuchillas que atraviesan paredes, un tajo aturdidor, un golpe pesado y un aumento de velocidad con detección ESP.",
+          "bestFor": "Principiantes que quieren un Killer gratuito que enseñe rutas de combos y mecánicas de persecución directa sin gastar nada."
+        },
+        {
+          "name": "Jeff The Killer",
+          "cost": "1000 Tix",
+          "hp": "950 HP",
+          "role": "Emboscador",
+          "overview": "Jeff es un emboscador híbrido que usa Intento Asesino para el sigilo, un agarre para daño explosivo y un modo Furia que potencia al máximo su daño a corta distancia.",
+          "bestFor": "Jugadores que disfrutan acechar primero y luego capitalizar en una persecución explosiva o una secuencia de eliminación brutal."
+        },
+        {
+          "name": "Captain Rampage",
+          "cost": "2250 Tix",
+          "hp": "1500 HP",
+          "role": "Cazador",
+          "overview": "Captain Rampage se basa en Rondas de Presa de Tiburón, tiempo de recarga y ataques de alta movilidad como Tajo Destructor y Cuchilla de Marea para presionar el mapa.",
+          "bestFor": "Jugadores que buscan una amenaza constante a distancia, reposicionamiento explosivo y un control del mapa más fuerte que los Killers cuerpo a cuerpo."
+        },
+        {
+          "name": "John Doe?",
+          "cost": "2750 Tix",
+          "hp": "2000 HP",
+          "role": "Tanque",
+          "overview": "John Doe? es el Killer tanque de nivel superior con inmunidad antiaturdimiento, zonificación de Ola Corroída, Agarre de Comando y Fuerza Corrupta para un control de persecución implacable.",
+          "bestFor": "Jugadores experimentados que quieren el Killer más opresivo en general: la mejor opción de nivel S en el meta actual."
+        },
+        {
+          "name": "The Priest",
+          "cost": "1000 Tix",
+          "hp": "1100 HP",
+          "role": "Combo",
+          "overview": "The Priest es un Killer de combos a objetivos con presión de área y una cadena construida alrededor de Grito, Rezo, Crucifixión y Chasquido para jugadas de aislamiento.",
+          "bestFor": "Jugadores a los que les gusta aislar a un solo Survivor, encadenar herramientas de control de masas y forzar ángulos de rescate incómodos para el resto del equipo."
+        },
+        {
+          "name": "1x1x1x1",
+          "cost": "1700 Tix",
+          "hp": "1500 HP",
+          "role": "Más reciente",
+          "overview": "1x1x1x1 (también llamado El Adversario o 81619) es el Killer principal con temática de mito de la versión actual [1x1x1x1 & Martyr].",
+          "bestFor": "Jugadores que buscan el Killer de estilo mito más reciente en la actualización actual de Doom By Fate."
+        }
+      ]
+    },
+    "doomByFateBeginnerGuide": {
+      "title": "Guía para principiantes de Doom By Fate",
+      "eyebrow": "Guía de inicio",
+      "subtitle": "Comienza con el flujo de la ronda, luego aprende un rol de Survivor antes de pasar a kits más difíciles. Esta versión está diseñada para jugadores que buscan consejos útiles para las partidas en lugar de historia o relleno.",
+      "intro": "Doom By Fate es un juego de terror asimétrico de Roblox de 8 contra 1 donde un Killer presiona a la sala mientras los Survivors completan objetivos, se protegen entre sí e intentan escapar antes de que la partida se complique. La forma más rápida de mejorar es entender tu rol, usar bien la geometría del mapa y gastar tus primeros Tix en un estilo de juego que realmente vayas a repetir.",
       "steps": [
         {
-          "title": "Explora antes de comprometerte",
-          "description": "Camina hacia el exterior, mina bloques comunes y conserva cualquier botín extraño que encuentres. El progreso inicial se trata menos de misiones fijas y más de descubrir en qué se pueden convertir los materiales."
+          "step": 1,
+          "title": "Aprende primero la condición de victoria de la ronda",
+          "description": "Cada partida se basa en un Killer contra ocho Survivors. Los Survivors ganan completando objetivos y escapando de la presión; el Killer gana cazando al equipo antes de que la ronda se le escape.",
+          "highlights": [
+            "Los Survivors deben priorizar el tiempo en los objetivos sobre los duelos aleatorios.",
+            "Los Killers buscan presión temprana antes de que las rutas y las herramientas de apoyo estabilicen al equipo."
+          ]
         },
         {
-          "title": "Desbloquea tu Qualia personal pronto",
-          "description": "Tu Qualia personal es uno de los hitos iniciales más importantes. Te brinda un lugar confiable para reagruparte y construir a su alrededor."
+          "step": 2,
+          "title": "Usa a Bacon para aprender el juego de información",
+          "description": "Bacon es gratuito y funciona como un iniciador de reconocimiento y apoyo. Su kit enseña espaciado, tiempo y conciencia de equipo sin obligarte a jugar puramente en la línea frontal.",
+          "highlights": [
+            "La linterna puede aturdir y ralentizar al Killer si se apunta bien.",
+            "La pizza cura 20 HP y te ayuda a sobrevivir a pequeños errores.",
+            "El rastreador ayuda a identificar la ubicación exacta y la distancia del Killer."
+          ]
         },
         {
-          "title": "Usa Osmio para progresar rápido al inicio",
-          "description": "El Osmio es uno de los materiales iniciales más útiles. Una ruta inicial popular es combinar Osmio con palos para fabricar un Pico de Escarcha para minar rápido."
+          "step": 3,
+          "title": "Elige una ruta de rol antes de comprar nada",
+          "description": "La lista actual de Survivors se divide claramente en familias de roles. Elige un camino y mantente en él hasta que entiendas cuándo ayudar, curar o retirarte.",
+          "highlights": [
+            "Survivalist: autoapoyo y presión de objetivos.",
+            "Sentinel: aturdimientos, interrupción y protección en línea frontal.",
+            "Support: curaciones, mejoras, debilidades y utilidad en persecución."
+          ]
         },
         {
-          "title": "Registra las buenas fusiones",
-          "description": "Lleva un registro de las combinaciones exitosas en tu diario. Lucid Blocks tiene muchas rutas de fusión posibles, por lo que anotar los resultados útiles ahorra mucho tiempo."
+          "step": 4,
+          "title": "Haz que tu primer Survivor de pago sea una elección con propósito",
+          "description": "Jane Doe es la elección premium más fácil de justificar porque puede curarse a sí misma y a sus compañeros mientras sigue apoyando con Jeringa. Si quieres proteger a otros y forzar espacio en las persecuciones, Brawler o Soldier son las opciones de línea frontal más claras.",
+          "highlights": [
+            "Jane Doe: 450 Tix, autocuración más curación de equipo.",
+            "Brawler: 500 Tix, ventana de aturdimiento larga y castigo fuerte.",
+            "Soldier: 750 Tix, bloqueo, transporte y control con escopeta."
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Trata los bucles y la cobertura como tu verdadera defensa",
+          "description": "Los buenos Survivors no intentan ganar a campo abierto. Usa paredes, puertas, escaleras, casas, plataformas y puntos de estrangulamiento para alargar el tiempo de persecución y forzar malos ángulos del Killer.",
+          "highlights": [
+            "Neighborhood tiene muchos puntos de bucle conectados y rutas de escape seguras detrás de las casas.",
+            "Rampaged Ship tiene fuertes bucles en la cubierta superior e interacciones con escaleras.",
+            "Los Killers son mucho más peligrosos cuando te atrapan en carriles abiertos."
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Convierte cada partida en progreso de Tix",
+          "description": "Tu economía inicial importa porque las compras de Survivor y Killer abren el juego rápidamente. Juega rondas, termina objetivos y canjea Codes activos cuando estén disponibles para que tus primeras compras lleguen más rápido.",
+          "highlights": [
+            "Usa tus primeros Tix en un rol que ya disfrutes.",
+            "No diversifiques tus compras en personajes que no usarás como principales.",
+            "Los Codes y el éxito en las rondas son las fuentes de progresión inicial más directas."
+          ]
         }
-      ],
-      "quickTips": [
-        "Apotheosis no requiere una lista de recetas fija.",
-        "La generación de mundo infinito significa que moverte hacia arriba o hacia lo profundo puede revelar materiales completamente diferentes.",
-        "Las herramientas de movimiento y el equipo de utilidad se convierten en una gran mejora de calidad de vida una vez que comienzas a desbloquearlos.",
-        "Perderse al principio es normal, pero las herramientas útiles, el almacenamiento y las opciones de movimiento crecen como bola de nieve rápidamente una vez que tus primeras buenas fusiones empiezan a funcionar."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Artesanía de Apotheosis en Lucid Blocks",
-      "displayType": "cards",
-      "intro": "Apotheosis es el sistema de fusión sin restricciones del juego. En lugar de memorizar un libro de recetas tradicional, combinas materiales, observas el resultado y construyes tu propio conocimiento de artesanía con el tiempo.",
-      "cards": [
-        {
-          "name": "Fusión de forma libre",
-          "description": "Apotheosis te permite fusionar diferentes objetos sin necesidad de seguir una lista de recetas fija."
-        },
-        {
-          "name": "Múltiples resultados útiles",
-          "description": "Diferentes materiales suelen orientarse hacia ciertos resultados. Los descubrimientos de la comunidad muestran que insumos similares pueden derivar en herramientas prácticas, almacenamiento o mejoras de combate."
-        },
-        {
-          "name": "Artesanía basada en el diario",
-          "description": "La mejor manera de aprender Apotheosis es registrar tus combinaciones exitosas. Tu diario se convertirá rápidamente en tu propia referencia de artesanía."
-        },
-        {
-          "name": "Fusiones iniciales probadas por la comunidad",
-          "description": "Ejemplos iniciales populares incluyen Osmio más Palo para un Pico de Escarcha, Palo más Apéndice de Tungsteno para Azrael, y Azrael más Magnetita para el Estoque de Zarcillo."
-        }
+    "doomByFateMaps": {
+      "title": "Mapas de Doom By Fate",
+      "eyebrow": "Guía de mapas",
+      "subtitle": "Este módulo convierte el conjunto de mapas actual en notas de partida de lectura rápida. Aprende dónde kitear, esconderte, rotar o interceptar personas antes de que la ronda se vuelva caótica.",
+      "intro": "Los mapas de Doom By Fate no son solo arte de fondo. Cada uno cambia qué tan seguras se sienten tus rotaciones, cuánto valor obtienen las herramientas de apoyo y si el Killer puede forzar una persecución limpia o tiene que seguir adivinando.",
+      "tableHeaders": [
+        "Mapa",
+        "Objetivo",
+        "Diseño",
+        "Ángulo del Survivor",
+        "Ángulo del Killer"
       ],
-      "milestones": [
-        "Fusionar un objeto",
-        "Fusionar una alimaña",
-        "Fusionar un artefacto divino"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Herramientas y armas de Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mezcla equipo de utilidad oficial con armas iniciales descubiertas por la comunidad. La mejor configuración suele ser una mezcla de minería rápida, travesía segura y una opción de combate confiable.",
       "items": [
         {
-          "name": "Pico de Escarcha",
-          "type": "Herramienta de minería",
-          "description": "Un pico inicial rápido y económico hecho de Osmio y Palo. Los jugadores lo usan para acelerar la recolección inicial de materiales."
+          "map": "Crossroads",
+          "status": "Jugable",
+          "objective": "Reparar generadores",
+          "layout_notes": "Mapa inspirado en el antiguo Roblox con grandes rutas exteriores, puentes y zonas elevadas alrededor de la montaña.",
+          "survivor_angle": "Fuerte cuando mantienes la disciplina y usas las rutas exteriores largas para ganar tiempo.",
+          "killer_angle": "Ataca temprano para que los Survivors no tomen las rutas de la montaña y el puente de forma gratuita."
         },
         {
-          "name": "Azrael",
-          "type": "Arma inicial",
-          "description": "Una ruta práctica para un arma inicial fabricada con un Palo y un Apéndice de Tungsteno."
+          "map": "Neighborhood",
+          "status": "Jugable",
+          "objective": "Reparar generadores",
+          "layout_notes": "Dos casas, un salón de juegos dañado, pasillos estrechos y muchos puntos de bucle conectados en toda la cuadra.",
+          "survivor_angle": "Uno de los mejores mapas para kitear de forma extendida, colocar trampas y cambiar de ruta al último segundo.",
+          "killer_angle": "Usa la parte trasera de las casas para entradas sorpresa en lugar de avanzar siempre por el frente."
         },
         {
-          "name": "Estoque de Zarcillo",
-          "type": "Arma mejorada",
-          "description": "Una continuación más fuerte creada al combinar Azrael con Magnetita. Es una de las rutas de combate inicial-media más útiles compartidas por los jugadores."
+          "map": "Rampaged Ship",
+          "status": "Jugable",
+          "objective": "Reparar generadores",
+          "layout_notes": "Enorme barco dañado con cuatro cubiertas, escaleras entre niveles y la mayor parte de la acción inicial centrada en las cubiertas superiores.",
+          "survivor_angle": "Los bucles de la cubierta superior y las escaleras son fuertes para reiniciar persecuciones, especialmente con apoyo de aturdimiento o trampas.",
+          "killer_angle": "La movilidad importa aquí porque los Survivors pueden encadenar la presión de la cubierta superior en largos desplazamientos."
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de travesía oficial que mejora enormemente el movimiento y la exploración vertical."
+          "map": "Library Of Eternity",
+          "status": "Jugable",
+          "objective": "Completar generadores",
+          "layout_notes": "Gran espacio de biblioteca donde las estanterías altas funcionan como paredes y bloqueadores de visión.",
+          "survivor_angle": "Se juega mejor con rutas disciplinadas y rompiendo la línea de visión en lugar de correr por pánico.",
+          "killer_angle": "Rastrea las rutas entre estanterías con cuidado y fuerza puntos de confrontación en lugar de perseguir a ciegas en las esquinas."
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de movimiento oficial que ayuda a cubrir terreno de forma más segura y eficiente."
-        },
-        {
-          "name": "Varita de Bola",
-          "type": "Arma de utilidad",
-          "description": "Un objeto de utilidad a distancia oficial que expande tus opciones de combate y acertijos."
-        },
-        {
-          "name": "Equipo de buceo",
-          "type": "Equipo de travesía",
-          "description": "Un objeto de utilidad oficial para llegar a áreas que de otro modo ralentizarían la exploración."
-        },
-        {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Destacados oficialmente como parte del conjunto de herramientas principal y útiles para atravesar amenazas u obstáculos."
+          "map": "Camp Lakewood",
+          "status": "Jugable",
+          "objective": "Reparar generadores",
+          "layout_notes": "Mapa de rotación principal en el conjunto actual, diseñado para la presión estándar de generadores y la práctica de rutas.",
+          "survivor_angle": "Buen mapa para aprender el tiempo exacto de los objetivos y rotaciones seguras entre tareas.",
+          "killer_angle": "Presiona el tiempo de los generadores temprano y no dejes que la sala se asiente en un ritmo de objetivos libre."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Almacenamiento e inventario de Lucid Blocks",
-      "displayType": "solutionCards",
-      "intro": "La presión del inventario comienza temprano en Lucid Blocks, por lo que construir almacenamiento debería ser uno de tus primeros objetivos. Ya destacan varias soluciones probadas por jugadores reales.",
-      "solutions": [
+    "doomByFateSurvivorsTierList": {
+      "title": "Doom By Fate Survivors Tier List",
+      "eyebrow": "Selecciones Meta",
+      "subtitle": "Construida en torno al valor actual del rol, la autosuficiencia y la facilidad con la que cada Survivor se convierte en victorias reales. Dirigida a jugadores que deciden dónde deben invertir sus próximos Tix.",
+      "intro": "Las mejores selecciones de Survivor se mantienen con vida, rescatan el impulso del equipo o fuerzan al Killer a respetar el espacio que normalmente tomaría gratis.",
+      "tiers": [
         {
-          "name": "Cubo de Almacenamiento",
-          "role": "Almacenamiento tipo cofre",
-          "description": "Los Cubos de Almacenamiento son una de las soluciones prácticas más tempranas y los jugadores los tratan como el contenedor principal tipo cofre del juego."
+          "tier": "S",
+          "color": "red",
+          "label": "Mejores primeras inversiones serias",
+          "entries": [
+            {
+              "name": "Jane Doe",
+              "role": "Soporte / Híbrido",
+              "cost": "450 Tix",
+              "why": "Protege con Jeringa, cura a compañeros de equipo por 30 HP, se cura a sí misma por 35 HP. El todoterreno más limpio para cola en solitario y juego en equipo.",
+              "best_for": "Jugadores que quieren un Survivor que siga siendo útil en casi todas las partidas.",
+              "tools": [
+                "Jeringa",
+                "Establecer Salud",
+                "Curar"
+              ]
+            },
+            {
+              "name": "Soldier",
+              "role": "Centinela",
+              "cost": "750 Tix",
+              "why": "Cargar, Bloquear y Escopeta le permiten ser guardaespaldas, proteger y convertir persecuciones malas en situaciones recuperables.",
+              "best_for": "Jugadores que disfrutan del rescate en primera línea, la defensa del equipo y la protección fuerte.",
+              "tools": [
+                "Cargar",
+                "Bloquear",
+                "Escopeta"
+              ]
+            }
+          ]
         },
         {
-          "name": "Gabinete",
-          "role": "Almacenamiento de base simple",
-          "description": "Los gabinetes son otra opción de almacenamiento confirmada. Una receta inicial compartida usa 1 de Madera cortada y 1 de Cuerda."
+          "tier": "A",
+          "color": "orange",
+          "label": "Personajes principales fuertes con especialidades claras",
+          "entries": [
+            {
+              "name": "Jester",
+              "role": "Soporte",
+              "cost": "450 Tix",
+              "why": "La Trampa de Sombrero anula rutas de sprint, la Trampa de Plátano castiga los bucles y el Pastel añade ceguera y lentitud. Recompensa a los jugadores que piensan con anticipación.",
+              "best_for": "Jugadores de trampas y planificadores de rutas.",
+              "tools": [
+                "Trampa de Sombrero",
+                "Trampa de Plátano",
+                "Pastel"
+              ]
+            },
+            {
+              "name": "Brawler",
+              "role": "Centinela",
+              "cost": "500 Tix",
+              "why": "Arena de Bolsillo y Golpe al Hígado le dan uno de los kits de interrupción directa más limpios. Excelente para protección agresiva bajo demanda.",
+              "best_for": "Jugadores a quienes les gustan los rescates decisivos a corta distancia.",
+              "tools": [
+                "Arena de Bolsillo",
+                "Golpe al Hígado"
+              ]
+            }
+          ]
         },
         {
-          "name": "Qualia personal",
-          "role": "Centro de almacenamiento a largo plazo",
-          "description": "Una vez desbloqueada, tu Qualia personal se convierte en un lugar natural para organizar materiales, fabricar en paz y expandir la configuración de tu base."
+          "tier": "B",
+          "color": "zinc",
+          "label": "Utilidad inicial útil",
+          "entries": [
+            {
+              "name": "Bacon",
+              "role": "Reconocimiento / Soporte",
+              "cost": "Gratis",
+              "why": "Enseña fundamentos reales: seguimiento del Killer, posicionamiento y gestión de recursos. Linterna, Pizza y Rastreador lo mantienen relevante mientras aprendes.",
+              "best_for": "Jugadores nuevos que quieren un personaje de práctica sin costo con valor real para el equipo.",
+              "tools": [
+                "Linterna",
+                "Pizza",
+                "Rastreador"
+              ]
+            }
+          ]
         },
         {
-          "name": "Seguimiento en el diario",
-          "role": "Eficiencia de inventario",
-          "description": "Registrar combinaciones útiles en tu diario reduce el desperdicio de materiales y facilita mucho la gestión del inventario."
-        }
-      ],
-      "managementTips": [
-        "Prioriza una opción de almacenamiento confiable antes de acumular botines raros.",
-        "Construye alrededor de tu Qualia personal una vez que esté disponible.",
-        "Mantén separados los materiales de artesanía, las herramientas de combate y el equipo de movimiento para que las mejoras sean más fáciles de planificar.",
-        "Usa tu diario como parte de la gestión del inventario, no solo para descubrir recetas."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Qualia y construcción de bases en Lucid Blocks",
-      "displayType": "cards",
-      "intro": "La Qualia es uno de los hitos de progresión más importantes en Lucid Blocks. Te brinda un espacio personal para reagruparte, almacenar materiales y convertir gradualmente el progreso de exploración en una verdadera base de operaciones.",
-      "cards": [
-        {
-          "name": "Qualia personal",
-          "description": "Desbloquear una Qualia es un hito inicial que te da un lugar más confiable al cual regresar mientras exploras el mundo exterior."
-        },
-        {
-          "name": "Construcción centrada en el almacenamiento",
-          "description": "Muchos jugadores comienzan usando su Qualia como un centro de almacenamiento antes de convertirla en una base más grande con espacios organizados para artesanía y construcción."
-        },
-        {
-          "name": "Construcción creativa de hogares",
-          "description": "Lucid Blocks admite la construcción creativa, y los jugadores ya están usando los espacios de Qualia para crear casas y diseños personalizados."
-        },
-        {
-          "name": "Centro de progresión",
-          "description": "Una base sólida te ayuda a separar el botín de exploración, los materiales de artesanía, las semillas, las herramientas y el equipo de movilidad para planificar mejor tus próximas mejoras."
-        }
-      ],
-      "highlights": [
-        "Entrar en una qualia",
-        "Almacenar materiales de forma segura",
-        "Expandir de la utilidad a la decoración",
-        "Usar el espacio de la base para apoyar la artesanía y el cultivo"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Regiones del mundo de Lucid Blocks",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks utiliza generación de mundo infinito, por lo que los jugadores siguen descubriendo nuevos entornos y estructuras. Algunos lugares con nombre ya aparecen en los logros y en las discusiones de la comunidad.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Área destacada por la comunidad",
-          "description": "Fog Meadow ya es conocida entre los jugadores como un área tensa asociada con amenazas ocultas y encuentros peligrosos."
-        },
-        {
-          "name": "Línea ley de Tiamana",
-          "type": "Punto de referencia de descubrimiento",
-          "description": "La línea ley de tiamana es lo suficientemente importante como para tener su propio hito de logro, lo que la convierte en uno de los descubrimientos mundiales con nombre más claros hasta ahora."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Espacio de construcción",
-          "description": "Los jugadores ya están usando Clonaqualia como un lugar para construir casas, almacenar materiales y experimentar con diseños más permanentes."
-        },
-        {
-          "name": "Ciénaga de Esencia",
-          "type": "Área de recolección",
-          "description": "La Ciénaga de Esencia está siendo compartida por los jugadores como una ubicación útil para recolectar recursos, especialmente para luchar contra slimes y ganar experiencia."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Criaturas y enemigos de Lucid Blocks",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mezcla criaturas surreales con peligros reales. Las descripciones oficiales y las publicaciones de la comunidad apuntan a un mundo lleno de vida extraña, amenazas hostiles y algunos encuentros destacados que los jugadores recuerdan rápidamente.",
-      "creatures": [
-        {
-          "name": "Maniquíes",
-          "role": "Enemigo hostil",
-          "description": "Los maniquíes son uno de los enemigos nombrados oficialmente en el mundo y parte del catálogo de amenazas surreales del juego."
-        },
-        {
-          "name": "Geles blandos",
-          "role": "Enemigo hostil",
-          "description": "Los geles blandos son otro tipo de enemigo nombrado oficialmente y ayudan a definir el extraño estilo biológico del juego."
-        },
-        {
-          "name": "Seres de dimensiones superiores",
-          "role": "Enemigo hostil",
-          "description": "Estos seres se presentan como parte del catálogo de enemigos más abstractos e inquietantes del mundo."
-        },
-        {
-          "name": "Arañas colosales",
-          "role": "Amenaza mayor",
-          "description": "Las arañas son uno de los enemigos más temidos de inmediato en las discusiones de la comunidad y son claramente un peligro memorable."
-        },
-        {
-          "name": "__PROTECTED_26ee183b__",
-          "role": "Criatura con nombre",
-          "description": "__PROTECTED_26ee183b__ es lo suficientemente notable como para tener su propio logro, lo que lo convierte en uno de los encuentros con criaturas nombradas más claros del juego."
-        },
-        {
-          "name": "Alimañas adorables",
-          "role": "Criatura interactuable",
-          "description": "Las alimañas no solo son parte de la progresión de fusión, también se les puede cambiar el nombre, dándoles un papel más personal que a los enemigos estándar."
-        },
-        {
-          "name": "Criatura blasfema",
-          "role": "Amenaza de élite",
-          "description": "La criatura blasfema está vinculada a un logro de combate dedicado, lo que la marca como un encuentro enemigo significativo."
+          "tier": "New",
+          "color": "theme",
+          "label": "Nueva opción a seguir",
+          "entries": [
+            {
+              "name": "Martyr",
+              "role": "Soporte",
+              "cost": "500 Tix",
+              "why": "Mártir ha entrado en la lista como el Survivor más nuevo en la versión actual en vivo. Sigue su página a medida que el ecosistema del módulo se expande.",
+              "best_for": "Jugadores que quieren el Survivor más nuevo en su rotación.",
+              "tools": [
+                "Página de la lista más reciente",
+                "Cobertura de la última actualización"
+              ]
+            }
+          ]
         }
       ]
     },
-    "lucidBlocksMobilityGear": {
-      "title": "Equipo de movilidad de Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Las mejoras de movimiento son uno de los mayores saltos en la calidad de vida en Lucid Blocks. Una vez que desbloqueas tus primeras herramientas de travesía, la exploración se vuelve más rápida, segura y mucho más gratificante.",
-      "items": [
+    "doomByFateKillersTierList": {
+      "title": "Doom By Fate Killers Tier List",
+      "eyebrow": "Killer Meta",
+      "subtitle": "Se enfoca en la presión de persecución, ventanas de castigo y la consistencia con la que cada Killer convierte el contacto en derribos. Hecha para jugadores que eligen un personaje principal.",
+      "intro": "Un Killer fuerte de Doom By Fate crea presión inevitable o convierte un error en una secuencia de castigo real. Las mejores opciones fuerzan movimientos incorrectos, aplastan el espaciado débil o hacen que los Survivors abandonen rutas en las que normalmente confiarían.",
+      "tiers": [
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de travesía",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y tiene su propio logro dedicado."
+          "tier": "S",
+          "color": "red",
+          "label": "Mejor selección general para 'carry'",
+          "entries": [
+            {
+              "name": "John Doe?",
+              "type": "Bruto / Asalto",
+              "cost": "2750 Tix",
+              "why": "Combina una presencia corporal opresiva con Corroded Wave, Command Grab y Corrupted Force. El Killer premium más limpio para presión de alto nivel.",
+              "best_for": "Jugadores que quieren un Killer caro que pueda dominar la mayoría de las partidas.",
+              "tools": [
+                "Onda Corroída",
+                "Agarre de Comando",
+                "Fuerza Corrupta"
+              ]
+            }
+          ]
         },
         {
-          "name": "Guante planeador",
-          "type": "Movilidad aérea",
-          "description": "El guante planeador permite un viaje mucho más fluido y es otro hito importante de progresión con su propio logro."
+          "tier": "A",
+          "color": "orange",
+          "label": "Personajes principales de alto valor",
+          "entries": [
+            {
+              "name": "C000lkid",
+              "type": "Asalto / Combo",
+              "cost": "Gratis",
+              "why": "Kit rápido y de alto castigo con presión a distancia, velocidad de persecución y rutas de combo. Para un Killer gratuito, el potencial es absurdamente alto.",
+              "best_for": "Jugadores que quieren un Killer principal fuerte sin gastar Tix primero.",
+              "tools": [
+                "Doble Hoja",
+                "Lacerar",
+                "Hackeo de Velocidad",
+                "Golpe de Velocidad"
+              ]
+            },
+            {
+              "name": "Jeff The Killer",
+              "type": "Sigilo / Ráfaga",
+              "cost": "1000 Tix",
+              "why": "Obtiene valor de la invisibilidad, agarres frontales o traseros, y una ruta de ráfaga directa con Bloodthirst. Fácil de convertir en eliminaciones rápidas.",
+              "best_for": "Jugadores a quienes les gustan las entradas sigilosas y el poder de finalización simple.",
+              "tools": [
+                "Intención Asesina",
+                "Dulces Sueños y Buenas Noches",
+                "Sed de Sangre"
+              ]
+            },
+            {
+              "name": "The Priest",
+              "type": "Objetivo / Combo",
+              "cost": "1000 Tix",
+              "why": "Se especializa en fijar un objetivo y encadenar presión a través de rutas de combo y cobertura de área.",
+              "best_for": "Jugadores a quienes les gustan los Killers técnicos de combo con un fuerte enfoque en el objetivo.",
+              "tools": [
+                "Chasquido",
+                "Rutas de combo",
+                "Presión de área"
+              ]
+            }
+          ]
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de travesía",
-          "description": "Los planeadores abeja se destacan oficialmente como parte del conjunto de herramientas de movimiento del juego para cubrir terreno de manera más eficiente."
+          "tier": "B",
+          "color": "zinc",
+          "label": "Fuerte presión especializada",
+          "entries": [
+            {
+              "name": "Captain Rampage",
+              "type": "Cazador / Movilidad",
+              "cost": "2250 Tix",
+              "why": "Sobresale en la presión basada en el movimiento con Shatter Slash, Tiger Mark y Tidal Cleaver. Letal cuando mantienes un ritmo alto y fuerzas a los Survivors a salir de bucles seguros.",
+              "best_for": "Jugadores que disfrutan de la movilidad, el ritmo y el corte de rutas.",
+              "tools": [
+                "Corte Destrozador",
+                "Marca de Tigre",
+                "Cuchilla Marea"
+              ]
+            }
+          ]
         },
         {
-          "name": "Varita de Bola",
-          "type": "Equipo de utilidad",
-          "description": "Las varitas de bola son una de las herramientas especiales destacadas oficialmente y expanden la forma en que te mueves o interactúas con el mundo."
-        },
-        {
-          "name": "Equipo de buceo",
-          "type": "Equipo de exploración",
-          "description": "El equipo de buceo figura oficialmente como parte del conjunto de utilidad principal para llegar a áreas que de otro modo serían más difíciles de explorar."
-        },
-        {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Los explosivos están destacados oficialmente y vinculados a un hito de logro, lo que los hace parte de la progresión de utilidad principal del juego."
+          "tier": "New",
+          "color": "theme",
+          "label": "Nueva página de Killer a seguir",
+          "entries": [
+            {
+              "name": "1x1x1x1",
+              "type": "Myth Killer",
+              "cost": "1700 Tix",
+              "why": "1x1x1x1 ha entrado en la alineación de Killers con 1500 de salud como una de las adiciones más importantes a la lista actual a seguir.",
+              "best_for": "Jugadores que siguen la cobertura más reciente de Killers y las páginas impulsadas por actualizaciones.",
+              "tools": [
+                "Interés en la lista más reciente",
+                "Página dedicada al Killer"
+              ]
+            }
+          ]
         }
-      ],
-      "unlockMilestones": [
-        "Dominar un gancho",
-        "Volar con el guante planeador",
-        "Empuñar una varita de proyectiles",
-        "Empuñar un explosivo"
       ]
     },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Cultivo y crecimiento en Lucid Blocks",
-      "displayType": "mixedCards",
-      "intro": "El crecimiento es parte de la progresión real en Lucid Blocks. El cultivo no se trata solo de plantar y cosechar, sino también de establecer rutas de materiales repetibles que mantengan el flujo de tus herramientas, armas y opciones de artesanía.",
+    "doomByFateTixGuide": {
+      "title": "Guía de Tix de Doom By Fate",
+      "eyebrow": "Economía",
+      "subtitle": "Usa el pozo de Codes actual para impulsar tu plantilla, luego gasta primero en los Survivors de alto impacto más baratos. Diseñado para jugadores que deciden entre el valor inicial de un Survivor y su primer Killer de pago.",
+      "intro": "Tix es la moneda principal utilizada para Survivors, Killers y skins. La ráfaga más rápida de Tix proviene del pozo de Codes activos, mientras que la ruta de gasto inicial más eficiente se centra en Survivors de bajo costo que ya tienen un buen rango en el Meta actual.",
       "sections": [
         {
-          "name": "Progresión de semillas",
-          "description": "Plantar y fertilizar semillas es un hito real en el juego, y cosechar una nuez completamente crecida es parte de la misma ruta de crecimiento."
+          "section": "Pozo de Codes activos actuales",
+          "summary": "Tres Codes están activos actualmente y juntos otorgan 4500 Tix, además de una skin de Jeff exclusiva de Code.",
+          "type": "codes",
+          "entries": [
+            {
+              "code": "DOOMEDBYFATE",
+              "reward": "Skin Jeff The Killer Merchandise + 2000 Tix",
+              "status": "Activo",
+              "notes": "Requiere unirse al grupo para canjear."
+            },
+            {
+              "code": "SORRYFORTHELONGWAIT",
+              "reward": "1500 Tix",
+              "status": "Activo",
+              "notes": "Agregado en la última oleada de Codes."
+            },
+            {
+              "code": "THEOLDMAN",
+              "reward": "1000 Tix",
+              "status": "Activo",
+              "notes": "Combina bien con un plan de desbloqueo de Killer inicial."
+            }
+          ]
         },
         {
-          "name": "Recolección de materiales",
-          "description": "Un ciclo práctico de recolección inicial es crear Cápsulas de Mercurio, que generan pequeños slimes que sueltan zarcillos y viscosidad para materiales de artesanía repetibles."
+          "section": "Mejores primeras compras de Survivor",
+          "summary": "Las compras iniciales más fuertes de bajo costo son Jane Doe y Jester a 450 Tix cada uno.",
+          "type": "characters",
+          "entries": [
+            {
+              "name": "Jane Doe",
+              "cost_tix": 450,
+              "role": "Soporte / Superviviente",
+              "why_buy": "Elección de Tier List S con curación de equipo, autocuración y ralentización de Killer."
+            },
+            {
+              "name": "Jester",
+              "cost_tix": 450,
+              "role": "Tramposo de emboscada",
+              "why_buy": "Elección de Tier List S con debuffs, ralentizaciones y cegueras."
+            },
+            {
+              "name": "Brawler",
+              "cost_tix": 500,
+              "role": "Centinela de primera línea",
+              "why_buy": "Defensor ofensivo fuerte con presión de aturdimiento prolongado."
+            },
+            {
+              "name": "Soldier",
+              "cost_tix": 750,
+              "role": "Centinela protector",
+              "why_buy": "Costo más alto, pero ofrece bloqueo, contrajuego y utilidad de acarreo."
+            },
+            {
+              "name": "Bacon",
+              "cost_tix": 0,
+              "role": "Superviviente inicial",
+              "why_buy": "Elección gratuita para aprender con herramientas de rastreo y reinicio de persecución."
+            }
+          ]
         },
         {
-          "name": "Sustento de herramientas",
-          "description": "La recolección de recursos se vuelve mucho más fuerte una vez que puedes reunir consistentemente Osmio, fragmentos de vidrio, plantas y materiales de slime para artesanías posteriores."
+          "section": "Mejores primeras compras de Killer",
+          "summary": "Si quieres tu primer Killer de pago rápido, Jeff es la entrada más barata. Para el objetivo premium más fuerte, ahorra para John Doe.",
+          "type": "characters",
+          "entries": [
+            {
+              "name": "C000lkid",
+              "cost_tix": 0,
+              "tier": "B",
+              "why_buy": "Killer inicial gratuito para aprender rutas y conceptos básicos de presión."
+            },
+            {
+              "name": "Jeff The Killer",
+              "cost_tix": 1000,
+              "tier": "A",
+              "why_buy": "Killer de pago más barato y un fuerte primer desbloqueo."
+            },
+            {
+              "name": "Captain Rampage",
+              "cost_tix": 2250,
+              "tier": "A",
+              "why_buy": "Buena compra de mitad de juego para jugadores a los que les gustan los kits de persecución con mucho movimiento."
+            },
+            {
+              "name": "John Doe",
+              "cost_tix": 2750,
+              "tier": "S",
+              "why_buy": "Mejor objetivo de Killer a largo plazo si quieres una elección de tipo bruto/rushdown de alto nivel."
+            }
+          ]
         },
         {
-          "name": "Rutina de base",
-          "description": "La mejor configuración de cultivo apoya más que solo la comida. Debería abastecer tu almacenamiento, herramientas de movimiento, mejoras de armas y futuros experimentos de fusión."
+          "section": "Rutas de gasto recomendadas",
+          "summary": "Estos hitos son las formas más claras de convertir las recompensas de Codes en una mejor plantilla.",
+          "type": "paths",
+          "entries": [
+            {
+              "target_tix": 450,
+              "plan": "Desbloquea a Jane Doe o Jester primero."
+            },
+            {
+              "target_tix": 900,
+              "plan": "Desbloquea tanto a Jane Doe como a Jester para tener el núcleo de Survivor de bajo costo más fuerte."
+            },
+            {
+              "target_tix": 1000,
+              "plan": "Desbloquea a Jeff The Killer si quieres tu primer Killer de pago rápidamente."
+            },
+            {
+              "target_tix": 1400,
+              "plan": "Desbloquea a Jane Doe, Jester y Brawler para un pozo amplio de Survivors iniciales."
+            },
+            {
+              "target_tix": 2750,
+              "plan": "Ahorra para John Doe si tu objetivo es un Killer premium de primer nivel."
+            }
+          ]
         }
-      ],
-      "growthMilestones": [
-        "Fertilizar una semilla",
-        "Cosechar una nuez completamente crecida",
-        "Crear ciclos de materiales repetibles",
-        "Convertir el cultivo en progresión a largo plazo"
       ]
     },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Mejores desbloqueos iniciales de Lucid Blocks",
-      "displayType": "priorityCards",
-      "intro": "Los desbloqueos iniciales más fuertes son aquellos que mejoran la seguridad, el almacenamiento y el movimiento. En Lucid Blocks, unas pocas mejoras prácticas pueden hacer que el resto del juego sea mucho más fluido.",
-      "priorities": [
-        {
-          "name": "Qualia personal",
-          "priority": "Esencial",
-          "description": "Tan pronto como obtengas acceso a tu Qualia personal, tu partida se volverá mucho más estable. Actúa como un centro confiable para el almacenamiento, la construcción y el reagrupamiento."
-        },
-        {
-          "name": "Pico de Escarcha",
-          "priority": "Muy alta",
-          "description": "Una herramienta de minería inicial rápida y barata hecha de Osmio y Palo. Es una de las mejoras más útiles para acelerar la recolección inicial de recursos."
-        },
-        {
-          "name": "Cubo de Almacenamiento",
-          "priority": "Muy alta",
-          "description": "La presión del inventario comienza pronto, por lo que obtener tu primer contenedor confiable tipo cofre es una mejora importante de calidad de vida."
-        },
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "priority": "Alta",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y rápidamente hace que la exploración sea más rápida y segura."
-        },
-        {
-          "name": "Guante planeador",
-          "priority": "Alta",
-          "description": "El guante planeador añade otro gran impulso a la movilidad y hace que el movimiento a larga distancia sea mucho más eficiente."
-        },
-        {
-          "name": "Varita de proyectiles o bombas",
-          "priority": "Alta",
-          "description": "Una herramienta a distancia o una opción explosiva te brinda una respuesta más segura ante enemigos peligrosos y encuentros tipo desafío."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Seguimiento de logros de Lucid Blocks",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks tiene actualmente 19 logros de Steam, y se dividen naturalmente en progresión de exploración, artesanía, movilidad, combate y crecimiento.",
+    "doomByFateSkins": {
+      "title": "Skins de Doom By Fate",
+      "eyebrow": "Cosméticos",
+      "subtitle": "Estructura actual de skins para Jane Doe y Jeff The Killer — skins de la tienda, desbloqueos por hitos, skins de Codes y próximas entradas.",
+      "intro": "Doom By Fate utiliza las skins como una capa importante de colección. Jane Doe tiene una amplia alineación en la tienda además de próximas skins, mientras que Jeff The Killer tiene la progresión más profunda gracias a las recompensas por hitos y su skin Merchandise basada en Codes.",
       "groups": [
         {
-          "name": "Exploración",
-          "achievements": [
+          "label": "Jane Doe — Skins de la tienda",
+          "character": "Jane Doe",
+          "category": "Tienda",
+          "cards": [
             {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "Entrar en una qualia."
+              "name": "Sinner #2",
+              "price_tix": 500,
+              "status": "Disponible",
+              "note": "Skin de la tienda inspirada en Faust."
             },
             {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "Descubrir una línea ley de tiamana."
+              "name": "Overtime",
+              "price_tix": 700,
+              "status": "Disponible",
+              "note": "Atuendo formal con cruces blancas en los ojos."
             },
             {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "Superar un desafío de tiamana."
+              "name": "First Time We Met",
+              "price_tix": 750,
+              "status": "Disponible",
+              "note": "Atuendo estilo novia negra."
             },
             {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "Logro oculto."
+              "name": "Banana Lady",
+              "price_tix": 1000,
+              "status": "Disponible",
+              "note": "Skin inspirada en el folclore de Nang Tani."
+            },
+            {
+              "name": "Blossom",
+              "price_tix": 1000,
+              "status": "Disponible",
+              "note": "Skin actual de la tienda."
+            },
+            {
+              "name": "Bouquet",
+              "price_tix": 1300,
+              "status": "Disponible",
+              "note": "Variante pastel con muchas flores."
+            },
+            {
+              "name": "Yourself",
+              "price_tix": 5000,
+              "status": "Disponible",
+              "note": "Skin de la tienda de Jane Doe de mayor precio."
             }
           ]
         },
         {
-          "name": "Artesanía e invocación",
-          "achievements": [
+          "label": "Jane Doe — Próximas Skins",
+          "character": "Jane Doe",
+          "category": "Próximamente",
+          "cards": [
             {
-              "title": "Apotheosis α",
-              "description": "Fusionar un objeto."
+              "name": "Frisk / Prophesied Angel",
+              "price_tix": null,
+              "status": "Próximamente",
+              "note": "Skin planeada inspirada en Undertale."
             },
             {
-              "title": "Apotheosis β",
-              "description": "Fusionar una alimaña."
+              "name": "Promise",
+              "price_tix": null,
+              "status": "Próximamente",
+              "note": "Próxima entrada con temática de jardín."
             },
             {
-              "title": "Apotheosis γ",
-              "description": "Fusionar un artefacto divino."
-            },
-            {
-              "title": "Arcángel β",
-              "description": "Invoca tu fe."
+              "name": "Baker",
+              "price_tix": null,
+              "status": "Próximamente",
+              "note": "Próxima entrada con atuendo de chef."
             }
           ]
         },
         {
-          "name": "Movilidad y utilidad",
-          "achievements": [
+          "label": "Jeff The Killer — Skins de la tienda",
+          "character": "Jeff The Killer",
+          "category": "Tienda",
+          "cards": [
             {
-              "title": "Virtud α",
-              "description": "Volar con el guante planeador."
+              "name": "The Jokester",
+              "price_tix": 100,
+              "status": "Disponible",
+              "note": "Skin de la tienda inspirada en el Joker."
             },
             {
-              "title": "Virtud β",
-              "description": "Dominar un gancho."
+              "name": "Tinsel",
+              "price_tix": 1225,
+              "status": "Disponible",
+              "note": "Variante de Jeff con temática festiva."
             },
             {
-              "title": "Arcángel α",
-              "description": "Empuñar una varita de proyectiles."
-            },
-            {
-              "title": "Arcángel γ",
-              "description": "Empuñar un explosivo."
+              "name": "Purple Guy",
+              "price_tix": 1987,
+              "status": "Disponible",
+              "note": "Skin temática con estilo de crossover de FNaF."
             }
           ]
         },
         {
-          "name": "Combate y criaturas",
-          "achievements": [
+          "label": "Jeff The Killer — Hitos y Especiales",
+          "character": "Jeff The Killer",
+          "category": "Hito",
+          "cards": [
             {
-              "title": "Masacre de __PROTECTED_26ee183b__",
-              "description": "Derrotar osos burbuja inocentes."
+              "name": "Milestone 1",
+              "price_tix": null,
+              "status": "Alcanza el nivel 5",
+              "note": "Devuelve a Jeff a un aspecto inicial estilo Area 51."
             },
             {
-              "title": "Arcángel δ",
-              "description": "Eliminar una criatura blasfema."
+              "name": "Milestone 2",
+              "price_tix": null,
+              "status": "Alcanza el nivel 15",
+              "note": "Añade una variante con el rostro cicatrizado."
             },
             {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "Morir."
+              "name": "Milestone 3",
+              "price_tix": null,
+              "status": "Alcanza el nivel 25",
+              "note": "Forma distorsionada amarilla con fallos (glitchy)."
             },
             {
-              "title": "Dominio γ",
-              "description": "Cambiar el nombre a una alimaña adorable."
-            }
-          ]
-        },
-        {
-          "name": "Crecimiento y cultivo",
-          "achievements": [
-            {
-              "title": "Dominio α",
-              "description": "Fertilizar una semilla."
+              "name": "Milestone 4",
+              "price_tix": null,
+              "status": "Alcanza el nivel 50",
+              "note": "Skin de hito de final de juego en tonos azules."
             },
             {
-              "title": "Dominio β",
-              "description": "Cosechar una nuez completamente crecida."
-            },
-            {
-              "title": "Dominio δ",
-              "description": "Logro oculto."
+              "name": "Merchandise",
+              "price_tix": null,
+              "status": "Code: DOOMEDBYFATE",
+              "note": "Sudadera gris con el logo de Doom By Fate."
             }
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Preguntas frecuentes sobre un solo jugador y plataformas de Lucid Blocks",
-      "displayType": "accordion",
-      "intro": "Estas son las preguntas principales sobre plataformas y acceso que los jugadores suelen hacer antes de comprar Lucid Blocks.",
-      "faqs": [
+    "doomByFateShopPrices": {
+      "title": "Precios de la tienda de Doom by Fate",
+      "eyebrow": "Tienda",
+      "subtitle": "Una tabla de referencia rápida para cada Survivor, Killer y skin destacada en la tienda actual de Doom by Fate.",
+      "intro": "La tienda actual incluye Survivors, Killers y cosméticos, todos comprados con Tix. Compara los costos de desbloqueo de personajes con los precios de las skins de un vistazo.",
+      "tableHeaders": [
+        "Categoría",
+        "Nombre",
+        "Precio (Tix)",
+        "Nota de valor"
+      ],
+      "items": [
         {
-          "question": "¿Es Lucid Blocks para un solo jugador?",
-          "answer": "Sí. Lucid Blocks es un juego para un solo jugador."
+          "category": "Survivor",
+          "name": "Bacon",
+          "price_tix": 0,
+          "value_note": "Survivor inicial gratuito."
         },
         {
-          "question": "¿Está planeado el multijugador o cooperativo?",
-          "answer": "No. No se planea multijugador para el lanzamiento ni para futuras actualizaciones."
+          "category": "Survivor",
+          "name": "Jane Doe",
+          "price_tix": 450,
+          "value_note": "Sanadora de Tier List S de bajo costo."
         },
         {
-          "question": "¿Dónde puedo jugar Lucid Blocks?",
-          "answer": "Actualmente está disponible en Steam para Windows."
+          "category": "Survivor",
+          "name": "Jester",
+          "price_tix": 450,
+          "value_note": "Survivor de debuffs de Tier List S de bajo costo."
         },
         {
-          "question": "¿Cuánto cuesta Lucid Blocks?",
-          "answer": "$9.99 en Steam."
+          "category": "Survivor",
+          "name": "Brawler",
+          "price_tix": 500,
+          "value_note": "Centinela de primera línea económico."
         },
         {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello."
+          "category": "Survivor",
+          "name": "Martyr",
+          "price_tix": 500,
+          "value_note": "Survivor de pago con utilidad basada en dagas."
         },
         {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 o 9.0.4 es la configuración recomendada habitualmente para Steam Deck."
+          "category": "Survivor",
+          "name": "Soldier",
+          "price_tix": 750,
+          "value_note": "El desbloqueo de Survivor actual de mayor precio."
         },
         {
-          "question": "¿Lucid Blocks funciona en Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
+          "category": "Killer",
+          "name": "C000lkid",
+          "price_tix": 0,
+          "value_note": "Killer inicial gratuito."
         },
         {
-          "question": "¿Habrá soporte para Mac o Android?",
-          "answer": "Es posible que sean compatibles en el futuro, pero no son plataformas de lanzamiento actuales."
+          "category": "Killer",
+          "name": "Jeff The Killer",
+          "price_tix": 1000,
+          "value_note": "Killer de pago más barato."
         },
         {
-          "question": "¿Lucid Blocks tiene traducciones?",
-          "answer": "No. Actualmente no hay traducciones planeadas."
+          "category": "Killer",
+          "name": "The Priest",
+          "price_tix": 1000,
+          "value_note": "Killer de estilo combo con herramientas de área (AoE)."
         },
         {
-          "question": "¿Lucid Blocks seguirá recibiendo actualizaciones?",
-          "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
+          "category": "Killer",
+          "name": "1x1x1x1",
+          "price_tix": 1700,
+          "value_note": "El Killer más reciente de estilo mítico."
+        },
+        {
+          "category": "Killer",
+          "name": "Captain Rampage",
+          "price_tix": 2250,
+          "value_note": "Killer de gama media con gran movilidad."
+        },
+        {
+          "category": "Killer",
+          "name": "John Doe",
+          "price_tix": 2750,
+          "value_note": "Objetivo Killer premium de Tier List S."
+        },
+        {
+          "category": "Killer",
+          "name": "The Old Man",
+          "price_tix": 3500,
+          "value_note": "El Killer activo más caro."
+        },
+        {
+          "category": "Skin",
+          "name": "Jeff — The Jokester",
+          "price_tix": 100,
+          "value_note": "La skin destacada de la tienda de menor precio."
+        },
+        {
+          "category": "Skin",
+          "name": "Jane Doe — Sinner #2",
+          "price_tix": 500,
+          "value_note": "Skin de Jane Doe de nivel de entrada."
+        },
+        {
+          "category": "Skin",
+          "name": "Jane Doe — Banana Lady",
+          "price_tix": 1000,
+          "value_note": "Skin premium de Jane de nivel medio."
+        },
+        {
+          "category": "Skin",
+          "name": "Jeff — Tinsel",
+          "price_tix": 1225,
+          "value_note": "Skin de Jeff de estilo evento."
+        },
+        {
+          "category": "Skin",
+          "name": "Jane Doe — Yourself",
+          "price_tix": 5000,
+          "value_note": "La skin destacada de mayor precio."
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks en Steam Deck y controles",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks puede ejecutarse en Steam Deck, pero la configuración predeterminada puede necesitar ajustes. El teclado y el mouse siguen siendo la opción más fluida para los menús y el juego en general.",
-      "faqs": [
+    "doomByFateUpdateLog": {
+      "title": "Registro de actualizaciones de Doom by Fate",
+      "eyebrow": "Actualizaciones",
+      "subtitle": "Historial de parches y contenido principal que define el meta actual: adiciones al elenco, lanzamientos de skins y cambios de equilibrio.",
+      "intro": "Doom by Fate ha pasado por parches de prueba, alfa y eventos festivos con cambios significativos en la progresión, Killers, Survivors, skins y mapas. Una cronología clara de los parches te ayuda a entender por qué cambian las Tier Lists y las prioridades de compra.",
+      "items": [
         {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 funciona bien, y Proton 9.0.4 es una solución compartida habitualmente para problemas en Steam Deck."
+          "label": "2025-10-29",
+          "version": "Playtest 1.1",
+          "headline": "Limpieza temprana de equilibrio y primera actualización de tema para skin de Jeff",
+          "highlights": [
+            "Se ajustaron el daño y el Speed Hack de C000lkidd.",
+            "Se ajustaron el movimiento de John Doe y el enfriamiento de Corroded Wave.",
+            "Jeff The Killer recibió un tema personalizado para la skin Classic Jeff.",
+            "Se corrigieron problemas relacionados con los mapas y otros errores."
+          ]
         },
         {
-          "question": "¿Qué debo hacer si los controles de Steam Deck no funcionan?",
-          "answer": "Fuerza la compatibilidad y cambia el juego a Proton 9.0.4. Es posible que la configuración predeterminada no acepte correctamente la entrada del control."
+          "label": "2025-11-09 – 2025-11-18",
+          "version": "Update 1.2 ALPHA",
+          "headline": "Lanzamiento Alfa: se añadieron Codes, niveles y nuevos ajustes",
+          "highlights": [
+            "Se ajustó el sistema de hitboxes.",
+            "Se añadió un sistema de niveles.",
+            "Los ajustes ahora incluyen hitboxes visibles y opciones de posición del cliente.",
+            "Los Codes ahora se pueden canjear a través de los ajustes.",
+            "Jeff recibió hitos además de las skins Screech y Jokester.",
+            "La tienda recibió un nuevo tema en la actualización 1.2.2."
+          ]
         },
         {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús del juego no están diseñados para ello."
+          "label": "2025-11-30",
+          "version": "Update 0.1.3 — The Jeffy Update",
+          "headline": "Rediseño de Jeff, rediseño de EXP, rediseño de Brawler y ajuste del elenco",
+          "highlights": [
+            "Jeff recibió Rage, nuevas animaciones, un nuevo remate y un nuevo tema.",
+            "Se rediseñó el sistema de EXP y se redujo la ganancia de EXP.",
+            "Se rediseñó el Sand Throw de Brawler.",
+            "Se añadieron rutas de Killer y los Killers dejaron de drenar estamina fuera del Terror Radius.",
+            "Se rediseñó Crossroads y se añadieron atajos para Killers.",
+            "Se añadieron el botón de registro de actualizaciones, la interfaz de usuario del jugador y el indicador de daño."
+          ]
         },
         {
-          "question": "¿Es posible el soporte para Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
+          "label": "Evento de Navidad",
+          "version": "Update v0.1.4 — Pray The Bloxwatchers",
+          "headline": "Llegó The Priest y la ola de contenido festivo amplió la tienda",
+          "highlights": [
+            "Se añadió a The Priest como nuevo Killer.",
+            "Captain Rampage recibió un rediseño de Tidal Cleaver.",
+            "Jane Doe recibió la skin Winter y un rediseño de Bouquet.",
+            "Soldier recibió las skins Jane Doe, Classic, SCP: Facility Guard y Toy.",
+            "Jeff The Killer recibió la skin Tinsel.",
+            "Se añadieron Jolly Winter y Mansion como mapas."
+          ]
         },
         {
-          "question": "¿Cuál es la mejor configuración de entrada?",
-          "answer": "El teclado y el mouse son la opción más fluida para la navegación por los menús y el juego general momento a momento."
+          "label": "Final de Navidad",
+          "version": "Update v0.1.5 — The End of the Doomed Christmas",
+          "headline": "Llegó The Old Man, se añadieron efectos de estado y los últimos Codes se activaron",
+          "highlights": [
+            "Se añadió a The Old Man como nuevo Killer.",
+            "Se añadieron Burning, Bleeding, Undetectable y Slowness como efectos de estado.",
+            "Las posiciones de los botones en móviles ahora son personalizables.",
+            "Se añadió Mystery Hotel y Rampaged Ship recibió un nuevo objetivo.",
+            "Las nuevas skins incluyen a Fire Elliot, Elliot, Hiroshi, Firefist, Captain Kringle y Frost Man.",
+            "Se añadieron los Codes SORRYFORTHELONGWAIT y THEOLDMAN.",
+            "Este parche concluye la etapa Alfa."
+          ]
+        },
+        {
+          "label": "Post-parche",
+          "version": "Actualización no documentada",
+          "headline": "Limpieza de rotación de mapas tras el parche festivo",
+          "highlights": [
+            "Se eliminó Jolly Winter.",
+            "Se eliminó Mystery Hotel."
+          ]
         }
       ]
     },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Ajustes y accesibilidad de Lucid Blocks",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks ya cuenta con algunos ajustes prácticos y notas de compatibilidad que son importantes de inmediato cuando los jugadores inician el juego por primera vez.",
-      "settings": [
+    "doomByFate1x1x1x1Guide": {
+      "eyebrow": "Hot Character",
+      "title": "Doom By Fate 1x1x1x1 Guide",
+      "subtitle": "Stats, lore, visual identity, and update context for the next confirmed killer in Doom By Fate.",
+      "intro": "1x1x1x1 is one of the clearest hype characters in Doom By Fate right now. The live Roblox experience is currently branded around the 1x1x1x1 and Martyr update, and the wiki presents him as the next confirmed killer, so this module works best as a fast-read primer for players tracking the update.",
+      "items": [
         {
-          "name": "Ajustes de pantalla",
-          "type": "Opción de comodidad",
-          "description": "Los ajustes de pantalla incluyen una opción que permite a los jugadores ocultar las manos en pantalla."
+          "title": "Update Snapshot",
+          "meta": "Current update focus",
+          "description": "The Roblox experience is currently titled [1x1x1x1 & Martyr] Doom By Fate, and the wiki states that 1x1x1x1 is the next confirmed killer to be added."
         },
         {
-          "name": "Compatibilidad de gráficos",
-          "type": "Requisito del sistema",
-          "description": "Se requiere soporte de __PROTECTED_38625270__ para que los gráficos se rendericen correctamente. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados y errores gráficos graves."
+          "title": "Identity",
+          "meta": "The Adversary / 81619",
+          "description": "1x1x1x1 is also referred to as The Adversary or 81619. He is based on the classic Roblox myth/account 1x1x1x1, associated with Shedletsky / Telamon."
         },
         {
-          "name": "Preferencia de entrada",
-          "type": "Configuración de control",
-          "description": "Existe soporte para controles, pero el teclado y el mouse brindan una experiencia más fluida porque los menús no están diseñados para el uso de controles."
+          "title": "Cost and Base Stats",
+          "meta": "1700 cost",
+          "description": "The current page lists 1x1x1x1 at 1700 cost, 1500 health, Normal sprint speed, and 100 stamina."
         },
         {
-          "name": "Soporte de idiomas",
-          "type": "Localización",
-          "description": "La configuración actual es solo en inglés y no hay traducciones planeadas en este momento."
+          "title": "Visual Read",
+          "meta": "Easy to recognize",
+          "description": "His design centers on a black skull, red eyes, a green dominus, green shoulder pads, black limbs, a rib-cage torso, and a glitching green outline across the body."
+        },
+        {
+          "title": "Lore Hook",
+          "meta": "Badlands myth",
+          "description": "The lore describes him as a fourth-dimensional entity and the adversary of 2x2, banished to the Badlands and now hunting survivors across dimensions with the Daemonshank."
         }
       ]
     },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Actualizaciones y notas del parche de Lucid Blocks",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks ya está recibiendo correcciones rápidas post-lanzamiento y pequeñas actualizaciones de usabilidad.",
-      "entries": [
+    "doomByFateMartyrGuide": {
+      "eyebrow": "New Survivor",
+      "title": "Doom By Fate Martyr Guide",
+      "subtitle": "Martyr's blood economy kit: Sacrificial Blood, Blessed state, and risk-reward utility explained.",
+      "intro": "Martyr is one of the newest survivor searches tied directly to the current Doom By Fate update cycle. Her kit is built around generating Sacrificial Blood with offense, then converting it into healing, utility, or Blessed-state pressure.",
+      "items": [
         {
-          "title": "Actualización 2.8.2",
-          "type": "Actualización de IU",
-          "description": "Se cambió el nombre de \"awaken\" (despertar) a \"exit\" (salir) en el menú principal."
+          "title": "Role Snapshot",
+          "meta": "Survivor • 500 cost",
+          "description": "Martyr is listed as a survivor with 500 cost, 100 health, Average walk speed, Average sprint speed, and 100 stamina."
         },
         {
-          "title": "Pequeño parche para cierres al iniciar",
-          "type": "Hotfix",
-          "description": "Se lanzó un parche dedicado para los jugadores cuyo juego se cerraba inesperadamente al iniciar."
+          "title": "Redemption",
+          "meta": "Q • 30s cooldown",
+          "description": "Martyr slashes forward with a dagger. On hit, it slows the killer for 2.5 to 3 seconds and gives 1 Sacrificial Blood. In Blessed state, the hit becomes a 2-second stun and consumes the Blessed effect after a successful hit."
         },
         {
-          "title": "Soporte de contenido post-lanzamiento",
-          "type": "Nota de hoja de ruta",
-          "description": "Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
+          "title": "Ascension",
+          "meta": "E • 25s cooldown",
+          "description": "Tap Ascension to spend 1 Sacrificial Blood and heal 25 to 30 HP. Hold Ascension to enter Blessed state instead of healing, changing how the rest of her kit works."
+        },
+        {
+          "title": "Sinner's Last Wish",
+          "meta": "R • 45s cooldown",
+          "description": "Tap to reveal the killer for 10 seconds while Martyr is briefly locked in place. Hold to stab herself three times for a burst of speed, taking 1.5x damage while weakened. In Blessed state, the move becomes a cleaner speed burst."
+        },
+        {
+          "title": "Playstyle Read",
+          "meta": "Aggressive utility",
+          "description": "Martyr's kit rewards players who are willing to trade safety for tempo and utility. Hit to build Sacrificial Blood, then convert into healing, crowd control, or Blessed-state pressure."
         }
       ]
     },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Solución de cierres inesperados y solución de problemas de Lucid Blocks",
-      "displayType": "steps",
-      "intro": "La mayoría de los problemas inmediatos de inicio y cierres deben revisarse en un orden sencillo: nivel de parche, soporte de gráficos, compatibilidad de plataforma y registros.",
-      "steps": [
+    "doomByFateJeffTheKillerGuide": {
+      "eyebrow": "Popular Killer",
+      "title": "Doom By Fate Jeff The Killer Guide",
+      "subtitle": "Jeff's two-phase stealth-to-rage loop, damage numbers, skin picks, and winning habits explained.",
+      "intro": "Jeff The Killer is a classic high-interest killer who combines name recognition with a very understandable gameplay loop. He is an ambusher-rushdown hybrid who wants to stalk, build meter, force awkward survivor reactions, and then explode into a short but deadly Rage window.",
+      "items": [
         {
-          "title": "Instala el último hotfix para cierres inesperados",
-          "description": "Si el juego se cierra al iniciar, actualiza primero y prueba de nuevo con el parche más reciente para cierres al inicio."
+          "label": "Why Jeff is strong",
+          "content": "Jeff is a hybrid Ambusher-Rushdown killer with a two-phase playstyle: use Murderous Intent to build Stealth Gauge, then activate Rage to gain stronger attacks, better pressure, more speed, and shorter stun duration. He costs 1000, has 950 health, and 110 stamina."
         },
         {
-          "title": "Verifica el soporte de __PROTECTED_38625270__",
-          "description": "Lucid Blocks requiere soporte de __PROTECTED_38625270__. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados o problemas graves de renderizado."
+          "label": "The core game plan",
+          "content": "Murderous Intent on Q has a 6-second cooldown and turns Jeff invisible while briefly highlighting survivors and building his Stalk Gauge. Once the meter is full, Rage on T activates his ENRAGED state for around 10 seconds, buffs all abilities, and increases movement speed."
         },
         {
-          "title": "Usa Proton 9.0.4 en Steam Deck",
-          "description": "Si la entrada o el comportamiento de inicio en Steam Deck fallan, fuerza la compatibilidad y cambia a Proton 9.0.4."
+          "label": "Best damage tools",
+          "content": "Slash and Stab deals 22 front damage or 24 back damage, rising to 24.9 / 27.1 in Rage. Nighty Night on E deals 20 total damage and 5 seconds of Bleeding; the back-hit version deals 25 total damage and 10 seconds of Bleeding. Bloodthirst on R is a forward dash slash that deals 15 damage and 3 seconds of Bleeding."
         },
         {
-          "title": "Recopila registros de cierres (logs)",
-          "description": "Abre Ejecutar de Windows, pega %APPDATA%, ve a lucid blocks/logs y reúne los archivos .txt para solucionar el problema."
+          "label": "How to play him well",
+          "content": "Use crouch ambushes on generator-focused survivors, prioritize back hits for higher damage, and save Bloodthirst for low-stamina targets. Nighty Night does not bypass Soldier's block, and Bloodthirst is your catch-up tool, not a combo extender."
         },
         {
-          "title": "Reporta el problema correctamente",
-          "description": "Comparte los registros y los detalles del dispositivo a través del foro oficial de reportes de errores en Discord o en la página de la comunidad de Steam."
+          "label": "Useful skin picks",
+          "content": "My name is Jeff The Killer yo? costs 500. Classic costs 600 and restores the original look. Screech costs 750 and has a darker visual profile that makes stealth easier. Tinsel costs 1225."
+        }
+      ]
+    },
+    "doomByFateJohnDoeGuide": {
+      "eyebrow": "Myth Killer",
+      "title": "Doom By Fate John Doe Guide",
+      "subtitle": "John Doe's tank pressure, spike control, grab tools, and the habits that make him dominate matches.",
+      "intro": "John Doe? is not a simple stat-check character. He is expensive, heavy, and extremely punishing when the player knows maps and spacing. His anti-stun passive, route-control, grab and rush tools all combine to make him overwhelming once he starts chaining space control into damage.",
+      "items": [
+        {
+          "label": "What kind of killer he is",
+          "content": "John Doe? is a bulky, charging tank killer focused on brute force, rushdown, and punishing survivor ability usage. He is also listed as the second most expensive killer in the game. His current statline shows 2750 cost, 2000 health, 37.55 sprint speed, and 100 stamina."
+        },
+        {
+          "label": "Passive and basic pressure",
+          "content": "His passive, Invincible, means he cannot be stunned in the normal way. Stuns become slowdown instead, and his moves cannot be interrupted. His M1, Punch and Slash, has a 1.5-second cooldown and deals 30 damage after a short windup."
+        },
+        {
+          "label": "Corroded Wave control",
+          "content": "Corroded Wave on Q creates corrupted trails that deal 2.5 damage per second for 5 seconds and briefly highlights survivors. The second Q use sends out a straight line of spikes that deals 15 damage and ragdolls for roughly 4 seconds, making it one of his best anti-loop and cut-off tools."
+        },
+        {
+          "label": "Grab and chase tools",
+          "content": "Command Grab on E deals 25 damage on a successful grab, and the thrown survivor can knock down and deal 15 damage to another survivor they collide with. Corrupted Force on R is a rush that drags a target for 12 damage plus 10 more when it ends; if the rush misses, the ending swing still deals 32 damage."
+        },
+        {
+          "label": "How strong players use him",
+          "content": "Learn every map, focus one survivor at a time, use Corroded Wave to ragdoll and close distance, and save Command Grab or Corrupted Force for open space or low-stamina targets. John Doe? becomes overwhelming once he starts chaining space control into damage."
         }
       ]
     }
   },
   "faq": {
-    "title": "Preguntas",
-    "titleHighlight": "frecuentes",
-    "subtitle": "Todo lo que necesitas saber sobre Lucid Blocks",
+    "title": "Frequently Asked",
+    "titleHighlight": "Questions",
+    "subtitle": "Common questions about Doom By Fate on Roblox",
     "questions": [
       {
-        "question": "¿Es Lucid Blocks un juego para un solo jugador?",
-        "answer": "Sí. Lucid Blocks es un juego exclusivamente para un solo jugador, sin planes para multijugador o cooperativo."
+        "question": "How do I redeem codes in Doom By Fate?",
+        "answer": "To redeem a code in Doom By Fate, join the official 'what is what is' Roblox group first. Then launch the game, click the cog icon at the bottom of the screen, type your code into the CODE box, and press Enter to claim your reward."
       },
       {
-        "question": "¿Qué es el sistema Apotheosis en Lucid Blocks?",
-        "answer": "Apotheosis es el sistema de creación por fusión de forma libre de Lucid Blocks. En lugar de seguir recetas fijas, combinas materiales y descubres tus propias rutas de creación."
+        "question": "What is Doom By Fate on Roblox?",
+        "answer": "Doom By Fate is an asymmetric horror game on Roblox inspired by games like Dead by Daylight. One player controls a killer trying to eliminate survivors, while up to five other players work together to complete objectives and escape. The game features multiple killers, survivors, and maps."
       },
       {
-        "question": "¿Dónde puedo jugar Lucid Blocks?",
-        "answer": "Lucid Blocks está disponible actualmente en Steam para Windows. El soporte para Linux y Steam Deck está disponible a través de Proton 9.0."
+        "question": "Who are the best killers in Doom By Fate?",
+        "answer": "John Doe? is currently the top-tier killer in Doom By Fate thanks to his massive HP pool, anti-stun immunity, and Corroded Wave zoning. Jeff The Killer and Captain Rampage are strong A-tier picks for their burst and ranged pressure. C000lkid is the free starting killer and a solid option for beginners."
       },
       {
-        "question": "¿Cuánto cuesta Lucid Blocks?",
-        "answer": "Lucid Blocks cuesta $9.99 en Steam."
+        "question": "Who are the best survivors in Doom By Fate?",
+        "answer": "Jane Doe and Jester are the S-tier survivors in Doom By Fate. Jane Doe excels at team healing and sustain, while Jester's traps provide strong chase control. Brawler and Soldier are reliable A-tier picks for aggressive play, and Bacon is the free starter survivor with useful utility skills."
       },
       {
-        "question": "¿Lucid Blocks es compatible con controles?",
-        "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello. El teclado y el mouse son la opción más fluida."
+        "question": "Is Doom By Fate free to play?",
+        "answer": "Yes, Doom By Fate is free to play on Roblox. The base game is accessible at no cost, with some killers and survivors available for purchase using in-game Tix currency. You can earn Tix through gameplay and by redeeming active codes."
       },
       {
-        "question": "¿Recibirá actualizaciones Lucid Blocks?",
-        "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no se pretende que continúen con un calendario regular indefinido."
+        "question": "How many players can play Doom By Fate at once?",
+        "answer": "Doom By Fate supports up to 6 players per match — one killer and up to five survivors. The asymmetric setup means every match is a tense 1-vs-many experience."
       }
     ]
   },
   "cta": {
-    "title": "¿Listo para explorar Lucid Blocks?",
-    "description": "¡Únete a la comunidad de Lucid Blocks en Discord para ver guías, actualizaciones y discusiones!",
-    "joinCommunity": "Únete a Discord",
-    "joinGame": "Juega en Steam"
+    "title": "Ready to Play Doom By Fate?",
+    "description": "Join the Doom By Fate community on Discord for codes, guides, updates, and discussions with thousands of players!",
+    "joinCommunity": "Join Discord",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Tu centro completo de recursos para la fabricación, biomas, criaturas, logros y guías de supervivencia de Lucid Blocks.",
-    "resources": "Recursos",
-    "community": "Comunidad",
+    "title": "Doom By Fate Wiki",
+    "description": "Your complete resource hub for Doom By Fate codes, killers, survivors, tier lists, maps, skins, and update guides.",
+    "resources": "Resources",
+    "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Comunidad de Steam",
-    "steamStore": "Tienda de Steam",
-    "about": "Acerca de",
-    "privacy": "Política de privacidad",
-    "terms": "Términos de servicio",
-    "copyrightNotice": "Derechos de autor",
-    "copyright": "© 2026 Wiki de Lucid Blocks. No afiliada con los desarrolladores de Lucid Blocks.",
-    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "roblox": "Play on Roblox",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Doom By Fate Wiki. Not affiliated with the developers of Doom By Fate.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Guías de Lucid Blocks",
-      "description": "Guías completas de juego, desde conceptos básicos para principiantes hasta estrategias avanzadas de Apotheosis. Domina la supervivencia y la fabricación.",
-      "metaTitle": "Guías de Lucid Blocks - Estrategias de principiante a avanzado",
-      "metaDescription": "Guías completas de Lucid Blocks que cubren consejos para principiantes, el sistema Apotheosis, estrategias de supervivencia y tácticas expertas para dominar este sandbox surrealista.",
-      "categoryLabel": "GUÍAS DEL JUEGO",
-      "whatIs": "¿Qué son las guías?",
-      "whatIsDescription": "Guías exhaustivas que cubren mecánicas de juego, estrategias de supervivencia y el sistema de fabricación Apotheosis. Aprende todo, desde los primeros pasos hasta técnicas avanzadas.",
-      "why": "¿Por qué leer las guías?",
+    "codes": {
+      "title": "Doom by Fate Codes",
+      "description": "Los últimos Doom by Fate Codes que funcionan para oro, gemas y recompensas exclusivas gratis. Actualizado regularmente con Codes activos verificados.",
+      "metaTitle": "Doom by Fate Codes - Recompensas Gratis y Guía de Canje",
+      "metaDescription": "Obtén oro, gemas y recompensas exclusivas gratis con Doom by Fate Codes activos. Actualizado regularmente con Codes verificados que funcionan.",
+      "categoryLabel": "CANJEAR CODES",
+      "whatIs": "¿Qué son los Doom by Fate Codes?",
+      "whatIsDescription": "Los Doom by Fate Codes son cadenas promocionales especiales lanzadas por los desarrolladores que otorgan a los jugadores recompensas gratuitas dentro del juego. Canjear estos Codes es la forma más rápida de ganar oro, potenciadores de experiencia y cosméticos exclusivos sin gastar Robux.",
+      "why": "¿Por qué Canjear Doom by Fate Codes?",
       "whySteps": {
-        "step1Title": "Aprende las mecánicas principales",
-        "step1Description": "Entiende el sistema Apotheosis y evita errores comunes de principiante",
-        "step2Title": "Progresión rápida",
-        "step2Description": "Sigue caminos probados para sobrevivir y prosperar en este mundo surrealista",
-        "step3Title": "Domina las estrategias",
-        "step3Description": "Desarrolla tácticas avanzadas para la exploración y la fabricación"
+        "step1Title": "Moneda Gratuita Dentro del Juego",
+        "step1Description": "Los Codes frecuentemente otorgan oro y gemas que de otro modo requerirían horas de juego para ganar.",
+        "step2Title": "Cosméticos Exclusivos",
+        "step2Description": "Algunos Codes desbloquean aspectos y accesorios de tiempo limitado no disponibles por ningún otro medio en el juego.",
+        "step3Title": "Potenciadores de Experiencia",
+        "step3Description": "Los Codes multiplicadores de XP te ayudan a subir de nivel más rápido, desbloqueando nuevos Killers, Survivors y recompensas de progresión."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías"
+      "featured": "Destacados y Esenciales",
+      "all": "Todos los Codes"
     },
-    "crafting": {
-      "title": "Fabricación en Lucid Blocks",
-      "description": "Domina el sistema de fusión Apotheosis con mecánicas de esencia, recetas y estrategias de fabricación para objetos poderosos.",
-      "metaTitle": "Fabricación en Lucid Blocks - Sistema Apotheosis y recetas",
-      "metaDescription": "Domina el sistema de fabricación Apotheosis de Lucid Blocks. Aprende mecánicas de esencia, recetas de fusión y estrategias para crear herramientas y armas poderosas.",
-      "categoryLabel": "SISTEMA DE FABRICACIÓN",
-      "whatIs": "¿Qué es la fabricación?",
-      "whatIsDescription": "El sistema Apotheosis es una mecánica de fusión única impulsada por esencias donde combinas hasta seis objetos para descubrir nuevas recetas. Sin menús de fabricación fijos: la experimentación es la clave.",
-      "why": "¿Por qué dominar la fabricación?",
+    "guide": {
+      "title": "Guía de Doom by Fate",
+      "description": "Guías completas de Doom by Fate que cubren mecánicas de juego, Tier Lists, estrategias de Killer y consejos de Survivor para todos los niveles de habilidad.",
+      "metaTitle": "Guía de Doom by Fate - Consejos, Tier Lists y Estrategia",
+      "metaDescription": "Domina Doom by Fate con nuestras guías completas que cubren Tier Lists de Killer, consejos de Survivor, sistemas de hitos y estrategias avanzadas.",
+      "categoryLabel": "GUÍAS",
+      "whatIs": "¿Qué son las Guías de Doom by Fate?",
+      "whatIsDescription": "Las guías de Doom by Fate son artículos detallados que cubren cada aspecto del juego, desde los fundamentos para principiantes hasta estrategias competitivas avanzadas. Ya sea que quieras dominar como Killer o escapar como Survivor, estas guías te ayudarán.",
+      "why": "¿Por qué Leer Guías de Doom by Fate?",
       "whySteps": {
-        "step1Title": "Desbloquea objetos poderosos",
-        "step1Description": "Descubre herramientas esenciales, armas y equipo de movilidad a través de la fusión",
-        "step2Title": "Entiende las esencias",
-        "step2Description": "Aprende cómo se combinan las esencias de los objetos para crear resultados predecibles",
-        "step3Title": "Optimiza recursos",
-        "step3Description": "Usa mecánicas de dilución para maximizar la producción con materiales baratos"
+        "step1Title": "Domina las Mecánicas de Killer y Survivor",
+        "step1Description": "Aprende las habilidades únicas, fortalezas y debilidades de cada personaje para tomar mejores decisiones en las partidas.",
+        "step2Title": "Sube en las Clasificaciones de Tier",
+        "step2Description": "Comprende qué Killers y Survivors están actualmente en el Tier superior y por qué, para que puedas elegir las mejores opciones para tu estilo de juego.",
+        "step3Title": "Desbloquea Mecánicas Ocultas",
+        "step3Description": "Descubre sistemas de hitos, comandos de servidor privado y técnicas avanzadas que la mayoría de los jugadores desconocen."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías de fabricación"
+      "featured": "Destacados y Esenciales",
+      "all": "Todas las Guías"
     },
-    "items": {
-      "title": "Objetos de Lucid Blocks",
-      "description": "Guías detalladas de objetos que cubren herramientas, armas, equipo de movilidad y soluciones de almacenamiento con recetas de fabricación y consejos de uso.",
-      "metaTitle": "Objetos de Lucid Blocks - Guía de herramientas, armas y equipo",
-      "metaDescription": "Base de datos completa de objetos para Lucid Blocks, incluyendo herramientas, armas, equipo de movilidad y almacenamiento. Aprende a fabricar y usar cada objeto de manera efectiva.",
-      "categoryLabel": "OBJETOS Y EQUIPAMIENTO",
-      "whatIs": "¿Qué son los objetos?",
-      "whatIsDescription": "Guías exhaustivas de herramientas, armas, equipo de movilidad y objetos funcionales. Aprende recetas de fabricación, estrategias de uso y combinaciones óptimas.",
-      "why": "¿Por qué consultar las guías de objetos?",
+    "killers": {
+      "title": "Killers de Doom by Fate",
+      "description": "Lista completa de Killers de Doom by Fate con habilidades, estadísticas, estrategias y análisis detallados de personajes para cada Killer en el juego.",
+      "metaTitle": "Killers de Doom by Fate - Guía y Habilidades de Todos los Killers",
+      "metaDescription": "Guía completa de Killers de Doom by Fate que cubre a John Doe, The Priest, Jeff the Killer, SCP-106, y las habilidades y mejores estrategias de cada Killer.",
+      "categoryLabel": "KILLERS",
+      "whatIs": "¿Qué son los Killers de Doom by Fate?",
+      "whatIsDescription": "Los Killers de Doom by Fate son los personajes antagonistas que los jugadores pueden elegir para cazar Survivors. Cada Killer, desde el icónico John Doe hasta el aterrador SCP-106, tiene habilidades únicas, patrones de movimiento y poderes especiales que definen la partida.",
+      "why": "¿Por qué Aprender sobre los Killers de Doom by Fate?",
       "whySteps": {
-        "step1Title": "Aprende recetas de fabricación",
-        "step1Description": "Descubre cómo fabricar herramientas y armas esenciales usando Apotheosis",
-        "step2Title": "Optimiza tu equipamiento",
-        "step2Description": "Elige los mejores objetos para tu estilo de juego y etapa de progresión",
-        "step3Title": "Mejora tu supervivencia",
-        "step3Description": "Equípate con equipo de movilidad y armas para navegar por este mundo peligroso"
+        "step1Title": "Elige al Killer Correcto",
+        "step1Description": "Cada Killer tiene diferentes fortalezas. Comprender sus habilidades únicas te ayuda a elegir la mejor opción para tu estilo de juego.",
+        "step2Title": "Contrarresta a los Killers Enemigos",
+        "step2Description": "Como Survivor, conocer las habilidades y debilidades de cada Killer te permite evadirlos eficazmente y sobrevivir más tiempo.",
+        "step3Title": "Domina Técnicas Avanzadas",
+        "step3Description": "Cada Killer tiene tecnología oculta y opciones de movimiento avanzadas que separan a los buenos jugadores de los excelentes."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los objetos"
+      "featured": "Destacados y Esenciales",
+      "all": "Todos los Killers"
     },
-    "biomes": {
-      "title": "Biomas de Lucid Blocks",
-      "description": "Explora las regiones del mundo, características ambientales, ubicaciones de recursos y consejos de supervivencia para cada bioma.",
-      "metaTitle": "Biomas de Lucid Blocks - Regiones del mundo y exploración",
-      "metaDescription": "Explora los biomas de Lucid Blocks, incluyendo las Líneas Ley de Tiamana, Fog Meadow y regiones surrealistas. Encuentra recursos, evita peligros y navega por un mundo infinito.",
-      "categoryLabel": "REGIONES DEL MUNDO",
-      "whatIs": "¿Qué son los biomas?",
-      "whatIsDescription": "Guías de las diferentes regiones del mundo, características ambientales, distribución de recursos y zonas de peligro. Aprende qué esperar y cómo prepararte para cada área.",
-      "why": "¿Por qué explorar los biomas?",
+    "survivors": {
+      "title": "Survivors de Doom by Fate",
+      "description": "Guía completa de todos los Survivors de Doom by Fate, incluyendo a Jane Doe, Jester, Martyr, Brawler, Soldier y Bacon con habilidades y consejos.",
+      "metaTitle": "Survivors de Doom by Fate - Guía y Habilidades de Todos los Survivors",
+      "metaDescription": "Guía de Survivors de Doom by Fate que cubre a Jane Doe, Jester, Martyr, Brawler, Soldier y Bacon con desgloses completos de habilidades y estrategias de escape.",
+      "categoryLabel": "SURVIVORS",
+      "whatIs": "¿Qué son los Survivors de Doom by Fate?",
+      "whatIsDescription": "Los Survivors de Doom by Fate son los personajes jugadores que intentan escapar o sobrevivir al Killer. Cada Survivor como Jane Doe, Jester y Brawler aporta habilidades y estilos de juego distintos para ayudar a su equipo a sobrevivir la partida.",
+      "why": "¿Por qué Aprender sobre los Survivors de Doom by Fate?",
       "whySteps": {
-        "step1Title": "Encuentra recursos",
-        "step1Description": "Localiza materiales raros y esencias específicas de cada región",
-        "step2Title": "Evita peligros",
-        "step2Description": "Entiende los riesgos ambientales y las criaturas hostiles",
-        "step3Title": "Planifica tu exploración",
-        "step3Description": "Prepara las herramientas y el equipo adecuados para cada tipo de bioma"
+        "step1Title": "Elige al Mejor Survivor",
+        "step1Description": "Diferentes Survivors sobresalen en diferentes situaciones. Aprender sus habilidades te ayuda a elegir el personaje más efectivo para cada partida.",
+        "step2Title": "Domina las Estrategias de Supervivencia",
+        "step2Description": "Cada Survivor tiene herramientas de escape y habilidades de apoyo únicas. Saber cómo usarlas eficazmente mejora drásticamente tu tasa de victorias.",
+        "step3Title": "Forma Equipos Efectivos",
+        "step3Description": "Comprender las sinergias de los Survivors te permite coordinarte con tus compañeros de equipo para maximizar las posibilidades de tu grupo de escapar del Killer."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los biomas"
+      "featured": "Destacados y Esenciales",
+      "all": "Todos los Survivors"
     },
-    "building": {
-      "title": "Construcción en Lucid Blocks",
-      "description": "Domina las dimensiones personales Qualia, la construcción de bases, la gestión de almacenamiento y técnicas creativas de construcción.",
-      "metaTitle": "Construcción en Lucid Blocks - Qualia y construcción de bases",
-      "metaDescription": "Domina la construcción en Lucid Blocks con las dimensiones personales Qualia, construcción de bases, soluciones de almacenamiento y técnicas creativas de construcción.",
-      "categoryLabel": "CONSTRUCCIÓN Y BASES",
-      "whatIs": "¿Qué es la construcción?",
-      "whatIsDescription": "Guías sobre el sistema de dimensiones personales Qualia, construcción de bases, gestión de almacenamiento y construcción creativa. Aprende a crear tu refugio seguro en este mundo surrealista.",
-      "why": "¿Por qué construir bases?",
+    "skins": {
+      "title": "Aspectos de Doom by Fate",
+      "description": "Todos los aspectos de Doom by Fate para Killers y Survivors, incluyendo aspectos de hito, ediciones limitadas y los mejores cosméticos para comprar con tus Robux.",
+      "metaTitle": "Aspectos de Doom by Fate - Guía de Todos los Cosméticos y Atuendos",
+      "metaDescription": "Explora todos los aspectos de Doom by Fate para Killers y Survivors. Encuentra los mejores aspectos de hito, ediciones limitadas y qué cosméticos vale la pena comprar.",
+      "categoryLabel": "ASPECTOS",
+      "whatIs": "¿Qué son los Aspectos de Doom by Fate?",
+      "whatIsDescription": "Los aspectos de Doom by Fate son atuendos cosméticos que cambian la apariencia visual de los Killers y Survivors. Van desde recompensas de hito obtenidas a través del juego hasta cosméticos exclusivos de edición limitada comprados con Robux.",
+      "why": "¿Por qué Explorar los Aspectos de Doom by Fate?",
       "whySteps": {
-        "step1Title": "Crea espacios seguros",
-        "step1Description": "Establece bases seguras para el almacenamiento y las operaciones de fabricación",
-        "step2Title": "Gestiona tus recursos",
-        "step2Description": "Organiza tus materiales de manera eficiente con soluciones de almacenamiento",
-        "step3Title": "Desbloquea Qualia",
-        "step3Description": "Accede a dimensiones de bolsillo personales para la máxima comodidad"
+        "step1Title": "Encuentra los Mejores Cosméticos",
+        "step1Description": "Con docenas de aspectos disponibles, nuestras guías te ayudan a identificar los cosméticos más impresionantes visualmente y populares en el juego.",
+        "step2Title": "Gana Aspectos de Hito Gratis",
+        "step2Description": "Muchos aspectos son desbloqueables a través del sistema de hitos. Aprende qué hitos recompensan los mejores cosméticos sin gastar Robux.",
+        "step3Title": "Evalúa las Ediciones Limitadas",
+        "step3Description": "Algunos aspectos solo están disponibles por tiempo limitado. Saber cuáles valen la inversión te ayuda a tomar decisiones de compra inteligentes."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías de construcción"
+      "featured": "Destacados y Esenciales",
+      "all": "Todos los Aspectos"
     },
-    "support": {
-      "title": "Soporte de Lucid Blocks",
-      "description": "Soporte técnico, compatibilidad de plataformas, optimización de rendimiento y solución de problemas comunes.",
-      "metaTitle": "Soporte de Lucid Blocks - Ayuda técnica y soluciones",
-      "metaDescription": "Obtén soporte técnico para Lucid Blocks, incluyendo la configuración de Steam Deck, soluciones a cierres inesperados, optimización de rendimiento y guías de compatibilidad de plataformas.",
-      "categoryLabel": "SOPORTE TÉCNICO",
-      "whatIs": "¿Qué es el soporte?",
-      "whatIsDescription": "Guías técnicas que cubren la compatibilidad de plataformas, optimización de rendimiento, soluciones a cierres inesperados y problemas comunes. Obtén ayuda con Steam Deck, preguntas sobre multijugador y ajustes.",
-      "why": "¿Por qué consultar el soporte?",
+    "lore": {
+      "title": "Historia de Doom by Fate",
+      "description": "Sumérgete en la historia de Doom by Fate que cubre los trasfondos de John Doe, Jane Doe, Elliot y el oscuro universo narrativo del juego.",
+      "metaTitle": "Historia de Doom by Fate - Personajes y Trama Explicados",
+      "metaDescription": "Explora la profunda historia de Doom by Fate que cubre a John Doe, Jane Doe, Elliot y el universo narrativo completo detrás de este popular juego de terror de Roblox.",
+      "categoryLabel": "HISTORIA",
+      "whatIs": "¿Qué es la Historia de Doom by Fate?",
+      "whatIsDescription": "La historia de Doom by Fate abarca el rico trasfondo narrativo de los personajes y el universo del juego. Desde la relación entre John Doe y Jane Doe hasta la misteriosa historia de Elliot, el juego presenta una trama profunda que recompensa a los jugadores que la exploran.",
+      "why": "¿Por qué Explorar la Historia de Doom by Fate?",
       "whySteps": {
-        "step1Title": "Soluciona problemas técnicos",
-        "step1Description": "Resuelve cierres inesperados, problemas de rendimiento y de compatibilidad",
-        "step2Title": "Optimiza el rendimiento",
-        "step2Description": "Configura los ajustes para obtener la mejor experiencia en tu plataforma",
-        "step3Title": "Compatibilidad de plataformas",
-        "step3Description": "Aprende sobre Steam Deck, soporte para controles y requisitos del sistema"
+        "step1Title": "Comprende las Motivaciones de los Personajes",
+        "step1Description": "Conocer el trasfondo de cada Killer y Survivor profundiza tu conexión con el juego y explica por qué ciertos personajes se comportan como lo hacen.",
+        "step2Title": "Descubre Conexiones Ocultas",
+        "step2Description": "La historia revela relaciones sorprendentes entre personajes, como la conexión fraternal entre John Doe y Jane Doe.",
+        "step3Title": "Aprecia la Profundidad del Juego",
+        "step3Description": "Doom by Fate se inspira en leyendas reales de internet y juegos como Forsaken, creando un rico tapiz de historia de terror que vale la pena explorar."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los artículos de soporte"
+      "featured": "Destacados y Esenciales",
+      "all": "Toda la Historia"
+    },
+    "audio": {
+      "title": "Audio de Doom by Fate",
+      "description": "Bandas sonoras de Doom by Fate, análisis de la OST y guías de audio que incluyen el icónico tema de Coolkid y todas las pistas de música del juego.",
+      "metaTitle": "Audio de Doom by Fate - Guía de Banda Sonora y OST",
+      "metaDescription": "Explora la guía completa de audio de Doom by Fate que cubre la OST, el tema de Coolkid y todas las bandas sonoras del juego con análisis detallado.",
+      "categoryLabel": "AUDIO",
+      "whatIs": "¿Qué es el Audio de Doom by Fate?",
+      "whatIsDescription": "El audio de Doom by Fate cubre la banda sonora completa y el diseño de sonido del juego. La OST presenta intensas pistas de metal industrial, como el icónico tema de Coolkid, que mejoran la experiencia de horror atmosférico de cada partida.",
+      "why": "¿Por qué explorar el Audio de Doom by Fate?",
+      "whySteps": {
+        "step1Title": "Descubre la OST Completa",
+        "step1Description": "La banda sonora de Doom by Fate presenta pistas únicas para cada Killer y mapa. Conocer la música te ayuda a identificar lo que está sucediendo en una partida.",
+        "step2Title": "Aprecia el Diseño de Sonido",
+        "step2Description": "Las señales de audio del juego son herramientas de jugabilidad. Reconocer los sonidos específicos de cada Killer da a los Survivors una ventaja competitiva al evadir la persecución.",
+        "step3Title": "Explora los Favoritos de la Comunidad",
+        "step3Description": "Pistas como el tema de Coolkid se han vuelto icónicas en la comunidad de Doom by Fate. Descubre por qué ciertas piezas resuenan tan fuertemente con la base de jugadores."
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todo el Audio"
     }
   }
 }

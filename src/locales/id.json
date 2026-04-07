@@ -1,11 +1,1497 @@
 {
+  "seo": {
+    "home": {
+      "title": "Doom By Fate Wiki - Codes, Killers & Tier List",
+      "description": "Doom By Fate Wiki tracks active codes, killer and survivor guides, tier lists, maps, skins, and update notes for Roblox's asymmetrical horror hit.",
+      "keywords": "Doom By Fate, Roblox, codes, killers, survivors, tier list, maps, skins, updates",
+      "ogTitle": "Doom By Fate Wiki - Codes, Killers & Tier List",
+      "ogDescription": "Doom By Fate Wiki tracks active codes, killer and survivor guides, tier lists, maps, skins, and update notes for Roblox's asymmetrical horror hit.",
+      "twitterTitle": "Doom By Fate Wiki - Codes, Killers & Tier List",
+      "twitterDescription": "Doom By Fate Wiki tracks active codes, killer and survivor guides, tier lists, maps, skins, and update notes for Roblox's asymmetrical horror hit."
+    }
+  },
   "nav": {
-    "codes": "Kode",
-    "guide": "Panduan",
-    "killers": "Pembunuh",
-    "survivors": "Penyintas",
-    "skins": "Skin",
+    "codes": "Codes",
+    "guide": "Guide",
+    "killers": "Killers",
+    "survivors": "Survivors",
+    "skins": "Skins",
     "lore": "Lore",
     "audio": "Audio"
+  },
+  "common": {
+    "home": "Home",
+    "more": "More",
+    "playNow": "Play on Steam",
+    "switchLanguage": "Switch Language",
+    "switchTheme": "Switch Theme",
+    "lightMode": "Light Mode",
+    "darkMode": "Dark Mode",
+    "notFound": "Page Not Found",
+    "notFoundDescription": "The page you are looking for does not exist.",
+    "backToHome": "Back to Home",
+    "relatedArticles": "Related Articles",
+    "readMore": "Read More"
+  },
+  "hero": {
+    "badge": "Asymmetrical Roblox Horror",
+    "title": "Doom By Fate Wiki",
+    "description": "Track codes, killers, survivors, maps, skins, and fast update coverage for Doom By Fate, the rising Roblox asymmetrical horror game.",
+    "getFreeCodesCTA": "Get Free Codes",
+    "playOnRobloxCTA": "Play on Roblox",
+    "stats": {
+      "stat1": {
+        "value": "26.8M+",
+        "label": "Total Visits"
+      },
+      "stat2": {
+        "value": "109.6K",
+        "label": "Favorites"
+      },
+      "stat3": {
+        "value": "263.5K+",
+        "label": "Group Members"
+      },
+      "stat4": {
+        "value": "2026-04-06",
+        "label": "Last Updated"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Doom By Fate Gameplay",
+    "description": "Doom By Fate is an asymmetric Roblox horror game where killers hunt survivors across terrifying maps in intense 6-player matches."
+  },
+  "tools": {
+    "title": "Doom By Fate",
+    "titleHighlight": "Guide Hub",
+    "subtitle": "Everything you need to master Doom By Fate — codes, tier lists, survivor and killer guides",
+    "cards": [
+      {
+        "icon": "Gift",
+        "title": "Doom By Fate Codes",
+        "description": "Free Tix and skin rewards with active redeem codes"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Doom By Fate Tier List",
+        "description": "Ranked survivors and killers for the current meta"
+      },
+      {
+        "icon": "Users",
+        "title": "Doom By Fate Survivors",
+        "description": "Full survivor roster with costs, skills, and tips"
+      },
+      {
+        "icon": "Skull",
+        "title": "Doom By Fate Killers",
+        "description": "Full killer roster with pressure patterns and guides"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Doom By Fate Beginner Guide",
+        "description": "Step-by-step guide for new players starting Doom By Fate"
+      },
+      {
+        "icon": "Map",
+        "title": "Doom By Fate Maps",
+        "description": "All maps with routes, objectives, and chase angles"
+      },
+      {
+        "icon": "Star",
+        "title": "Doom By Fate Survivors Tier List",
+        "description": "Best survivors to buy and learn first"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Doom By Fate Killers Tier List",
+        "description": "Which killers are worth your Tix right now"
+      },
+      {
+        "icon": "Coins",
+        "title": "Doom by Fate Tix Guide",
+        "description": "Spend your Tix wisely with the best buy order for survivors and killers"
+      },
+      {
+        "icon": "Palette",
+        "title": "Doom by Fate Skins",
+        "description": "Featured skins, unlock types, and cosmetic categories for Jane Doe and Jeff"
+      },
+      {
+        "icon": "ShoppingCart",
+        "title": "Doom by Fate Shop Prices",
+        "description": "Current survivor, killer, and skin price reference for quick comparison"
+      },
+      {
+        "icon": "Clock",
+        "title": "Doom by Fate Update Log",
+        "description": "Patch history and major content beats shaping the current meta"
+      },
+      {
+        "title": "Doom By Fate 1x1x1x1 Guide",
+        "description": "Stats, lore, visual identity, and update context for the next confirmed killer.",
+        "icon": "Sparkles"
+      },
+      {
+        "title": "Doom By Fate Martyr Guide",
+        "description": "Martyr's blood economy kit: Sacrificial Blood, Blessed state, and risk-reward playstyle.",
+        "icon": "Sword"
+      },
+      {
+        "title": "Doom By Fate Jeff The Killer Guide",
+        "description": "Jeff's two-phase stealth-to-rage loop, damage tools, and best skin picks.",
+        "icon": "Eye"
+      },
+      {
+        "title": "Doom By Fate John Doe Guide",
+        "description": "John Doe's tank pressure, spike control, grab tools, and domination strategy.",
+        "icon": "Shield"
+      }
+    ]
+  },
+  "modules": {
+    "doomByFateCodes": {
+      "title": "Doom By Fate Codes",
+      "intro": "Tukarkan Codes aktif ini untuk mendapatkan Tix gratis dan hadiah skin eksklusif. Salin kode, buka menu gerigi di dalam game, tempelkan ke kotak CODE, dan tekan Enter.",
+      "redeemSteps": [
+        "Bergabunglah dengan grup Roblox resmi 'what is what is' (diperlukan agar Codes berfungsi)",
+        "Luncurkan Doom By Fate di Roblox",
+        "Klik ikon gerigi di bagian bawah layar",
+        "Ketik atau tempel kode Anda ke dalam kotak CODE",
+        "Tekan Enter untuk mengeklaim hadiah gratis Anda"
+      ],
+      "activeTitle": "Codes Aktif",
+      "inactiveTitle": "Codes Kedaluwarsa",
+      "items": [
+        {
+          "code": "sorryforissues",
+          "status": "Aktif",
+          "reward": "2.500 Tix",
+          "highlight": "Kode hadiah terbaru yang berfungsi — klaim terlebih dahulu untuk nilai Tix terbaik."
+        },
+        {
+          "code": "DOOMEDBYFATE",
+          "status": "Aktif",
+          "reward": "Skin Merchandise Spesial + 2.000 Tix",
+          "highlight": "Kode nilai terbaik — memberikan skin gratis dan Tix dalam satu penukaran."
+        },
+        {
+          "code": "SORRYFORTHELONGWAIT",
+          "status": "Aktif",
+          "reward": "1.500 Tix",
+          "highlight": "Kode pengisi yang solid untuk pemain yang menabung Tix untuk Killer atau Survivor pertama mereka."
+        },
+        {
+          "code": "THEOLDMAN",
+          "status": "Aktif",
+          "reward": "1.000 Tix",
+          "highlight": "Pengambilan Tix nilai menengah yang andal, masih aktif di pelacak Codes saat ini."
+        },
+        {
+          "code": "SORRYFORDELAY",
+          "status": "Tidak Aktif",
+          "reward": "2.500 Tix",
+          "highlight": "Kedaluwarsa — simpan untuk catatan saja."
+        }
+      ]
+    },
+    "doomByFateTierList": {
+      "title": "Doom By Fate Tier List",
+      "intro": "Ringkasan meta cepat yang memberi peringkat Survivor dan Killer dalam versi Doom By Fate saat ini. Gunakan ini sebagai referensi cepat sebelum memilih karakter utama Anda.",
+      "factions": [
+        {
+          "faction": "Survivors",
+          "tiers": [
+            {
+              "tier": "S",
+              "units": [
+                "Jane Doe",
+                "Jester"
+              ],
+              "summary": "Jane Doe memberikan sustain dan penyembuhan tim terbaik, sementara kit jebakan Jester memberikan kontrol blind dan slow berlapis yang mengubah arah pengejaran secara drastis."
+            },
+            {
+              "tier": "A",
+              "units": [
+                "Brawler",
+                "Soldier"
+              ],
+              "summary": "Keduanya membawa gangguan lini depan yang kuat dan efektif tetapi membutuhkan waktu yang lebih tepat daripada pilihan Tier S."
+            },
+            {
+              "tier": "B",
+              "units": [
+                "Bacon"
+              ],
+              "summary": "Bacon adalah Survivor pemula gratis. Bagus untuk mempelajari game, tetapi kalah saing dengan opsi berbayar dalam permainan kompetitif."
+            }
+          ]
+        },
+        {
+          "faction": "Killers",
+          "tiers": [
+            {
+              "tier": "S",
+              "units": [
+                "John Doe?"
+              ],
+              "summary": "Killer yang menonjol dengan HP besar, kekebalan anti-stun, zoning Corroded Wave, dan Command Grab — pilihan paling menindas di semua tingkat keahlian."
+            },
+            {
+              "tier": "A",
+              "units": [
+                "Jeff The Killer",
+                "Captain Rampage"
+              ],
+              "summary": "Jeff memberikan hadiah untuk pengaturan stealth dan burst Rage, sementara Captain Rampage memberikan tekanan jarak jauh yang konsisten dan opsi burst gerakan."
+            },
+            {
+              "tier": "B",
+              "units": [
+                "C000lkid"
+              ],
+              "summary": "Killer pemula gratis. Mengajarkan mekanik pengejaran inti tetapi memiliki batas kemampuan yang lebih rendah daripada Killer berbayar."
+            }
+          ]
+        }
+      ]
+    },
+    "doomByFateSurvivors": {
+      "title": "Doom By Fate Survivors",
+      "intro": "Bandingkan setiap Survivor di Doom By Fate — biaya, HP, kemampuan, dan kasus penggunaan terbaik — sebelum Anda menghabiskan Tix Anda.",
+      "items": [
+        {
+          "name": "Bacon",
+          "cost": "Gratis",
+          "hp": "100 HP",
+          "role": "Pemula",
+          "overview": "Bacon adalah Survivor pemula gratis dengan Flashlight (slow + blind), Pizza (menyembuhkan 20 HP), dan Tracker (mengungkapkan jarak Killer dan denyut aura).",
+          "bestFor": "Pemain baru yang menginginkan kesadaran peta dan utilitas tanpa menghabiskan Tix terlebih dahulu."
+        },
+        {
+          "name": "Brawler",
+          "cost": "500 Tix",
+          "hp": "110 HP",
+          "role": "Sentinel",
+          "overview": "Brawler adalah sentinel lini depan yang dibangun di sekitar Pocket Sand dan Liver Blow, memberikan 50 damage dengan pukulan beratnya dan menjauhkan Killer dari rekan tim.",
+          "bestFor": "Pemain yang ingin bermain sebagai pengawal agresif, mendaratkan stun lama, dan melindungi tim mereka."
+        },
+        {
+          "name": "Jane Doe",
+          "cost": "450 Tix",
+          "hp": "90 HP",
+          "role": "Dukungan",
+          "overview": "Jane Doe adalah dukungan-survivalist yang menyembuhkan sekutu sebesar 30 HP, menyembuhkan diri sendiri sebesar 35 HP, dan memberikan efek slow pada Killer untuk memperpanjang atau mengatur ulang pengejaran.",
+          "bestFor": "Survivor berbayar pertama terbaik — nilai keseluruhan paling aman dengan sustain terkuat sepanjang ronde."
+        },
+        {
+          "name": "Jester",
+          "cost": "450 Tix",
+          "hp": "100 HP",
+          "role": "Trickster",
+          "overview": "Jester adalah Trickster penyergap dengan Hat Trap (memotong sprint), Banana Trap (membuat Killer ragdoll), dan Pie (menambah efek blind dan slow) untuk permainan yang berat pada pengaturan.",
+          "bestFor": "Pemain yang menyukai jebakan yang suka mengatur sudut, tangga, dan jalur penyelamatan sebelum Killer menyerang."
+        },
+        {
+          "name": "Soldier",
+          "cost": "750 Tix",
+          "hp": "115 HP",
+          "role": "Pertahanan",
+          "overview": "Soldier adalah sentinel dengan HP tinggi dengan Carry (penyelamatan), Block (parry), dan Shotgun (stun jarak pendek), memungkinkannya melawan tekanan Killer secara langsung.",
+          "bestFor": "Pemain yang ingin menjaga rekan tim yang lebih lemah, menangkis tekanan, dan bertahan lebih lama dalam pengejaran yang panjang."
+        },
+        {
+          "name": "Martyr",
+          "cost": "500 Tix",
+          "hp": "100 HP",
+          "role": "Terbaru",
+          "overview": "Martyr adalah Survivor terbaru dalam build live [1x1x1x1 & Martyr] saat ini, terdaftar bersama Killer utama baru dalam sesi game aktif.",
+          "bestFor": "Pemain yang mengejar slot Survivor terbaru dalam pembaruan Doom By Fate saat ini."
+        }
+      ]
+    },
+    "doomByFateKillers": {
+      "title": "Doom By Fate Killers",
+      "intro": "Setiap Killer di Doom By Fate dibandingkan berdasarkan biaya, HP, gaya tekanan, dan tingkat kesulitan — sehingga Anda tahu persis apa yang Anda beli sebelum menghabiskan Tix Anda.",
+      "items": [
+        {
+          "name": "C000lkid",
+          "cost": "Gratis",
+          "hp": "1000 HP",
+          "role": "Pemula",
+          "overview": "C000lkid adalah pilihan rushdown-combo dengan bilah penembus dinding, tebasan yang memberikan efek stun, pukulan berat, dan peningkatan kecepatan dengan deteksi ESP.",
+          "bestFor": "Pemula yang menginginkan Killer gratis yang mengajarkan rute kombo dan mekanik pengejaran langsung tanpa mengeluarkan biaya apa pun."
+        },
+        {
+          "name": "Jeff The Killer",
+          "cost": "1000 Tix",
+          "hp": "950 HP",
+          "role": "Ambusher",
+          "overview": "Jeff adalah hibrida ambusher yang menggunakan Murderous Intent untuk mengintai, serangan tangkapan untuk damage ledakan, dan mode Rage yang memperkuat output damage jarak dekatnya.",
+          "bestFor": "Pemain yang menikmati mengintai terlebih dahulu, lalu melakukan satu pengejaran eksplosif atau urutan pembersihan yang brutal."
+        },
+        {
+          "name": "Captain Rampage",
+          "cost": "2250 Tix",
+          "hp": "1500 HP",
+          "role": "Hunter",
+          "overview": "Captain Rampage dibangun di sekitar Shark Prey Rounds, waktu isi ulang, dan serangan mobilitas tinggi seperti Shatter Slash dan Tidal Cleaver untuk tekanan peta.",
+          "bestFor": "Pemain yang menginginkan ancaman jarak jauh yang konsisten, reposisi cepat, dan kontrol peta yang lebih kuat daripada Killer jarak dekat."
+        },
+        {
+          "name": "John Doe?",
+          "cost": "2750 Tix",
+          "hp": "2000 HP",
+          "role": "Tank",
+          "overview": "John Doe? adalah Killer tank tingkat atas dengan kekebalan anti-stun, zoning Corroded Wave, Command Grab, dan Corrupted Force untuk kontrol pengejaran yang tiada henti.",
+          "bestFor": "Pemain berpengalaman yang menginginkan Killer serba bisa yang paling menindas — pilihan S-tier teratas dalam meta saat ini."
+        },
+        {
+          "name": "The Priest",
+          "cost": "1000 Tix",
+          "hp": "1100 HP",
+          "role": "Combo",
+          "overview": "The Priest adalah Killer target-combo dengan tekanan AoE dan rantai serangan yang dibangun di sekitar Shriek, Pray, Crucifixion, dan Snap untuk permainan isolasi.",
+          "bestFor": "Pemain yang suka mengincar satu Survivor, merantai alat crowd-control, dan memaksa sudut penyelamatan yang sulit bagi anggota tim lainnya."
+        },
+        {
+          "name": "1x1x1x1",
+          "cost": "1700 Tix",
+          "hp": "1500 HP",
+          "role": "Terbaru",
+          "overview": "1x1x1x1 (juga disebut The Adversary atau 81619) adalah Killer bertema mitos utama dari build live [1x1x1x1 & Martyr] saat ini.",
+          "bestFor": "Pemain yang mencari Killer bergaya mitos terbaru dalam pembaruan Doom By Fate saat ini."
+        }
+      ]
+    },
+    "doomByFateBeginnerGuide": {
+      "title": "Panduan Pemula Doom By Fate",
+      "eyebrow": "Panduan Awal",
+      "subtitle": "Mulailah dengan alur ronde, lalu pelajari satu peran Survivor sebelum mencoba kit yang lebih sulit. Versi ini dibuat untuk pemain yang menginginkan saran pertandingan yang berguna daripada lore atau pengisi.",
+      "intro": "Doom By Fate adalah game horor asimetris Roblox 8v1 di mana satu Killer menekan lobi sementara para Survivor menyelesaikan objektif, melindungi satu sama lain, dan mencoba keluar sebelum pertandingan memburuk. Cara tercepat untuk berkembang adalah dengan memahami peran Anda, menggunakan geometri peta dengan baik, dan menghabiskan Tix pertama Anda pada gaya bermain yang benar-benar akan Anda ulangi.",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Pelajari kondisi kemenangan ronde terlebih dahulu",
+          "description": "Setiap pertandingan dibangun di sekitar satu Killer melawan delapan Survivor. Survivor menang dengan menyelesaikan objektif dan melarikan diri dari tekanan; Killer menang dengan memburu tim sebelum ronde berakhir.",
+          "highlights": [
+            "Survivor harus mengutamakan waktu objektif daripada duel acak.",
+            "Killer menginginkan tekanan awal sebelum rute dan alat pendukung menstabilkan tim."
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Gunakan Bacon untuk mempelajari permainan informasi",
+          "description": "Bacon gratis dan berfungsi sebagai starter pendukung pengintaian. Kit-nya mengajarkan jarak, waktu, dan kesadaran tim tanpa memaksa Anda ke dalam permainan lini depan murni.",
+          "highlights": [
+            "Flashlight dapat mengguncang dan memperlambat Killer jika diarahkan dengan baik.",
+            "Pizza memulihkan 20 HP dan membantu Anda bertahan dari kesalahan kecil.",
+            "Tracker membantu mengidentifikasi lokasi dan jarak tepat Killer."
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Pilih jalur peran sebelum Anda membeli apa pun",
+          "description": "Daftar Survivor saat ini terbagi jelas ke dalam keluarga peran. Pilih satu jalur dan tetaplah di sana sampai Anda memahami kapan harus melindungi, menyembuhkan, atau melepaskan diri.",
+          "highlights": [
+            "Survivalist: dukungan mandiri dan tekanan objektif.",
+            "Sentinel: stun, gangguan, dan perlindungan lini depan.",
+            "Support: penyembuhan, buff, debuff, dan utilitas pengejaran."
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Jadikan Survivor berbayar pertama Anda sebagai pilihan tujuan",
+          "description": "Jane Doe adalah pilihan premium termudah untuk dibenarkan karena dia dapat menyembuhkan dirinya sendiri dan rekan tim sambil tetap memberikan perlindungan dengan Syringe. Jika Anda ingin melindungi orang lain dan memaksa ruang dalam pengejaran, Brawler atau Soldier adalah opsi lini depan yang lebih bersih.",
+          "highlights": [
+            "Jane Doe: 450 Tix, penyembuhan diri plus penyembuhan tim.",
+            "Brawler: 500 Tix, jendela stun yang lama dan hukuman yang kuat.",
+            "Soldier: 750 Tix, blokir, bawa, dan kontrol shotgun."
+          ]
+        },
+        {
+          "step": 5,
+          "title": "Anggap loop dan perlindungan sebagai pertahanan nyata Anda",
+          "description": "Survivor yang baik tidak mencoba menang di tempat terbuka. Gunakan dinding, pintu, tangga, rumah, dek, dan titik sempit untuk memperpanjang waktu pengejaran dan memaksa sudut Killer yang buruk.",
+          "highlights": [
+            "Neighborhood memiliki banyak tempat loop yang terhubung dan rute persembunyian yang kuat di belakang rumah.",
+            "Rampaged Ship memiliki loop dek atas dan interaksi tangga yang kuat.",
+            "Killer jauh lebih berbahaya ketika mereka menangkap Anda di jalur terbuka."
+          ]
+        },
+        {
+          "step": 6,
+          "title": "Ubah setiap pertandingan menjadi kemajuan Tix",
+          "description": "Ekonomi awal Anda penting karena pembelian Survivor dan Killer membuka permainan dengan cepat. Mainkan ronde, selesaikan objektif, dan tukarkan Codes aktif jika tersedia agar beberapa pembelian pertama Anda datang lebih cepat.",
+          "highlights": [
+            "Gunakan Tix awal pada peran yang sudah Anda nikmati.",
+            "Jangan menyebarkan pembelian pada karakter yang tidak akan Anda jadikan main.",
+            "Codes dan keberhasilan ronde adalah sumber kemajuan awal yang paling bersih."
+          ]
+        }
+      ]
+    },
+    "doomByFateMaps": {
+      "title": "Peta Doom By Fate",
+      "eyebrow": "Panduan Peta",
+      "subtitle": "Modul ini mengubah kumpulan peta saat ini menjadi catatan pertandingan yang cepat dibaca. Pelajari tempat untuk melakukan kite, bersembunyi, berotasi, atau memotong orang sebelum ronde menjadi kacau.",
+      "intro": "Peta Doom By Fate bukan sekadar seni latar belakang. Masing-masing mengubah seberapa aman rotasi Anda, seberapa besar nilai yang didapat alat pendukung, dan apakah Killer dapat memaksa pengejaran yang bersih atau harus terus menebak-nebak.",
+      "tableHeaders": [
+        "Peta",
+        "Objektif",
+        "Tata Letak",
+        "Sudut Pandang Survivor",
+        "Sudut Pandang Killer"
+      ],
+      "items": [
+        {
+          "map": "Crossroads",
+          "status": "Dapat Dimainkan",
+          "objective": "Perbaiki Generator",
+          "layout_notes": "Peta yang terinspirasi Roblox lama dengan rute luar yang besar, jembatan, dan area dataran tinggi di sekitar gunung.",
+          "survivor_angle": "Kuat saat Anda tetap disiplin dan menggunakan jalur luar yang panjang untuk menghabiskan waktu.",
+          "killer_angle": "Serang lebih awal agar Survivor tidak mengambil rute gunung dan jembatan secara gratis."
+        },
+        {
+          "map": "Neighborhood",
+          "status": "Dapat Dimainkan",
+          "objective": "Perbaiki Generator",
+          "layout_notes": "Dua rumah, arcade yang rusak, lorong sempit, dan banyak tempat loop yang terhubung di seluruh blok.",
+          "survivor_angle": "Salah satu peta terbaik untuk kiting yang diperpanjang, pengaturan jebakan, dan pengalihan rute di detik-detik terakhir.",
+          "killer_angle": "Gunakan sisi belakang rumah untuk masuk secara mengejutkan daripada selalu melewati jalur depan."
+        },
+        {
+          "map": "Rampaged Ship",
+          "status": "Dapat Dimainkan",
+          "objective": "Perbaiki Generator",
+          "layout_notes": "Kapal rusak besar dengan empat dek, tangga antar level, dan sebagian besar aksi awal berpusat di dek atas.",
+          "survivor_angle": "Loop dek atas dan tangga kuat untuk reset, terutama dengan dukungan stun atau jebakan.",
+          "killer_angle": "Mobilitas penting di sini karena Survivor dapat merantai tekanan dek atas menjadi relokasi yang panjang."
+        },
+        {
+          "map": "Library Of Eternity",
+          "status": "Dapat Dimainkan",
+          "objective": "Selesaikan Generator",
+          "layout_notes": "Ruang perpustakaan besar di mana rak buku tinggi berfungsi seperti dinding dan penghalang pandangan.",
+          "survivor_angle": "Paling baik dimainkan dengan jalur yang disiplin dan pemutusan garis pandang daripada berlari panik.",
+          "killer_angle": "Lacak rute rak dengan hatihati dan paksa titik komitmen daripada mengejar di tikungan buta secara berlebihan."
+        },
+        {
+          "map": "Camp Lakewood",
+          "status": "Dapat Dimainkan",
+          "objective": "Perbaiki Generator",
+          "layout_notes": "Peta rotasi inti dalam kumpulan saat ini yang dibangun di sekitar tekanan generator standar dan latihan perutean.",
+          "survivor_angle": "Peta yang bagus untuk mempelajari waktu objektif yang bersih dan rotasi aman antar tugas.",
+          "killer_angle": "Tekan waktu generator lebih awal dan jangan biarkan lobi menetap dalam ritme objektif gratis."
+        }
+      ]
+    },
+    "doomByFateSurvivorsTierList": {
+      "title": "Doom By Fate Survivors Tier List",
+      "eyebrow": "Pilihan Meta",
+      "subtitle": "Dibuat berdasarkan nilai peran saat ini, kemandirian, dan seberapa mudah setiap survivor diubah menjadi kemenangan nyata. Ditujukan bagi pemain yang sedang memutuskan ke mana Tix mereka selanjutnya harus digunakan.",
+      "intro": "Pilihan survivor terbaik adalah mereka yang mampu bertahan hidup, menyelamatkan momentum tim, atau memaksa Killer untuk menghormati ruang yang biasanya mereka ambil secara cuma-cuma.",
+      "tiers": [
+        {
+          "tier": "S",
+          "color": "red",
+          "label": "Investasi serius pertama terbaik",
+          "entries": [
+            {
+              "name": "Jane Doe",
+              "role": "Support / Hybrid",
+              "cost": "450 Tix",
+              "why": "Melindungi dengan Syringe, menyembuhkan rekan tim sebesar 30 HP, menyembuhkan diri sendiri sebesar 35 HP. Karakter serba bisa paling bersih untuk solo queue dan permainan tim.",
+              "best_for": "Pemain yang menginginkan satu survivor yang tetap berguna di hampir setiap lobi.",
+              "tools": [
+                "Syringe",
+                "Set Health",
+                "Patch Up"
+              ]
+            },
+            {
+              "name": "Soldier",
+              "role": "Sentinel",
+              "cost": "750 Tix",
+              "why": "Carry, Block, dan Shotgun memungkinkannya menjadi pengawal, melindungi rekan, dan mengubah pengejaran buruk menjadi situasi yang bisa dipulihkan.",
+              "best_for": "Pemain yang menyukai penyelamatan lini depan, pertahanan tim, dan perlindungan keras.",
+              "tools": [
+                "Carry",
+                "Block",
+                "Shotgun"
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "color": "orange",
+          "label": "Main kuat dengan spesialisasi yang jelas",
+          "entries": [
+            {
+              "name": "Jester",
+              "role": "Support",
+              "cost": "450 Tix",
+              "why": "Hat Trap mematikan jalur lari, Banana Trap menghukum loop, dan Pie memberikan efek buta plus lambat. Memberi keuntungan bagi pemain yang berpikir ke depan.",
+              "best_for": "Pemain jebakan dan perencana rute.",
+              "tools": [
+                "Hat Trap",
+                "Banana Trap",
+                "Pie"
+              ]
+            },
+            {
+              "name": "Brawler",
+              "role": "Sentinel",
+              "cost": "500 Tix",
+              "why": "Pocket Sand and Liver Blow memberinya salah satu kit gangguan langsung terbersih. Sangat baik untuk perlindungan agresif saat dibutuhkan.",
+              "best_for": "Pemain yang menyukai penyelamatan jarak dekat yang menentukan.",
+              "tools": [
+                "Pocket Sand",
+                "Liver Blow"
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "color": "zinc",
+          "label": "Utilitas pemula yang berguna",
+          "entries": [
+            {
+              "name": "Bacon",
+              "role": "Recon / Support",
+              "cost": "Gratis",
+              "why": "Mengajarkan dasar-dasar nyata: pelacakan killer, pengaturan jarak, dan waktu penggunaan sumber daya. Flashlight, Pizza, dan Tracker membuatnya tetap relevan saat Anda belajar.",
+              "best_for": "Pemain baru yang menginginkan karakter latihan tanpa biaya dengan nilai tim yang nyata.",
+              "tools": [
+                "Flashlight",
+                "Pizza",
+                "Tracker"
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "New",
+          "color": "theme",
+          "label": "Opsi baru untuk dipantau",
+          "entries": [
+            {
+              "name": "Martyr",
+              "role": "Support",
+              "cost": "500 Tix",
+              "why": "Martyr telah masuk ke dalam daftar sebagai survivor terbaru dalam build live saat ini. Pantau halamannya seiring berkembangnya ekosistem modul.",
+              "best_for": "Pemain yang menginginkan survivor terbaru dalam rotasi mereka.",
+              "tools": [
+                "Halaman daftar terbaru",
+                "Cakupan pembaruan terkini"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "doomByFateKillersTierList": {
+      "title": "Doom By Fate Killers Tier List",
+      "eyebrow": "Meta Killer",
+      "subtitle": "Berfokus pada tekanan pengejaran, jendela hukuman, dan seberapa konsisten setiap killer mengubah kontak menjadi down. Dibuat untuk pemain yang sedang memilih karakter utama.",
+      "intro": "Killer Doom By Fate yang kuat bisa menciptakan tekanan yang tidak terhindarkan atau mengubah satu kesalahan menjadi urutan hukuman yang nyata. Opsi terbaik memaksa pergerakan yang buruk, menghancurkan jarak yang lemah, atau membuat Survivor meninggalkan rute yang biasanya mereka percayai.",
+      "tiers": [
+        {
+          "tier": "S",
+          "color": "red",
+          "label": "Pilihan carry keseluruhan terbaik",
+          "entries": [
+            {
+              "name": "John Doe?",
+              "type": "Brute / Rushdown",
+              "cost": "2750 Tix",
+              "why": "Menggabungkan kehadiran fisik yang menekan dengan Corroded Wave, Command Grab, dan Corrupted Force. Killer premium terbersih untuk tekanan tingkat tinggi.",
+              "best_for": "Pemain yang menginginkan satu killer mahal yang dapat mendominasi sebagian besar lobi.",
+              "tools": [
+                "Corroded Wave",
+                "Command Grab",
+                "Corrupted Force"
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "color": "orange",
+          "label": "Karakter utama bernilai tinggi",
+          "entries": [
+            {
+              "name": "C000lkid",
+              "type": "Rushdown / Combo",
+              "cost": "Gratis",
+              "why": "Kit yang cepat dan penuh hukuman dengan tekanan jarak jauh, kecepatan pengejaran, dan perutean kombo. Untuk killer gratis, batas kemampuannya sangat tinggi.",
+              "best_for": "Pemain yang menginginkan karakter utama yang kuat tanpa menghabiskan Tix terlebih dahulu.",
+              "tools": [
+                "Dual Blade",
+                "Lacerate",
+                "Speed Hack",
+                "Velocity Strike"
+              ]
+            },
+            {
+              "name": "Jeff The Killer",
+              "type": "Stealth / Burst",
+              "cost": "1000 Tix",
+              "why": "Mendapatkan nilai dari tembus pandang, tangkapan depan-atau-belakang, dan rute burst langsung dengan Bloodthirst. Mudah diubah menjadi eliminasi cepat.",
+              "best_for": "Pemain yang menyukai serangan diam-diam dan kekuatan penyelesaian yang sederhana.",
+              "tools": [
+                "Murderous Intent",
+                "Sweet Dreams and Nighty Night",
+                "Bloodthirst"
+              ]
+            },
+            {
+              "name": "The Priest",
+              "type": "Target / Combo",
+              "cost": "1000 Tix",
+              "why": "Spesialisasi dalam mengunci satu target dan merantai tekanan melalui perutean kombo dan cakupan area.",
+              "best_for": "Pemain yang menyukai killer kombo teknis dengan fokus target yang kuat.",
+              "tools": [
+                "Snap",
+                "Perutean kombo",
+                "Tekanan AOE"
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "color": "zinc",
+          "label": "Tekanan spesialis yang kuat",
+          "entries": [
+            {
+              "name": "Captain Rampage",
+              "type": "Hunter / Mobilitas",
+              "cost": "2250 Tix",
+              "why": "Unggul dalam tekanan berbasis gerakan dengan Shatter Slash, Tiger Mark, dan Tidal Cleaver. Mematikan saat Anda menjaga tempo tetap tinggi dan memaksa Survivor keluar dari loop yang aman.",
+              "best_for": "Pemain yang menyukai mobilitas, tempo, dan pemotongan rute.",
+              "tools": [
+                "Shatter Slash",
+                "Tiger Mark",
+                "Tidal Cleaver"
+              ]
+            }
+          ]
+        },
+        {
+          "tier": "New",
+          "color": "theme",
+          "label": "Halaman killer terbaru untuk dipantau",
+          "entries": [
+            {
+              "name": "1x1x1x1",
+              "type": "Myth Killer",
+              "cost": "1700 Tix",
+              "why": "1x1x1x1 telah memasuki jajaran killer dengan 1500 health sebagai salah satu tambahan daftar karakter saat ini yang paling penting untuk dipantau.",
+              "best_for": "Pemain yang mengikuti cakupan killer terbaru dan halaman berbasis pembaruan.",
+              "tools": [
+                "Minat daftar karakter terbaru",
+                "Halaman killer khusus"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "doomByFateTixGuide": {
+      "title": "Panduan Tix Doom by Fate",
+      "eyebrow": "Ekonomi",
+      "subtitle": "Gunakan kumpulan Codes saat ini untuk memulai roster Anda, lalu beli Survivor berdampak tinggi yang paling murah terlebih dahulu. Dibuat untuk pemain yang memilih antara nilai Survivor awal dan Killer berbayar pertama mereka.",
+      "intro": "Tix adalah mata uang utama yang digunakan untuk Survivor, Killer, dan skin. Ledakan Tix tercepat berasal dari kumpulan Codes yang aktif, sementara rute pengeluaran awal yang paling efisien berpusat pada Survivor berbiaya rendah yang sudah berperingkat baik dalam meta saat ini.",
+      "sections": [
+        {
+          "section": "Kumpulan Codes aktif saat ini",
+          "summary": "Tiga Codes saat ini aktif dan bersama-sama memberikan 4500 Tix, ditambah satu skin Jeff eksklusif dari Codes.",
+          "type": "codes",
+          "entries": [
+            {
+              "code": "DOOMEDBYFATE",
+              "reward": "Skin Jeff The Killer Merchandise + 2000 Tix",
+              "status": "Aktif",
+              "notes": "Memerlukan bergabung dengan grup untuk menukarkan."
+            },
+            {
+              "code": "SORRYFORTHELONGWAIT",
+              "reward": "1500 Tix",
+              "status": "Aktif",
+              "notes": "Ditambahkan dalam gelombang Codes terbaru."
+            },
+            {
+              "code": "THEOLDMAN",
+              "reward": "1000 Tix",
+              "status": "Aktif",
+              "notes": "Cocok dipadukan dengan rencana pembukaan Killer awal."
+            }
+          ]
+        },
+        {
+          "section": "Pembelian Survivor pertama terbaik",
+          "summary": "Pembelian awal berbiaya rendah terkuat adalah Jane Doe dan Jester masing-masing seharga 450 Tix.",
+          "type": "characters",
+          "entries": [
+            {
+              "name": "Jane Doe",
+              "cost_tix": 450,
+              "role": "Dukungan / survivalist",
+              "why_buy": "Pilihan S-tier dengan penyembuhan tim, penyembuhan diri, dan perlambatan Killer."
+            },
+            {
+              "name": "Jester",
+              "cost_tix": 450,
+              "role": "Penipu penyergap",
+              "why_buy": "Pilihan S-tier dengan debuff, perlambatan, dan kebutaan."
+            },
+            {
+              "name": "Brawler",
+              "cost_tix": 500,
+              "role": "Garis depan Sentinel",
+              "why_buy": "Bek ofensif yang kuat dengan tekanan stun yang lama."
+            },
+            {
+              "name": "Soldier",
+              "cost_tix": 750,
+              "role": "Pelindung Sentinel",
+              "why_buy": "Biaya lebih tinggi, tetapi menawarkan blok, serangan balik, dan utilitas carry."
+            },
+            {
+              "name": "Bacon",
+              "cost_tix": 0,
+              "role": "Survivor pemula",
+              "why_buy": "Pilihan belajar gratis dengan alat pelacakan dan reset pengejaran."
+            }
+          ]
+        },
+        {
+          "section": "Pembelian Killer pertama terbaik",
+          "summary": "Jika Anda ingin Killer berbayar pertama Anda dengan cepat, Jeff adalah entri termurah. Untuk target premium terkuat, simpan untuk John Doe.",
+          "type": "characters",
+          "entries": [
+            {
+              "name": "C000lkid",
+              "cost_tix": 0,
+              "tier": "B",
+              "why_buy": "Killer awal gratis untuk mempelajari rute dan dasar-dasar tekanan."
+            },
+            {
+              "name": "Jeff The Killer",
+              "cost_tix": 1000,
+              "tier": "A",
+              "why_buy": "Killer berbayar termurah dan pembukaan pertama yang kuat."
+            },
+            {
+              "name": "Captain Rampage",
+              "cost_tix": 2250,
+              "tier": "A",
+              "why_buy": "Pembelian mid-game yang bagus untuk pemain yang menyukai kit pengejaran yang lincah."
+            },
+            {
+              "name": "John Doe",
+              "cost_tix": 2750,
+              "tier": "S",
+              "why_buy": "Target Killer jangka panjang terbaik jika Anda menginginkan pilihan brute/rushdown tingkat atas."
+            }
+          ]
+        },
+        {
+          "section": "Jalur pengeluaran yang direkomendasikan",
+          "summary": "Titik-titik pencapaian ini adalah cara terbersih untuk mengubah hadiah Codes menjadi roster yang lebih baik.",
+          "type": "paths",
+          "entries": [
+            {
+              "target_tix": 450,
+              "plan": "Buka Jane Doe atau Jester terlebih dahulu."
+            },
+            {
+              "target_tix": 900,
+              "plan": "Buka Jane Doe dan Jester untuk inti Survivor berbiaya rendah terkuat."
+            },
+            {
+              "target_tix": 1000,
+              "plan": "Buka Jeff The Killer jika Anda ingin Killer berbayar pertama Anda dengan cepat."
+            },
+            {
+              "target_tix": 1400,
+              "plan": "Buka Jane Doe, Jester, dan Brawler untuk kumpulan Survivor awal yang luas."
+            },
+            {
+              "target_tix": 2750,
+              "plan": "Simpan untuk John Doe jika tujuan Anda adalah Killer premium tingkat atas."
+            }
+          ]
+        }
+      ]
+    },
+    "doomByFateSkins": {
+      "title": "Skin Doom by Fate",
+      "eyebrow": "Kosmetik",
+      "subtitle": "Struktur skin saat ini untuk Jane Doe dan Jeff The Killer — skin toko, pembukaan pencapaian, skin Codes, dan entri mendatang.",
+      "intro": "Doom by Fate menggunakan skin sebagai lapisan koleksi utama. Jane Doe memiliki jajaran toko yang luas ditambah skin mendatang, sementara Jeff The Killer memiliki penyebaran progres terdalam berkat hadiah pencapaian dan skin Merchandise berbasis Codes miliknya.",
+      "groups": [
+        {
+          "label": "Jane Doe — Skin Toko",
+          "character": "Jane Doe",
+          "category": "Shop",
+          "cards": [
+            {
+              "name": "Sinner #2",
+              "price_tix": 500,
+              "status": "Tersedia",
+              "note": "Skin toko yang terinspirasi dari Faust."
+            },
+            {
+              "name": "Overtime",
+              "price_tix": 700,
+              "status": "Tersedia",
+              "note": "Pakaian formal dengan salib putih di mata."
+            },
+            {
+              "name": "First Time We Met",
+              "price_tix": 750,
+              "status": "Tersedia",
+              "note": "Pakaian gaya pengantin hitam."
+            },
+            {
+              "name": "Banana Lady",
+              "price_tix": 1000,
+              "status": "Tersedia",
+              "note": "Skin yang terinspirasi dari cerita rakyat Nang Tani."
+            },
+            {
+              "name": "Blossom",
+              "price_tix": 1000,
+              "status": "Tersedia",
+              "note": "Skin toko saat ini."
+            },
+            {
+              "name": "Bouquet",
+              "price_tix": 1300,
+              "status": "Tersedia",
+              "note": "Varian pastel yang penuh bunga."
+            },
+            {
+              "name": "Yourself",
+              "price_tix": 5000,
+              "status": "Tersedia",
+              "note": "Skin toko Jane Doe dengan harga tertinggi."
+            }
+          ]
+        },
+        {
+          "label": "Jane Doe — Skin Mendatang",
+          "character": "Jane Doe",
+          "category": "Upcoming",
+          "cards": [
+            {
+              "name": "Frisk / Prophesied Angel",
+              "price_tix": null,
+              "status": "Segera Hadir",
+              "note": "Skin terencana yang terinspirasi dari Undertale."
+            },
+            {
+              "name": "Promise",
+              "price_tix": null,
+              "status": "Segera Hadir",
+              "note": "Entri mendatang bertema taman."
+            },
+            {
+              "name": "Baker",
+              "price_tix": null,
+              "status": "Segera Hadir",
+              "note": "Entri mendatang dengan pakaian koki."
+            }
+          ]
+        },
+        {
+          "label": "Jeff The Killer — Skin Toko",
+          "character": "Jeff The Killer",
+          "category": "Shop",
+          "cards": [
+            {
+              "name": "The Jokester",
+              "price_tix": 100,
+              "status": "Tersedia",
+              "note": "Skin toko yang terinspirasi dari Joker."
+            },
+            {
+              "name": "Tinsel",
+              "price_tix": 1225,
+              "status": "Tersedia",
+              "note": "Varian Jeff bertema liburan."
+            },
+            {
+              "name": "Purple Guy",
+              "price_tix": 1987,
+              "status": "Tersedia",
+              "note": "Skin bertema gaya crossover FNaF."
+            }
+          ]
+        },
+        {
+          "label": "Jeff The Killer — Pencapaian & Spesial",
+          "character": "Jeff The Killer",
+          "category": "Milestone",
+          "cards": [
+            {
+              "name": "Milestone 1",
+              "price_tix": null,
+              "status": "Capai Level 5",
+              "note": "Mengembalikan Jeff ke tampilan gaya Area 51 awal."
+            },
+            {
+              "name": "Milestone 2",
+              "price_tix": null,
+              "status": "Capai Level 15",
+              "note": "Menambahkan varian wajah bekas luka."
+            },
+            {
+              "name": "Milestone 3",
+              "price_tix": null,
+              "status": "Capai Level 25",
+              "note": "Bentuk terdistorsi kuning yang glitchy."
+            },
+            {
+              "name": "Milestone 4",
+              "price_tix": null,
+              "status": "Capai Level 50",
+              "note": "Skin pencapaian akhir permainan bernuansa biru."
+            },
+            {
+              "name": "Merchandise",
+              "price_tix": null,
+              "status": "Codes: DOOMEDBYFATE",
+              "note": "Hoodie abu-abu dengan logo Doom by Fate."
+            }
+          ]
+        }
+      ]
+    },
+    "doomByFateShopPrices": {
+      "title": "Harga Toko Doom by Fate",
+      "eyebrow": "Toko",
+      "subtitle": "Tabel referensi cepat untuk setiap Survivor, Killer, dan skin unggulan di toko Doom by Fate saat ini.",
+      "intro": "Toko saat ini mencakup Survivor, Killer, dan kosmetik — semuanya dibeli dengan Tix. Bandingkan biaya pembukaan gameplay dengan harga skin secara sekilas.",
+      "tableHeaders": [
+        "Kategori",
+        "Nama",
+        "Harga (Tix)",
+        "Catatan Nilai"
+      ],
+      "items": [
+        {
+          "category": "Survivor",
+          "name": "Bacon",
+          "price_tix": 0,
+          "value_note": "Survivor pemula gratis."
+        },
+        {
+          "category": "Survivor",
+          "name": "Jane Doe",
+          "price_tix": 450,
+          "value_note": "Healer Tier List S berbiaya rendah."
+        },
+        {
+          "category": "Survivor",
+          "name": "Jester",
+          "price_tix": 450,
+          "value_note": "Survivor debuff Tier List S berbiaya rendah."
+        },
+        {
+          "category": "Survivor",
+          "name": "Brawler",
+          "price_tix": 500,
+          "value_note": "Sentinel lini depan yang murah."
+        },
+        {
+          "category": "Survivor",
+          "name": "Martyr",
+          "price_tix": 500,
+          "value_note": "Survivor berbayar dengan utilitas berbasis belati."
+        },
+        {
+          "category": "Survivor",
+          "name": "Soldier",
+          "price_tix": 750,
+          "value_note": "Pembukaan Survivor termahal saat ini."
+        },
+        {
+          "category": "Killer",
+          "name": "C000lkid",
+          "price_tix": 0,
+          "value_note": "Killer pemula gratis."
+        },
+        {
+          "category": "Killer",
+          "name": "Jeff The Killer",
+          "price_tix": 1000,
+          "value_note": "Killer berbayar termurah."
+        },
+        {
+          "category": "Killer",
+          "name": "The Priest",
+          "price_tix": 1000,
+          "value_note": "Killer gaya kombo dengan toolkit AoE."
+        },
+        {
+          "category": "Killer",
+          "name": "1x1x1x1",
+          "price_tix": 1700,
+          "value_note": "Killer bergaya mitos terbaru."
+        },
+        {
+          "category": "Killer",
+          "name": "Captain Rampage",
+          "price_tix": 2250,
+          "value_note": "Killer mid-premium dengan mobilitas tinggi."
+        },
+        {
+          "category": "Killer",
+          "name": "John Doe",
+          "price_tix": 2750,
+          "value_note": "Target Killer Tier List S premium."
+        },
+        {
+          "category": "Killer",
+          "name": "The Old Man",
+          "price_tix": 3500,
+          "value_note": "Killer aktif termahal."
+        },
+        {
+          "category": "Skin",
+          "name": "Jeff — The Jokester",
+          "price_tix": 100,
+          "value_note": "Skin toko unggulan dengan harga terendah."
+        },
+        {
+          "category": "Skin",
+          "name": "Jane Doe — Sinner #2",
+          "price_tix": 500,
+          "value_note": "Skin Jane Doe tingkat pemula."
+        },
+        {
+          "category": "Skin",
+          "name": "Jane Doe — Banana Lady",
+          "price_tix": 1000,
+          "value_note": "Skin Jane premium tingkat menengah."
+        },
+        {
+          "category": "Skin",
+          "name": "Jeff — Tinsel",
+          "price_tix": 1225,
+          "value_note": "Skin Jeff gaya event."
+        },
+        {
+          "category": "Skin",
+          "name": "Jane Doe — Yourself",
+          "price_tix": 5000,
+          "value_note": "Skin unggulan dengan harga tertinggi."
+        }
+      ]
+    },
+    "doomByFateUpdateLog": {
+      "title": "Log Pembaruan Doom by Fate",
+      "eyebrow": "Pembaruan",
+      "subtitle": "Riwayat patch dan konten utama yang membentuk meta saat ini — penambahan roster, rilis skin, dan perubahan keseimbangan.",
+      "intro": "Doom by Fate telah melewati patch playtest, alpha, dan event liburan dengan perubahan signifikan pada progres, Killer, Survivor, skin, dan peta. Garis waktu patch yang jelas membantu Anda memahami mengapa Tier List dan prioritas pembelian berubah.",
+      "items": [
+        {
+          "label": "2025-10-29",
+          "version": "Playtest 1.1",
+          "headline": "Pembersihan keseimbangan awal dan pembaruan tema skin Jeff pertama",
+          "highlights": [
+            "Damage C000lkidd dan Speed Hack disesuaikan.",
+            "Pergerakan John Doe dan cooldown Corroded Wave disesuaikan.",
+            "Jeff The Killer menerima tema khusus untuk skin Classic Jeff.",
+            "Masalah terkait peta dan bug lainnya diperbaiki."
+          ]
+        },
+        {
+          "label": "2025-11-09 – 2025-11-18",
+          "version": "Update 1.2 ALPHA",
+          "headline": "Peluncuran Alpha — Codes, leveling, dan pengaturan baru ditambahkan",
+          "highlights": [
+            "Sistem hitbox disesuaikan.",
+            "Sistem leveling ditambahkan.",
+            "Pengaturan mendapatkan hitbox yang terlihat dan toggle posisi klien.",
+            "Codes dapat ditukarkan melalui pengaturan.",
+            "Jeff menerima milestone ditambah skin Screech and Jokester.",
+            "Toko mendapatkan tema baru di Pembaruan 1.2.2."
+          ]
+        },
+        {
+          "label": "2025-11-30",
+          "version": "Update 0.1.3 — The Jeffy Update",
+          "headline": "Rework Jeff, rework EXP, rework Brawler, dan penyesuaian roster",
+          "highlights": [
+            "Jeff mendapatkan Rage, animasi baru, finisher baru, dan tema baru.",
+            "Sistem EXP dirombak dan perolehan EXP dikurangi.",
+            "Sand Throw milik Brawler dirombak.",
+            "Jalur Killer ditambahkan dan Killer berhenti menguras stamina di luar Terror Radius.",
+            "Crossroads dirombak dan pintasan Killer ditambahkan.",
+            "Tombol Log Pembaruan, UI pemain, dan indikator damage ditambahkan."
+          ]
+        },
+        {
+          "label": "Christmas event",
+          "version": "Update v0.1.4 — Pray The Bloxwatchers",
+          "headline": "The Priest tiba dan gelombang konten liburan memperluas toko",
+          "highlights": [
+            "The Priest ditambahkan sebagai Killer baru.",
+            "Captain Rampage menerima rework Tidal Cleaver.",
+            "Jane Doe mendapatkan skin Winter dan rework Bouquet.",
+            "Soldier menerima skin Jane Doe, Classic, SCP: Facility Guard, dan Toy.",
+            "Jeff The Killer menerima Tinsel.",
+            "Jolly Winter dan Mansion ditambahkan sebagai peta."
+          ]
+        },
+        {
+          "label": "Christmas finale",
+          "version": "Update v0.1.5 — The End of the Doomed Christmas",
+          "headline": "The Old Man tiba, efek status ditambahkan, dan Codes terbaru dirilis",
+          "highlights": [
+            "The Old Man ditambahkan sebagai Killer baru.",
+            "Burning, Bleeding, Undetectable, dan Slowness ditambahkan sebagai efek status.",
+            "Posisi tombol seluler sekarang dapat disesuaikan.",
+            "Mystery Hotel ditambahkan dan Rampaged Ship menerima objektif baru.",
+            "Skin baru termasuk Fire Elliot, Elliot, Hiroshi, Firefist, Captain Kringle, dan Frost Man.",
+            "Codes SORRYFORTHELONGWAIT dan THEOLDMAN ditambahkan.",
+            "Patch ini mengakhiri tahap Alpha."
+          ]
+        },
+        {
+          "label": "Post-patch",
+          "version": "Undocumented Update",
+          "headline": "Pembersihan rotasi peta setelah patch liburan",
+          "highlights": [
+            "Jolly Winter dihapus.",
+            "Mystery Hotel dihapus."
+          ]
+        }
+      ]
+    },
+    "doomByFate1x1x1x1Guide": {
+      "eyebrow": "Hot Character",
+      "title": "Doom By Fate 1x1x1x1 Guide",
+      "subtitle": "Stats, lore, visual identity, and update context for the next confirmed killer in Doom By Fate.",
+      "intro": "1x1x1x1 is one of the clearest hype characters in Doom By Fate right now. The live Roblox experience is currently branded around the 1x1x1x1 and Martyr update, and the wiki presents him as the next confirmed killer, so this module works best as a fast-read primer for players tracking the update.",
+      "items": [
+        {
+          "title": "Update Snapshot",
+          "meta": "Current update focus",
+          "description": "The Roblox experience is currently titled [1x1x1x1 & Martyr] Doom By Fate, and the wiki states that 1x1x1x1 is the next confirmed killer to be added."
+        },
+        {
+          "title": "Identity",
+          "meta": "The Adversary / 81619",
+          "description": "1x1x1x1 is also referred to as The Adversary or 81619. He is based on the classic Roblox myth/account 1x1x1x1, associated with Shedletsky / Telamon."
+        },
+        {
+          "title": "Cost and Base Stats",
+          "meta": "1700 cost",
+          "description": "The current page lists 1x1x1x1 at 1700 cost, 1500 health, Normal sprint speed, and 100 stamina."
+        },
+        {
+          "title": "Visual Read",
+          "meta": "Easy to recognize",
+          "description": "His design centers on a black skull, red eyes, a green dominus, green shoulder pads, black limbs, a rib-cage torso, and a glitching green outline across the body."
+        },
+        {
+          "title": "Lore Hook",
+          "meta": "Badlands myth",
+          "description": "The lore describes him as a fourth-dimensional entity and the adversary of 2x2, banished to the Badlands and now hunting survivors across dimensions with the Daemonshank."
+        }
+      ]
+    },
+    "doomByFateMartyrGuide": {
+      "eyebrow": "New Survivor",
+      "title": "Doom By Fate Martyr Guide",
+      "subtitle": "Martyr's blood economy kit: Sacrificial Blood, Blessed state, and risk-reward utility explained.",
+      "intro": "Martyr is one of the newest survivor searches tied directly to the current Doom By Fate update cycle. Her kit is built around generating Sacrificial Blood with offense, then converting it into healing, utility, or Blessed-state pressure.",
+      "items": [
+        {
+          "title": "Role Snapshot",
+          "meta": "Survivor • 500 cost",
+          "description": "Martyr is listed as a survivor with 500 cost, 100 health, Average walk speed, Average sprint speed, and 100 stamina."
+        },
+        {
+          "title": "Redemption",
+          "meta": "Q • 30s cooldown",
+          "description": "Martyr slashes forward with a dagger. On hit, it slows the killer for 2.5 to 3 seconds and gives 1 Sacrificial Blood. In Blessed state, the hit becomes a 2-second stun and consumes the Blessed effect after a successful hit."
+        },
+        {
+          "title": "Ascension",
+          "meta": "E • 25s cooldown",
+          "description": "Tap Ascension to spend 1 Sacrificial Blood and heal 25 to 30 HP. Hold Ascension to enter Blessed state instead of healing, changing how the rest of her kit works."
+        },
+        {
+          "title": "Sinner's Last Wish",
+          "meta": "R • 45s cooldown",
+          "description": "Tap to reveal the killer for 10 seconds while Martyr is briefly locked in place. Hold to stab herself three times for a burst of speed, taking 1.5x damage while weakened. In Blessed state, the move becomes a cleaner speed burst."
+        },
+        {
+          "title": "Playstyle Read",
+          "meta": "Aggressive utility",
+          "description": "Martyr's kit rewards players who are willing to trade safety for tempo and utility. Hit to build Sacrificial Blood, then convert into healing, crowd control, or Blessed-state pressure."
+        }
+      ]
+    },
+    "doomByFateJeffTheKillerGuide": {
+      "eyebrow": "Popular Killer",
+      "title": "Doom By Fate Jeff The Killer Guide",
+      "subtitle": "Jeff's two-phase stealth-to-rage loop, damage numbers, skin picks, and winning habits explained.",
+      "intro": "Jeff The Killer is a classic high-interest killer who combines name recognition with a very understandable gameplay loop. He is an ambusher-rushdown hybrid who wants to stalk, build meter, force awkward survivor reactions, and then explode into a short but deadly Rage window.",
+      "items": [
+        {
+          "label": "Why Jeff is strong",
+          "content": "Jeff is a hybrid Ambusher-Rushdown killer with a two-phase playstyle: use Murderous Intent to build Stealth Gauge, then activate Rage to gain stronger attacks, better pressure, more speed, and shorter stun duration. He costs 1000, has 950 health, and 110 stamina."
+        },
+        {
+          "label": "The core game plan",
+          "content": "Murderous Intent on Q has a 6-second cooldown and turns Jeff invisible while briefly highlighting survivors and building his Stalk Gauge. Once the meter is full, Rage on T activates his ENRAGED state for around 10 seconds, buffs all abilities, and increases movement speed."
+        },
+        {
+          "label": "Best damage tools",
+          "content": "Slash and Stab deals 22 front damage or 24 back damage, rising to 24.9 / 27.1 in Rage. Nighty Night on E deals 20 total damage and 5 seconds of Bleeding; the back-hit version deals 25 total damage and 10 seconds of Bleeding. Bloodthirst on R is a forward dash slash that deals 15 damage and 3 seconds of Bleeding."
+        },
+        {
+          "label": "How to play him well",
+          "content": "Use crouch ambushes on generator-focused survivors, prioritize back hits for higher damage, and save Bloodthirst for low-stamina targets. Nighty Night does not bypass Soldier's block, and Bloodthirst is your catch-up tool, not a combo extender."
+        },
+        {
+          "label": "Useful skin picks",
+          "content": "My name is Jeff The Killer yo? costs 500. Classic costs 600 and restores the original look. Screech costs 750 and has a darker visual profile that makes stealth easier. Tinsel costs 1225."
+        }
+      ]
+    },
+    "doomByFateJohnDoeGuide": {
+      "eyebrow": "Myth Killer",
+      "title": "Doom By Fate John Doe Guide",
+      "subtitle": "John Doe's tank pressure, spike control, grab tools, and the habits that make him dominate matches.",
+      "intro": "John Doe? is not a simple stat-check character. He is expensive, heavy, and extremely punishing when the player knows maps and spacing. His anti-stun passive, route-control, grab and rush tools all combine to make him overwhelming once he starts chaining space control into damage.",
+      "items": [
+        {
+          "label": "What kind of killer he is",
+          "content": "John Doe? is a bulky, charging tank killer focused on brute force, rushdown, and punishing survivor ability usage. He is also listed as the second most expensive killer in the game. His current statline shows 2750 cost, 2000 health, 37.55 sprint speed, and 100 stamina."
+        },
+        {
+          "label": "Passive and basic pressure",
+          "content": "His passive, Invincible, means he cannot be stunned in the normal way. Stuns become slowdown instead, and his moves cannot be interrupted. His M1, Punch and Slash, has a 1.5-second cooldown and deals 30 damage after a short windup."
+        },
+        {
+          "label": "Corroded Wave control",
+          "content": "Corroded Wave on Q creates corrupted trails that deal 2.5 damage per second for 5 seconds and briefly highlights survivors. The second Q use sends out a straight line of spikes that deals 15 damage and ragdolls for roughly 4 seconds, making it one of his best anti-loop and cut-off tools."
+        },
+        {
+          "label": "Grab and chase tools",
+          "content": "Command Grab on E deals 25 damage on a successful grab, and the thrown survivor can knock down and deal 15 damage to another survivor they collide with. Corrupted Force on R is a rush that drags a target for 12 damage plus 10 more when it ends; if the rush misses, the ending swing still deals 32 damage."
+        },
+        {
+          "label": "How strong players use him",
+          "content": "Learn every map, focus one survivor at a time, use Corroded Wave to ragdoll and close distance, and save Command Grab or Corrupted Force for open space or low-stamina targets. John Doe? becomes overwhelming once he starts chaining space control into damage."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked",
+    "titleHighlight": "Questions",
+    "subtitle": "Common questions about Doom By Fate on Roblox",
+    "questions": [
+      {
+        "question": "How do I redeem codes in Doom By Fate?",
+        "answer": "To redeem a code in Doom By Fate, join the official 'what is what is' Roblox group first. Then launch the game, click the cog icon at the bottom of the screen, type your code into the CODE box, and press Enter to claim your reward."
+      },
+      {
+        "question": "What is Doom By Fate on Roblox?",
+        "answer": "Doom By Fate is an asymmetric horror game on Roblox inspired by games like Dead by Daylight. One player controls a killer trying to eliminate survivors, while up to five other players work together to complete objectives and escape. The game features multiple killers, survivors, and maps."
+      },
+      {
+        "question": "Who are the best killers in Doom By Fate?",
+        "answer": "John Doe? is currently the top-tier killer in Doom By Fate thanks to his massive HP pool, anti-stun immunity, and Corroded Wave zoning. Jeff The Killer and Captain Rampage are strong A-tier picks for their burst and ranged pressure. C000lkid is the free starting killer and a solid option for beginners."
+      },
+      {
+        "question": "Who are the best survivors in Doom By Fate?",
+        "answer": "Jane Doe and Jester are the S-tier survivors in Doom By Fate. Jane Doe excels at team healing and sustain, while Jester's traps provide strong chase control. Brawler and Soldier are reliable A-tier picks for aggressive play, and Bacon is the free starter survivor with useful utility skills."
+      },
+      {
+        "question": "Is Doom By Fate free to play?",
+        "answer": "Yes, Doom By Fate is free to play on Roblox. The base game is accessible at no cost, with some killers and survivors available for purchase using in-game Tix currency. You can earn Tix through gameplay and by redeeming active codes."
+      },
+      {
+        "question": "How many players can play Doom By Fate at once?",
+        "answer": "Doom By Fate supports up to 6 players per match — one killer and up to five survivors. The asymmetric setup means every match is a tense 1-vs-many experience."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Play Doom By Fate?",
+    "description": "Join the Doom By Fate community on Discord for codes, guides, updates, and discussions with thousands of players!",
+    "joinCommunity": "Join Discord",
+    "joinGame": "Play on Roblox"
+  },
+  "footer": {
+    "title": "Doom By Fate Wiki",
+    "description": "Your complete resource hub for Doom By Fate codes, killers, survivors, tier lists, maps, skins, and update guides.",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
+    "discord": "Discord",
+    "reddit": "Reddit",
+    "youtube": "YouTube",
+    "roblox": "Play on Roblox",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Doom By Fate Wiki. Not affiliated with the developers of Doom By Fate.",
+    "disclaimer": "Unofficial fan-made resource website."
+  },
+  "pages": {
+    "codes": {
+      "title": "Codes Doom By Fate",
+      "description": "Codes Doom By Fate terbaru yang masih berfungsi untuk mendapatkan emas, permata, dan hadiah eksklusif gratis. Diperbarui secara berkala dengan Codes aktif yang terverifikasi.",
+      "metaTitle": "Codes Doom By Fate - Hadiah Gratis & Panduan Penukaran",
+      "metaDescription": "Dapatkan emas, permata, dan hadiah eksklusif gratis dengan Codes Doom By Fate yang aktif. Diperbarui secara berkala dengan Codes yang terverifikasi berfungsi.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "Apa itu Codes Doom By Fate?",
+      "whatIsDescription": "Codes Doom By Fate adalah string promosi khusus yang dirilis oleh pengembang untuk memberikan hadiah dalam game gratis kepada pemain. Menukarkan Codes ini adalah cara tercepat untuk mendapatkan emas, peningkatan pengalaman, dan kosmetik eksklusif tanpa menghabiskan Robux.",
+      "why": "Mengapa Menukarkan Codes Doom By Fate?",
+      "whySteps": {
+        "step1Title": "Mata Uang Dalam Game Gratis",
+        "step1Description": "Codes sering kali memberikan emas dan permata yang jika tidak, akan membutuhkan waktu berjam-jam grinding dalam pertandingan untuk mendapatkannya.",
+        "step2Title": "Kosmetik Eksklusif",
+        "step2Description": "Beberapa Codes membuka skin dan aksesori edisi terbatas yang tidak tersedia melalui cara lain di dalam game.",
+        "step3Title": "Peningkatan Pengalaman",
+        "step3Description": "Codes pengganda XP membantu Anda naik level lebih cepat, membuka Killer baru, Survivor baru, dan hadiah progres."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Codes"
+    },
+    "guide": {
+      "title": "Panduan Doom By Fate",
+      "description": "Panduan Doom By Fate komprehensif yang mencakup mekanik gameplay, Tier List, strategi Killer, dan tips Survivor untuk semua tingkat keahlian.",
+      "metaTitle": "Panduan Doom By Fate - Tips, Tier List & Strategi",
+      "metaDescription": "Kuasai Doom By Fate dengan panduan komprehensif kami yang mencakup Tier List Killer, tips Survivor, sistem milestone, dan strategi tingkat lanjut.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "Apa itu Panduan Doom By Fate?",
+      "whatIsDescription": "Panduan Doom By Fate adalah artikel mendalam yang mencakup setiap aspek permainan, mulai dari dasar-dasar untuk pemula hingga strategi kompetitif tingkat lanjut. Baik Anda ingin mendominasi sebagai Killer atau melarikan diri sebagai Survivor, panduan ini akan membantu Anda.",
+      "why": "Mengapa Membaca Panduan Doom By Fate?",
+      "whySteps": {
+        "step1Title": "Kuasai Mekanik Killer & Survivor",
+        "step1Description": "Pelajari kemampuan unik, kekuatan, dan kelemahan setiap karakter untuk membuat keputusan yang lebih baik dalam pertandingan.",
+        "step2Title": "Naikkan Peringkat Tier",
+        "step2Description": "Pahami Killer dan Survivor mana yang saat ini berada di tier atas dan alasannya, sehingga Anda dapat memilih opsi terbaik untuk gaya bermain Anda.",
+        "step3Title": "Buka Mekanik Tersembunyi",
+        "step3Description": "Temukan sistem milestone, perintah server privat, dan teknik tingkat lanjut yang tidak diketahui oleh sebagian besar pemain."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan"
+    },
+    "killers": {
+      "title": "Killer Doom By Fate",
+      "description": "Daftar lengkap Killer Doom By Fate dengan kemampuan, statistik, strategi, dan rincian karakter mendalam untuk setiap Killer di dalam game.",
+      "metaTitle": "Killer Doom By Fate - Panduan Semua Killer & Kemampuan",
+      "metaDescription": "Panduan lengkap Killer Doom By Fate yang mencakup John Doe, The Priest, Jeff the Killer, SCP-106, serta kemampuan dan strategi terbaik setiap Killer.",
+      "categoryLabel": "KILLERS",
+      "whatIs": "Apa itu Killer Doom By Fate?",
+      "whatIsDescription": "Killer Doom By Fate adalah karakter antagonis yang dapat dipilih pemain untuk memburu Survivor. Setiap Killer, mulai dari John Doe yang ikonik hingga SCP-106 yang mengerikan, memiliki kemampuan unik, pola gerakan, dan kekuatan khusus yang menentukan jalannya pertandingan.",
+      "why": "Mengapa Mempelajari Killer Doom By Fate?",
+      "whySteps": {
+        "step1Title": "Pilih Killer yang Tepat",
+        "step1Description": "Setiap Killer memiliki kekuatan yang berbeda. Memahami kemampuan unik mereka membantu Anda memilih opsi terbaik untuk gaya bermain Anda.",
+        "step2Title": "Lawan Killer Musuh",
+        "step2Description": "Sebagai Survivor, mengetahui kemampuan dan kelemahan setiap Killer memungkinkan Anda menghindarinya dengan efektif dan bertahan hidup lebih lama.",
+        "step3Title": "Kuasai Teknik Tingkat Lanjut",
+        "step3Description": "Setiap Killer memiliki teknik tersembunyi dan opsi gerakan tingkat lanjut yang membedakan pemain bagus dari pemain hebat."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Killer"
+    },
+    "survivors": {
+      "title": "Survivor Doom By Fate",
+      "description": "Panduan lengkap untuk semua Survivor Doom By Fate termasuk Jane Doe, Jester, Martyr, Brawler, Soldier, dan Bacon dengan kemampuan dan tips.",
+      "metaTitle": "Survivor Doom By Fate - Panduan Semua Survivor & Kemampuan",
+      "metaDescription": "Panduan Survivor Doom By Fate yang mencakup Jane Doe, Jester, Martyr, Brawler, Soldier, dan Bacon dengan rincian kemampuan lengkap dan strategi melarikan diri.",
+      "categoryLabel": "SURVIVORS",
+      "whatIs": "Apa itu Survivor Doom By Fate?",
+      "whatIsDescription": "Survivor Doom By Fate adalah karakter pemain yang mencoba melarikan diri atau bertahan lebih lama dari Killer. Setiap Survivor seperti Jane Doe, Jester, dan Brawler membawa kemampuan dan gaya bermain yang berbeda untuk membantu tim mereka bertahan dalam pertandingan.",
+      "why": "Mengapa Mempelajari Survivor Doom By Fate?",
+      "whySteps": {
+        "step1Title": "Pilih Survivor Terbaik",
+        "step1Description": "Survivor yang berbeda unggul dalam situasi yang berbeda. Mempelajari kemampuan mereka membantu Anda memilih karakter yang paling efektif untuk setiap pertandingan.",
+        "step2Title": "Kuasai Strategi Bertahan Hidup",
+        "step2Description": "Setiap Survivor memiliki alat pelarian dan kemampuan pendukung yang unik. Mengetahui cara menggunakannya secara efektif akan meningkatkan tingkat kemenangan Anda secara drastis.",
+        "step3Title": "Bangun Tim yang Efektif",
+        "step3Description": "Memahami sinergi Survivor memungkinkan Anda berkoordinasi dengan rekan tim untuk memaksimalkan peluang grup Anda melarikan diri dari Killer."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Survivor"
+    },
+    "skins": {
+      "title": "Skin Doom By Fate",
+      "description": "Semua skin Doom By Fate untuk Killer dan Survivor termasuk skin milestone, edisi terbatas, dan kosmetik terbaik untuk dibeli dengan Robux Anda.",
+      "metaTitle": "Skin Doom By Fate - Panduan Semua Kosmetik & Kostum",
+      "metaDescription": "Lihat semua skin Doom By Fate untuk Killer dan Survivor. Temukan skin milestone terbaik, edisi terbatas, dan kosmetik mana yang layak untuk dibeli.",
+      "categoryLabel": "SKINS",
+      "whatIs": "Apa itu Skin Doom By Fate?",
+      "whatIsDescription": "Skin Doom By Fate adalah kostum kosmetik yang mengubah tampilan visual Killer dan Survivor. Mulai dari hadiah milestone yang diperoleh melalui gameplay hingga kosmetik edisi terbatas eksklusif yang dibeli dengan Robux.",
+      "why": "Mengapa Menjelajahi Skin Doom By Fate?",
+      "whySteps": {
+        "step1Title": "Temukan Kosmetik Terbaik",
+        "step1Description": "Dengan puluhan skin yang tersedia, panduan kami membantu Anda mengidentifikasi kosmetik yang paling mengesankan secara visual dan populer di dalam game.",
+        "step2Title": "Dapatkan Skin Milestone secara Gratis",
+        "step2Description": "Banyak skin yang dapat dibuka melalui sistem milestone. Pelajari milestone mana yang memberikan kosmetik terbaik tanpa menghabiskan Robux.",
+        "step3Title": "Evaluasi Edisi Terbatas",
+        "step3Description": "Beberapa skin hanya tersedia untuk waktu terbatas. Mengetahui mana yang layak untuk investasi membantu Anda membuat keputusan pembelian yang cerdas."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Skin"
+    },
+    "lore": {
+      "title": "Lore Doom By Fate",
+      "description": "Selami lore Doom By Fate yang mencakup latar belakang John Doe, Jane Doe, Elliot, dan alam semesta narasi gelap game ini.",
+      "metaTitle": "Lore Doom By Fate - Karakter & Cerita Dijelaskan",
+      "metaDescription": "Jelajahi lore Doom By Fate yang mendalam mencakup John Doe, Jane Doe, Elliot, dan alam semesta narasi lengkap di balik game horor Roblox yang populer ini.",
+      "categoryLabel": "LORE",
+      "whatIs": "Apa itu Lore Doom By Fate?",
+      "whatIsDescription": "Lore Doom By Fate mencakup latar belakang narasi yang kaya dari karakter dan alam semesta game ini. Dari hubungan antara John Doe dan Jane Doe hingga latar belakang misterius Elliot, game ini menampilkan cerita mendalam yang menghargai pemain yang menjelajahinya.",
+      "why": "Mengapa Menjelajahi Lore Doom By Fate?",
+      "whySteps": {
+        "step1Title": "Pahami Motivasi Karakter",
+        "step1Description": "Mengetahui latar belakang setiap Killer dan Survivor memperdalam hubungan Anda dengan game dan menjelaskan mengapa karakter tertentu berperilaku seperti itu.",
+        "step2Title": "Temukan Koneksi Tersembunyi",
+        "step2Description": "Lore mengungkapkan hubungan mengejutkan antar karakter, seperti hubungan saudara antara John Doe dan Jane Doe.",
+        "step3Title": "Hargai Kedalaman Game",
+        "step3Description": "Doom By Fate mengambil inspirasi dari legenda internet nyata dan game seperti Forsaken, menciptakan jalinan lore horor yang kaya untuk dijelajahi."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Lore"
+    },
+    "audio": {
+      "title": "Audio Doom by Fate",
+      "description": "Soundtrack Doom by Fate, analisis OST, dan panduan audio termasuk tema Coolkid yang ikonik dan semua trek musik dalam game.",
+      "metaTitle": "Audio Doom by Fate - Panduan Soundtrack & OST",
+      "metaDescription": "Jelajahi panduan audio Doom by Fate lengkap yang mencakup OST, tema Coolkid, dan semua soundtrack dalam game dengan analisis mendetail.",
+      "categoryLabel": "AUDIO",
+      "whatIs": "Apa itu Audio Doom by Fate?",
+      "whatIsDescription": "Audio Doom by Fate mencakup soundtrack lengkap dan desain suara game tersebut. OST-nya menampilkan trek industrial metal yang intens seperti tema Coolkid yang ikonik yang meningkatkan pengalaman horor atmosferik di setiap pertandingan.",
+      "why": "Mengapa Menjelajahi Audio Doom by Fate?",
+      "whySteps": {
+        "step1Title": "Temukan OST Lengkap",
+        "step1Description": "Soundtrack Doom by Fate menampilkan trek unik untuk setiap Killer dan peta. Mengetahui musiknya membantu Anda mengidentifikasi apa yang terjadi dalam pertandingan.",
+        "step2Title": "Apresiasi Desain Suara",
+        "step2Description": "Isyarat audio game ini adalah alat gameplay. Mengenali suara spesifik Killer memberikan Survivor keunggulan kompetitif saat menghindari pengejaran.",
+        "step3Title": "Jelajahi Favorit Komunitas",
+        "step3Description": "Trek seperti tema Coolkid telah menjadi ikonik di komunitas Doom by Fate. Pelajari mengapa bagian tertentu sangat beresonansi dengan basis pemain."
+      },
+      "featured": "Unggulan & Esensial",
+      "all": "Semua Audio"
+    }
   }
 }
