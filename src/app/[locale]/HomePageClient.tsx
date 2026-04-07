@@ -6,10 +6,14 @@ import {
   BookOpen,
   Check,
   ChevronDown,
+  Clock,
+  Coins,
   Copy,
   ExternalLink,
   Gift,
   Map,
+  Palette,
+  ShoppingCart,
   Shield,
   Skull,
   Sparkles,
@@ -65,6 +69,70 @@ function LinkedTitle({
     )
   }
   return <>{children}</>
+}
+
+// Accordion item for Tix Guide sections
+function AccordionItem({ section }: { section: any }) {
+  const [open, setOpen] = useState(false)
+  return (
+    <div className="rounded-xl border border-border overflow-hidden">
+      <button
+        type="button"
+        onClick={() => setOpen(!open)}
+        className="w-full flex items-center justify-between px-6 py-4 bg-[hsl(var(--nav-theme)/0.04)] hover:bg-[hsl(var(--nav-theme)/0.08)] transition-colors text-left"
+      >
+        <div>
+          <p className="font-semibold">{section.section}</p>
+          <p className="text-sm text-muted-foreground mt-0.5">{section.summary}</p>
+        </div>
+        <ChevronDown className={`w-5 h-5 text-[hsl(var(--nav-theme-light))] shrink-0 transition-transform ${open ? 'rotate-180' : ''}`} />
+      </button>
+      {open && (
+        <div className="border-t border-border p-4">
+          {section.type === 'codes' && (
+            <div className="space-y-3">
+              {section.entries.map((e: any, i: number) => (
+                <div key={i} className="flex items-start justify-between gap-4 p-3 rounded-lg bg-card border border-border">
+                  <div>
+                    <span className="font-mono text-sm font-bold text-[hsl(var(--nav-theme-light))]">{e.code}</span>
+                    <p className="text-sm text-muted-foreground mt-0.5">{e.reward}</p>
+                    {e.notes && <p className="text-xs text-muted-foreground mt-1">{e.notes}</p>}
+                  </div>
+                  <span className="text-xs px-2 py-0.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 shrink-0">{e.status}</span>
+                </div>
+              ))}
+            </div>
+          )}
+          {section.type === 'characters' && (
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              {section.entries.map((e: any, i: number) => (
+                <div key={i} className="p-3 rounded-lg bg-card border border-border">
+                  <div className="flex items-center justify-between mb-1">
+                    <span className="font-semibold text-sm">{e.name}</span>
+                    <span className="text-xs text-[hsl(var(--nav-theme-light))] font-medium">
+                      {e.cost_tix === 0 ? 'Free' : `${e.cost_tix} Tix`}
+                    </span>
+                  </div>
+                  <p className="text-xs text-muted-foreground">{e.role || e.tier}</p>
+                  <p className="text-xs text-muted-foreground mt-1">{e.why_buy}</p>
+                </div>
+              ))}
+            </div>
+          )}
+          {section.type === 'paths' && (
+            <div className="space-y-2">
+              {section.entries.map((e: any, i: number) => (
+                <div key={i} className="flex items-center gap-4 p-3 rounded-lg bg-card border border-border">
+                  <span className="text-sm font-bold text-[hsl(var(--nav-theme-light))] shrink-0 w-20 text-right">{e.target_tix} Tix</span>
+                  <span className="text-sm text-muted-foreground">{e.plan}</span>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+  )
 }
 
 interface HomePageClientProps {
@@ -295,7 +363,8 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
               // 映射卡片索引到 section ID
               const sectionIds = [
                 'doom-by-fate-codes', 'doom-by-fate-tier-list', 'doom-by-fate-survivors', 'doom-by-fate-killers',
-                'doom-by-fate-beginner-guide', 'doom-by-fate-maps', 'doom-by-fate-survivors-tier-list', 'doom-by-fate-killers-tier-list'
+                'doom-by-fate-beginner-guide', 'doom-by-fate-maps', 'doom-by-fate-survivors-tier-list', 'doom-by-fate-killers-tier-list',
+                'doom-by-fate-tix-guide', 'doom-by-fate-skins', 'doom-by-fate-shop-prices', 'doom-by-fate-update-log'
               ]
               const sectionId = sectionIds[index]
 
@@ -782,6 +851,195 @@ export default function HomePageClient({ latestArticles, moduleLinkMap, locale }
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 9: Doom by Fate Tix Guide */}
+      <section id="doom-by-fate-tix-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Coins className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.doomByFateTixGuide.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['doomByFateTixGuide']} locale={locale}>
+                {t.modules.doomByFateTixGuide.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.doomByFateTixGuide.subtitle}</p>
+          </div>
+          <p className="scroll-reveal text-muted-foreground text-center mb-10 max-w-2xl mx-auto">{t.modules.doomByFateTixGuide.intro}</p>
+
+          <div className="scroll-reveal space-y-4">
+            {t.modules.doomByFateTixGuide.sections.map((sec: any, si: number) => (
+              <AccordionItem key={si} section={sec} />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 10: Doom by Fate Skins */}
+      <section id="doom-by-fate-skins" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Palette className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.doomByFateSkins.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['doomByFateSkins']} locale={locale}>
+                {t.modules.doomByFateSkins.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.doomByFateSkins.subtitle}</p>
+          </div>
+          <p className="scroll-reveal text-muted-foreground text-center mb-10 max-w-2xl mx-auto">{t.modules.doomByFateSkins.intro}</p>
+
+          <div className="scroll-reveal space-y-8">
+            {t.modules.doomByFateSkins.groups.map((group: any, gi: number) => (
+              <div key={gi} className="rounded-xl border border-border overflow-hidden">
+                {/* Group header */}
+                <div className="flex items-center gap-3 px-6 py-4 bg-[hsl(var(--nav-theme)/0.06)] border-b border-border">
+                  <div className="w-8 h-8 rounded-lg flex items-center justify-center bg-[hsl(var(--nav-theme)/0.15)] border border-[hsl(var(--nav-theme)/0.3)]">
+                    <Palette className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <div>
+                    <p className="font-semibold">{group.label}</p>
+                    <p className="text-xs text-muted-foreground">{group.category}</p>
+                  </div>
+                </div>
+                {/* Skin cards grid */}
+                <div className="p-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+                  {group.cards.map((card: any, ci: number) => (
+                    <div key={ci} className="rounded-lg border border-border bg-card p-4 hover:border-[hsl(var(--nav-theme)/0.4)] transition-colors">
+                      <div className="flex items-start justify-between mb-2">
+                        <h3 className="font-semibold text-sm leading-tight">{card.name}</h3>
+                        <span className={`text-xs px-2 py-0.5 rounded-full shrink-0 ml-2 ${
+                          card.status === 'Available'
+                            ? 'bg-emerald-500/10 border border-emerald-500/30 text-emerald-400'
+                            : card.status === 'Coming Soon'
+                            ? 'bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]'
+                            : 'bg-amber-500/10 border border-amber-500/30 text-amber-400'
+                        }`}>
+                          {card.price_tix !== null && card.price_tix !== undefined
+                            ? `${card.price_tix} Tix`
+                            : card.status}
+                        </span>
+                      </div>
+                      <p className="text-xs text-muted-foreground">{card.note}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 11: Doom by Fate Shop Prices */}
+      <section id="doom-by-fate-shop-prices" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <ShoppingCart className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.doomByFateShopPrices.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['doomByFateShopPrices']} locale={locale}>
+                {t.modules.doomByFateShopPrices.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.doomByFateShopPrices.subtitle}</p>
+          </div>
+          <p className="scroll-reveal text-muted-foreground text-center mb-10 max-w-2xl mx-auto">{t.modules.doomByFateShopPrices.intro}</p>
+
+          <div className="scroll-reveal rounded-xl border border-border overflow-hidden">
+            {/* Table header */}
+            <div className="grid grid-cols-4 gap-0 bg-[hsl(var(--nav-theme)/0.08)] border-b border-border">
+              {t.modules.doomByFateShopPrices.tableHeaders.map((h: string, hi: number) => (
+                <div key={hi} className={`px-4 py-3 text-sm font-semibold ${hi === 0 ? 'col-span-1' : ''}`}>{h}</div>
+              ))}
+            </div>
+            {/* Table rows grouped by category */}
+            {(['Survivor', 'Killer', 'Skin'] as const).map((cat) => {
+              const rows = t.modules.doomByFateShopPrices.items.filter((item: any) => item.category === cat)
+              return rows.map((item: any, ri: number) => (
+                <div
+                  key={`${cat}-${ri}`}
+                  className="grid grid-cols-4 gap-0 border-b border-border last:border-b-0 hover:bg-white/[0.02] transition-colors"
+                >
+                  <div className="px-4 py-3 flex items-center">
+                    <span className={`text-xs px-2 py-0.5 rounded-full border ${
+                      cat === 'Survivor'
+                        ? 'bg-emerald-500/10 border-emerald-500/30 text-emerald-400'
+                        : cat === 'Killer'
+                        ? 'bg-red-500/10 border-red-500/30 text-red-400'
+                        : 'bg-purple-500/10 border-purple-500/30 text-purple-400'
+                    }`}>{item.category}</span>
+                  </div>
+                  <div className="px-4 py-3 font-medium text-sm flex items-center">{item.name}</div>
+                  <div className="px-4 py-3 flex items-center">
+                    <span className={`text-sm font-bold ${item.price_tix === 0 ? 'text-emerald-400' : 'text-[hsl(var(--nav-theme-light))]'}`}>
+                      {item.price_tix === 0 ? 'Free' : `${item.price_tix.toLocaleString()} Tix`}
+                    </span>
+                  </div>
+                  <div className="px-4 py-3 text-sm text-muted-foreground flex items-center">{item.value_note}</div>
+                </div>
+              ))
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 12: Doom by Fate Update Log */}
+      <section id="doom-by-fate-update-log" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-5xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Clock className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.doomByFateUpdateLog.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <LinkedTitle linkData={moduleLinkMap['doomByFateUpdateLog']} locale={locale}>
+                {t.modules.doomByFateUpdateLog.title}
+              </LinkedTitle>
+            </h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">{t.modules.doomByFateUpdateLog.subtitle}</p>
+          </div>
+          <p className="scroll-reveal text-muted-foreground text-center mb-10 max-w-2xl mx-auto">{t.modules.doomByFateUpdateLog.intro}</p>
+
+          <div className="scroll-reveal relative">
+            {/* Timeline line */}
+            <div className="absolute left-6 top-0 bottom-0 w-px bg-[hsl(var(--nav-theme)/0.2)] hidden md:block" />
+            <div className="space-y-6">
+              {t.modules.doomByFateUpdateLog.items.map((entry: any, ei: number) => (
+                <div key={ei} className="relative md:pl-16">
+                  {/* Timeline dot */}
+                  <div className="absolute left-4 top-5 w-4 h-4 rounded-full bg-[hsl(var(--nav-theme))] border-2 border-background hidden md:block shadow-[0_0_8px_hsl(var(--nav-theme)/0.5)]" />
+                  <div className="rounded-xl border border-border bg-card p-6 hover:border-[hsl(var(--nav-theme)/0.4)] transition-colors">
+                    <div className="flex flex-wrap items-center gap-3 mb-3">
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))] font-mono">
+                        {entry.label}
+                      </span>
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-white/5 border border-border text-muted-foreground">
+                        {entry.version}
+                      </span>
+                    </div>
+                    <h3 className="font-semibold mb-3">{entry.headline}</h3>
+                    <ul className="space-y-1.5">
+                      {entry.highlights.map((hl: string, hi: number) => (
+                        <li key={hi} className="flex items-start gap-2 text-sm text-muted-foreground">
+                          <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 shrink-0" />
+                          <span>{hl}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>

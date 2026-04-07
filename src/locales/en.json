@@ -98,6 +98,26 @@
         "icon": "TrendingUp",
         "title": "Doom By Fate Killers Tier List",
         "description": "Which killers are worth your Tix right now"
+      },
+      {
+        "icon": "Coins",
+        "title": "Doom by Fate Tix Guide",
+        "description": "Spend your Tix wisely with the best buy order for survivors and killers"
+      },
+      {
+        "icon": "Palette",
+        "title": "Doom by Fate Skins",
+        "description": "Featured skins, unlock types, and cosmetic categories for Jane Doe and Jeff"
+      },
+      {
+        "icon": "ShoppingCart",
+        "title": "Doom by Fate Shop Prices",
+        "description": "Current survivor, killer, and skin price reference for quick comparison"
+      },
+      {
+        "icon": "Clock",
+        "title": "Doom by Fate Update Log",
+        "description": "Patch history and major content beats shaping the current meta"
       }
     ]
   },
@@ -648,6 +668,221 @@
                 "Dedicated killer page"
               ]
             }
+          ]
+        }
+      ]
+    },
+    "doomByFateTixGuide": {
+      "title": "Doom by Fate Tix Guide",
+      "eyebrow": "Economy",
+      "subtitle": "Use the current code pool to jump-start your roster, then spend around the cheapest high-impact survivors first. Built for players deciding between early survivor value and their first paid killer.",
+      "intro": "Tix is the main currency used for survivors, killers, and skins. The fastest burst of Tix comes from the active code pool, while the most efficient early spending route is centered on low-cost survivors that already rank well in the current meta.",
+      "sections": [
+        {
+          "section": "Current active code pool",
+          "summary": "Three codes are currently active and together provide 4500 Tix, plus one code-exclusive Jeff skin.",
+          "type": "codes",
+          "entries": [
+            { "code": "DOOMEDBYFATE", "reward": "Jeff The Killer Merchandise skin + 2000 Tix", "status": "Active", "notes": "Requires joining the group to redeem." },
+            { "code": "SORRYFORTHELONGWAIT", "reward": "1500 Tix", "status": "Active", "notes": "Added in the latest code wave." },
+            { "code": "THEOLDMAN", "reward": "1000 Tix", "status": "Active", "notes": "Pairs well with an early killer unlock plan." }
+          ]
+        },
+        {
+          "section": "Best first survivor buys",
+          "summary": "The strongest low-cost starting buys are Jane Doe and Jester at 450 Tix each.",
+          "type": "characters",
+          "entries": [
+            { "name": "Jane Doe", "cost_tix": 450, "role": "Support / survivalist", "why_buy": "S-tier pick with team healing, self-heal, and killer slow." },
+            { "name": "Jester", "cost_tix": 450, "role": "Ambush trickster", "why_buy": "S-tier pick with debuffs, slows, and blinds." },
+            { "name": "Brawler", "cost_tix": 500, "role": "Sentinel front-liner", "why_buy": "Strong offensive defender with long stun pressure." },
+            { "name": "Soldier", "cost_tix": 750, "role": "Sentinel protector", "why_buy": "Higher cost, but offers block, counterplay, and carry utility." },
+            { "name": "Bacon", "cost_tix": 0, "role": "Starter survivalist", "why_buy": "Free learning pick with tracking and chase reset tools." }
+          ]
+        },
+        {
+          "section": "Best first killer buys",
+          "summary": "If you want your first paid killer fast, Jeff is the cheapest entry. For the strongest premium target, save for John Doe.",
+          "type": "characters",
+          "entries": [
+            { "name": "C000lkid", "cost_tix": 0, "tier": "B", "why_buy": "Free starting killer for learning routes and pressure basics." },
+            { "name": "Jeff The Killer", "cost_tix": 1000, "tier": "A", "why_buy": "Cheapest paid killer and a strong first unlock." },
+            { "name": "Captain Rampage", "cost_tix": 2250, "tier": "A", "why_buy": "Good mid-game purchase for players who like movement-heavy chase kits." },
+            { "name": "John Doe", "cost_tix": 2750, "tier": "S", "why_buy": "Best long-term killer target if you want a top-tier brute/rushdown pick." }
+          ]
+        },
+        {
+          "section": "Recommended spending paths",
+          "summary": "These breakpoints are the cleanest ways to turn code rewards into a better roster.",
+          "type": "paths",
+          "entries": [
+            { "target_tix": 450, "plan": "Unlock Jane Doe or Jester first." },
+            { "target_tix": 900, "plan": "Unlock both Jane Doe and Jester for the strongest low-cost survivor core." },
+            { "target_tix": 1000, "plan": "Unlock Jeff The Killer if you want your first paid killer quickly." },
+            { "target_tix": 1400, "plan": "Unlock Jane Doe, Jester, and Brawler for a broad early survivor pool." },
+            { "target_tix": 2750, "plan": "Save toward John Doe if your goal is a premium top-tier killer." }
+          ]
+        }
+      ]
+    },
+    "doomByFateSkins": {
+      "title": "Doom by Fate Skins",
+      "eyebrow": "Cosmetics",
+      "subtitle": "Current skin structure for Jane Doe and Jeff The Killer — shop skins, milestone unlocks, code skins, and upcoming entries.",
+      "intro": "Doom by Fate uses skins as a major collection layer. Jane Doe has a broad shop lineup plus upcoming skins, while Jeff The Killer has the deepest progression spread thanks to milestone rewards and his code-based Merchandise skin.",
+      "groups": [
+        {
+          "label": "Jane Doe — Shop Skins",
+          "character": "Jane Doe",
+          "category": "Shop",
+          "cards": [
+            { "name": "Sinner #2", "price_tix": 500, "status": "Available", "note": "Faust-inspired shop skin." },
+            { "name": "Overtime", "price_tix": 700, "status": "Available", "note": "Formal outfit with white crosses in the eyes." },
+            { "name": "First Time We Met", "price_tix": 750, "status": "Available", "note": "Black bride-style outfit." },
+            { "name": "Banana Lady", "price_tix": 1000, "status": "Available", "note": "Nang Tani folklore-inspired skin." },
+            { "name": "Blossom", "price_tix": 1000, "status": "Available", "note": "Current shop skin." },
+            { "name": "Bouquet", "price_tix": 1300, "status": "Available", "note": "Flower-heavy pastel variant." },
+            { "name": "Yourself", "price_tix": 5000, "status": "Available", "note": "Highest-priced Jane Doe shop skin." }
+          ]
+        },
+        {
+          "label": "Jane Doe — Upcoming Skins",
+          "character": "Jane Doe",
+          "category": "Upcoming",
+          "cards": [
+            { "name": "Frisk / Prophesied Angel", "price_tix": null, "status": "Coming Soon", "note": "Undertale-inspired planned skin." },
+            { "name": "Promise", "price_tix": null, "status": "Coming Soon", "note": "Garden-themed upcoming entry." },
+            { "name": "Baker", "price_tix": null, "status": "Coming Soon", "note": "Chef-outfit upcoming entry." }
+          ]
+        },
+        {
+          "label": "Jeff The Killer — Shop Skins",
+          "character": "Jeff The Killer",
+          "category": "Shop",
+          "cards": [
+            { "name": "The Jokester", "price_tix": 100, "status": "Available", "note": "Joker-inspired shop skin." },
+            { "name": "Tinsel", "price_tix": 1225, "status": "Available", "note": "Holiday-themed Jeff variant." },
+            { "name": "Purple Guy", "price_tix": 1987, "status": "Available", "note": "FNaF crossover-style themed skin." }
+          ]
+        },
+        {
+          "label": "Jeff The Killer — Milestones & Special",
+          "character": "Jeff The Killer",
+          "category": "Milestone",
+          "cards": [
+            { "name": "Milestone 1", "price_tix": null, "status": "Reach Level 5", "note": "Reverts Jeff to an early Area 51-style look." },
+            { "name": "Milestone 2", "price_tix": null, "status": "Reach Level 15", "note": "Adds a scarred face variant." },
+            { "name": "Milestone 3", "price_tix": null, "status": "Reach Level 25", "note": "Glitchy yellow distorted form." },
+            { "name": "Milestone 4", "price_tix": null, "status": "Reach Level 50", "note": "Blue-toned endgame milestone skin." },
+            { "name": "Merchandise", "price_tix": null, "status": "Code: DOOMEDBYFATE", "note": "Grey hoodie with the Doom by Fate logo." }
+          ]
+        }
+      ]
+    },
+    "doomByFateShopPrices": {
+      "title": "Doom by Fate Shop Prices",
+      "eyebrow": "Shop",
+      "subtitle": "A quick reference table for every survivor, killer, and featured skin in the current Doom by Fate shop.",
+      "intro": "The current shop covers survivors, killers, and cosmetics — all purchased with Tix. Compare gameplay unlock costs against skin prices at a glance.",
+      "tableHeaders": ["Category", "Name", "Price (Tix)", "Value Note"],
+      "items": [
+        { "category": "Survivor", "name": "Bacon", "price_tix": 0, "value_note": "Free starter survivor." },
+        { "category": "Survivor", "name": "Jane Doe", "price_tix": 450, "value_note": "Low-cost S-tier healer." },
+        { "category": "Survivor", "name": "Jester", "price_tix": 450, "value_note": "Low-cost S-tier debuff survivor." },
+        { "category": "Survivor", "name": "Brawler", "price_tix": 500, "value_note": "Cheap front-line sentinel." },
+        { "category": "Survivor", "name": "Martyr", "price_tix": 500, "value_note": "Paid survivor with dagger-based utility." },
+        { "category": "Survivor", "name": "Soldier", "price_tix": 750, "value_note": "Highest-priced current survivor unlock." },
+        { "category": "Killer", "name": "C000lkid", "price_tix": 0, "value_note": "Free starter killer." },
+        { "category": "Killer", "name": "Jeff The Killer", "price_tix": 1000, "value_note": "Cheapest paid killer." },
+        { "category": "Killer", "name": "The Priest", "price_tix": 1000, "value_note": "Combo-style killer with AoE toolkit." },
+        { "category": "Killer", "name": "1x1x1x1", "price_tix": 1700, "value_note": "Newest myth-styled killer." },
+        { "category": "Killer", "name": "Captain Rampage", "price_tix": 2250, "value_note": "Mobility-heavy mid-premium killer." },
+        { "category": "Killer", "name": "John Doe", "price_tix": 2750, "value_note": "Premium S-tier killer target." },
+        { "category": "Killer", "name": "The Old Man", "price_tix": 3500, "value_note": "Most expensive active killer." },
+        { "category": "Skin", "name": "Jeff — The Jokester", "price_tix": 100, "value_note": "Lowest-priced featured shop skin." },
+        { "category": "Skin", "name": "Jane Doe — Sinner #2", "price_tix": 500, "value_note": "Entry-level Jane Doe skin." },
+        { "category": "Skin", "name": "Jane Doe — Banana Lady", "price_tix": 1000, "value_note": "Mid-tier premium Jane skin." },
+        { "category": "Skin", "name": "Jeff — Tinsel", "price_tix": 1225, "value_note": "Event-style Jeff skin." },
+        { "category": "Skin", "name": "Jane Doe — Yourself", "price_tix": 5000, "value_note": "Highest-priced featured skin." }
+      ]
+    },
+    "doomByFateUpdateLog": {
+      "title": "Doom by Fate Update Log",
+      "eyebrow": "Updates",
+      "subtitle": "Patch history and major content beats that shape the current meta — roster additions, skin drops, and balance changes.",
+      "intro": "Doom by Fate has moved through playtest, alpha, and holiday-event patches with meaningful changes to progression, killers, survivors, skins, and maps. A clear patch timeline helps you understand why tier lists and purchase priorities shift.",
+      "items": [
+        {
+          "label": "2025-10-29",
+          "version": "Playtest 1.1",
+          "headline": "Early balance cleanup and first Jeff skin theme update",
+          "highlights": [
+            "C000lkidd damage and Speed Hack were adjusted.",
+            "John Doe movement and Corroded Wave cooldown were tuned.",
+            "Jeff The Killer received a custom theme for the Classic Jeff skin.",
+            "Map-related issues and other bugs were fixed."
+          ]
+        },
+        {
+          "label": "2025-11-09 – 2025-11-18",
+          "version": "Update 1.2 ALPHA",
+          "headline": "Alpha launch — codes, leveling, and new settings added",
+          "highlights": [
+            "The hitbox system was adjusted.",
+            "A leveling system was added.",
+            "Settings gained visible hitboxes and client position toggles.",
+            "Codes became redeemable through settings.",
+            "Jeff received milestones plus the Screech and Jokester skins.",
+            "The shop got a new theme in Update 1.2.2."
+          ]
+        },
+        {
+          "label": "2025-11-30",
+          "version": "Update 0.1.3 — The Jeffy Update",
+          "headline": "Jeff rework, EXP rework, Brawler rework, and roster tuning",
+          "highlights": [
+            "Jeff got Rage, new animations, a new finisher, and a new theme.",
+            "The EXP system was reworked and EXP gain was reduced.",
+            "Brawler's Sand Throw was reworked.",
+            "Killer paths were added and killers stopped draining stamina outside Terror Radius.",
+            "Crossroads was reworked and killer shortcuts were added.",
+            "The Update Log button, player UI, and damage indicator were added."
+          ]
+        },
+        {
+          "label": "Christmas event",
+          "version": "Update v0.1.4 — Pray The Bloxwatchers",
+          "headline": "The Priest arrived and the holiday content wave expanded the shop",
+          "highlights": [
+            "The Priest was added as a new killer.",
+            "Captain Rampage received a Tidal Cleaver rework.",
+            "Jane Doe got Winter and a Bouquet rework.",
+            "Soldier received Jane Doe, Classic, SCP: Facility Guard, and Toy skins.",
+            "Jeff The Killer received Tinsel.",
+            "Jolly Winter and Mansion were added as maps."
+          ]
+        },
+        {
+          "label": "Christmas finale",
+          "version": "Update v0.1.5 — The End of the Doomed Christmas",
+          "headline": "The Old Man arrived, status effects added, and latest codes went live",
+          "highlights": [
+            "The Old Man was added as a new killer.",
+            "Burning, Bleeding, Undetectable, and Slowness were added as status effects.",
+            "Mobile button positions became customizable.",
+            "Mystery Hotel was added and Rampaged Ship received a new objective.",
+            "New skins included Fire Elliot, Elliot, Hiroshi, Firefist, Captain Kringle, and Frost Man.",
+            "The SORRYFORTHELONGWAIT and THEOLDMAN codes were added.",
+            "This patch concludes the Alpha stage."
+          ]
+        },
+        {
+          "label": "Post-patch",
+          "version": "Undocumented Update",
+          "headline": "Map rotation cleanup after the holiday patch",
+          "highlights": [
+            "Jolly Winter was removed.",
+            "Mystery Hotel was removed."
           ]
         }
       ]
