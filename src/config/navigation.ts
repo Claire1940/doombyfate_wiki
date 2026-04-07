@@ -1,4 +1,3 @@
-import { BookOpen, Sparkles, Package, Eye, Home, MessageCircle } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 
 export interface NavigationItem {
