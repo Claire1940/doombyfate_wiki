@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "codes": "Kode",
+    "guide": "Panduan",
+    "killers": "Pembunuh",
+    "survivors": "Penyintas",
+    "skins": "Skin",
+    "lore": "Lore",
+    "audio": "Audio"
+  }
+}

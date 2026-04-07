@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Rehberler",
-    "crafting": "Üretim",
-    "items": "Eşyalar",
-    "biomes": "Biyomlar",
-    "building": "İnşa",
-    "support": "Destek"
+    "codes": "Kodlar",
+    "guide": "Rehber",
+    "killers": "Katiller",
+    "survivors": "Hayatta Kalanlar",
+    "skins": "Kostümler",
+    "lore": "Lore",
+    "audio": "Ses"
   },
   "common": {
     "home": "Ana Sayfa",

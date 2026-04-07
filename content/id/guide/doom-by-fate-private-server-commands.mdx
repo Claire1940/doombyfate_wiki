@@ -1,0 +1,119 @@
+export const metadata = {
+  title: "Perintah Server Privat Doom By Fate: Panduan Admin Lengkap 2026",
+  description: "Kuasai pertandingan kustom Anda dengan perintah server privat Doom By Fate terbaru. Pelajari cara mengelola pemain, menggunakan kode, dan menyesuaikan pengalaman horor Anda.",
+  category: "Panduan",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Doom+By+Fate+Private+Server+Commands",
+  date: "2026-04-07",
+  author: "Tim Wiki Doom By Fate"
+}
+
+Sebagai pengalaman horor kelangsungan hidup asimetris di Roblox, Doom By Fate menawarkan lingkungan dengan intensitas tinggi di mana delapan penyintas harus bertahan hidup dari satu pembunuh yang mengerikan. Baik Anda ingin melatih keterampilan *looping* atau mengadakan acara komunitas yang kompetitif, memahami **perintah server privat doom by fate** sangat penting untuk menjaga kendali atas lobi Anda. Perintah-perintah ini memungkinkan pemilik server untuk menyesuaikan pengalaman gameplay, mengelola perilaku pemain, dan menguji strategi baru tanpa ketidakterdugaan dari pencarian lawan (*matchmaking*) publik. Dalam panduan ini, kita akan menjelajahi status alat administratif saat ini yang tersedia dalam versi Alpha 2026 dari game ini.
+
+Menggunakan **perintah server privat doom by fate** secara efektif dapat mengubah pertandingan yang kacau menjadi sesi pelatihan yang terstruktur. Karena game ini terus melanjutkan fase pengembangan Alpha-nya, pengembang sering memperbarui sistem backend, sehingga sangat penting bagi pemain untuk tetap mendapatkan informasi tentang sintaks dan fungsionalitas terbaru. Mulai dari mengeluarkan pemain yang mengganggu hingga menyesuaikan pengaturan pertandingan, memiliki pemahaman yang kuat tentang alat-alat ini memastikan bahwa sesi horor privat Anda berjalan lancar dan adil bagi semua peserta yang terlibat.
+
+## Menyiapkan Lingkungan Privat Anda
+
+Sebelum Anda dapat mulai menggunakan **perintah server privat doom by fate**, Anda harus terlebih dahulu membuat instans Anda sendiri. Saat ini, dalam Alpha 2026, server privat sering digunakan oleh klan dan pemain hardcore untuk membedah tata letak peta dan mekanik pembunuh. Saat Anda membuat server privat, Anda diberikan hak administratif yang tidak tersedia dalam rotasi publik standar.
+
+Untuk mengakses pengaturan server Anda, pastikan Anda adalah pemilik yang ditunjuk atau telah diberikan status "Admin" oleh tuan rumah. Sebagian besar perintah dimasukkan langsung ke dalam kotak obrolan (*chat box*), biasanya diawali dengan karakter tertentu seperti titik koma (;) atau garis miring (/).
+
+| Fitur | Deskripsi | Aksesibilitas |
+| :--- | :--- | :--- |
+| **Kepemilikan Server** | Memberikan kendali penuh atas dimulainya pertandingan dan daftar pemain. | Hanya Pemilik |
+| **Kustomisasi Pertandingan** | Memungkinkan pemilihan peta atau pembunuh tertentu untuk pengujian. | Admin/Pemilik |
+| **Manajemen Pemain** | Memberikan kemampuan untuk mengeluarkan atau mengundang pengguna tertentu. | Admin/Pemilik |
+| **Penyimpanan Data** | Perhatikan bahwa sebagian besar hadiah Alpha yang didapat di server privat tidak terbawa ke publik. | Global |
+
+> **Peringatan:** Sadarilah bahwa pencapaian dan lencana terkait kemajuan tertentu dinonaktifkan di server privat untuk mencegah "farming" atau "boosting" statistik tanpa kehadiran ancaman publik yang nyata.
+
+## Perintah Penting Server Privat Doom By Fate
+
+Dalam build 2026 saat ini, daftar perintah difokuskan pada utilitas dan moderasi. Karena Doom By Fate mengandalkan keseimbangan yang tepat antara delapan Penyintas dan satu Pembunuh, perintah-perintah ini membantu mengatur ulang status permainan jika terjadi bug atau jika ada pemain yang terputus secara prematur.
+
+### Utilitas Administratif
+Perintah-perintah ini adalah hal mendasar bagi setiap tuan rumah. Mereka memastikan bahwa pertandingan tetap kompetitif dan semua orang mengikuti aturan yang ditetapkan oleh pemilik server.
+
+*   **!kick [NamaPengguna]**: Segera mengeluarkan pemain dari sesi saat ini. Gunakan ini untuk pemain yang menolak mengikuti panduan roleplay atau pengujian.
+*   **!map [NamaPeta]**: Memaksa server untuk memuat lokasi tertentu. Ini sangat berguna untuk mempelajari POI (*Points of Interest*) pada peta baru yang ditambahkan dalam Update Jeffy.
+*   **!reset**: Memulai ulang putaran saat ini. Jika Pembunuh terjebak atau Penyintas mengalami *glitch* menembus geometri, perintah ini adalah cara tercepat untuk kembali beraksi.
+
+### Konfigurasi Pertandingan
+Menyesuaikan tingkat kesulitan atau alur pertandingan adalah alasan utama menggunakan server privat. Meskipun inti permainan adalah 8v1, beberapa tuan rumah lebih suka menguji skenario 4v1 atau mode petak umpet khusus "Hanya Pembunuh".
+
+| Tipe Perintah | Tujuan | Contoh Sintaks |
+| :--- | :--- | :--- |
+| **Batas Waktu** | Menyesuaikan durasi putaran. | `!time 600` |
+| **Penetapan Peran** | Memaksa pemain tertentu ke dalam peran Pembunuh. | `!setkiller [Nama]` |
+| **Mod Kecepatan** | Menyesuaikan kecepatan gerakan untuk pengujian (Hanya Alpha). | `!speed [Nama] [Nilai]` |
+
+## Menjelajahi Peran Pembunuh dan Penyintas
+
+Di Doom By Fate, variasi karakter secara signifikan memengaruhi jalannya pertandingan. Saat menghosting server privat, Anda dapat menggunakan perintah untuk memastikan pemain menguji arketipe tertentu. Wiki saat ini menyoroti beberapa tokoh kunci yang menjadi andalan dalam pengalaman Alpha.
+
+### Para Pembunuh
+Daftar Pembunuh mencakup entitas terkenal dan unik, masing-masing membutuhkan taktik bertahan hidup yang berbeda. Dalam pertandingan privat Anda, Anda dapat berganti-ganti di antara mereka untuk membantu tim Anda mempelajari "lawan" untuk setiap ancaman.
+*   **John Wayne Gacy**: Pembunuh bertekanan tinggi yang mengandalkan kengerian psikologis.
+*   **SoulDrivenbyLust**: Dikenal karena pengejaran agresif dan mobilitas tinggi.
+*   **C000lkid**: Ancaman gaya lama dengan pola gerakan yang tidak terduga.
+
+### Para Penyintas
+Penyintas dikategorikan ke dalam peran yang menentukan kegunaan mereka selama pertandingan. Menggunakan **perintah server privat doom by fate** untuk menyiapkan tim "semua-Soldier" atau "semua-Brawler" bisa menjadi cara yang menyenangkan untuk bereksperimen dengan meta.
+*   **Brawler (Petarung)**: Berfokus pada interaksi fisik dan potensi mengulur waktu pembunuh.
+*   **Soldier (Prajurit)**: Dilengkapi untuk gerakan taktis dan penyelesaian objektif.
+
+<div style={{position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden"}}>
+  <iframe
+    style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}}
+    src="https://www.youtube.com/embed/a3hR6DEGUSk"
+    title="DOOM BY FATE CODES ROBLOX – All New Working Codes!"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+## Menggunakan Kode di Server Privat
+
+Meskipun perintah mengendalikan lingkungan, kode digunakan untuk membuka kosmetik dan mata uang. Bahkan dalam pengaturan privat, Anda sering kali dapat menukarkan kode-kode ini untuk memamerkan skin atau emote baru kepada teman-teman Anda. Pengembang sering merilis kode ini selama pencapaian besar, seperti "Update Jeffy" pada akhir 2025.
+
+| Kode | Tipe Hadiah | Status (2026) |
+| :--- | :--- | :--- |
+| **Heat** | Kosmetik Spesial / Mata Uang | **Aktif** |
+| **AlphaRelease** | Paket Pemula | **Aktif** |
+| **JeffyUpdate** | Skin Musiman | **Kedaluwarsa** |
+
+Untuk menukarkannya, cari ikon "Codes" atau "Twitter" di menu utama sebelum Anda meluncurkan instans privat Anda. Ingatlah bahwa huruf besar berpengaruh, dan spasi ekstra dapat menyebabkan kode gagal.
+
+## Taktik Lanjutan untuk Pemilik Server
+
+Mengelola komunitas membutuhkan lebih dari sekadar mengetahui beberapa **perintah server privat doom by fate**. Untuk menjadi tuan rumah tingkat atas, Anda harus memahami tata letak peta dan POI. Peta Alpha 2026 menampilkan vertikalitas yang kompleks dan tempat persembunyian yang tidak langsung terlihat.
+
+1.  **Pengintaian POI**: Gunakan perintah `!noclip` (jika tersedia dalam build admin spesifik Anda) untuk terbang di sekitar peta dan mengidentifikasi lokasi generator atau objektif terbaik.
+2.  **Pemeriksaan Latensi**: Server privat terkadang kesulitan dengan jumlah pemain yang tinggi jika wilayah tuan rumah jauh dari peserta. Gunakan perintah `!ping` untuk memantau kualitas koneksi.
+3.  **Pengujian Skin**: Karena kosmetik seperti skin dan emote adalah bagian besar dari kemajuan game, gunakan server privat untuk melihat bagaimana skin tertentu terlihat di bawah kondisi pencahayaan yang berbeda pada peta seperti "Abandoned Asylum."
+
+> **Tips:** Jika Anda merekam konten untuk YouTube atau TikTok, server privat adalah tempat terbaik untuk mendapatkan cuplikan yang "bersih" tanpa gangguan pemain acak.
+
+## Pembaruan Masa Depan dan Perubahan Perintah
+
+Saat Doom By Fate bergerak menuju fase Beta-nya di akhir tahun 2026, kami mengharapkan sistem perintah menjadi lebih kuat. Para pengembang telah mengisyaratkan panel admin berbasis GUI, yang akan menggantikan kebutuhan untuk mengetik string teks panjang di obrolan. Panel ini kemungkinan akan menyertakan penggeser (*slider*) untuk kecepatan permainan, modifikator kerusakan, dan bahkan sakelar "perk" untuk Penyintas.
+
+Untuk saat ini, pantau terus [Halaman Game Roblox](https://www.roblox.com/) resmi dan saluran media sosial pengembang. Perubahan pada **perintah server privat doom by fate** biasanya didokumentasikan dalam catatan rilis (*patch notes*), seperti sorotan terbaru yang ditemukan dalam Update Jeffy.
+
+## FAQ
+
+**T: Bisakah saya mendapatkan koin dan kemenangan di server privat Doom By Fate?**
+
+J: Umumnya, tidak. Untuk menjaga integritas papan peringkat dan ekonomi dalam game, kemenangan dan koin yang diperoleh di server privat tidak disimpan ke profil global Anda. Mereka ditujukan untuk latihan dan acara komunitas saja.
+
+**T: Apa yang harus saya lakukan jika perintah server privat doom by fate tidak berfungsi?**
+
+J: Pertama, periksa apakah Anda adalah pemilik server. Jika ya, pastikan Anda menggunakan awalan yang benar (seperti ! atau ;). Beberapa perintah hanya diaktifkan selama fase pengujian Alpha tertentu. Jika masalah berlanjut, coba masuk kembali ke server untuk menyegarkan izin Anda.
+
+**T: Apakah ada perintah untuk memunculkan item tertentu?**
+
+J: Dalam Alpha saat ini, pemunculan item dibatasi untuk mencegah bug yang merusak permainan. Namun, beberapa versi administratif game memungkinkan untuk "Gear Testing" di mana Anda dapat melengkapi alat penyintas yang berbeda untuk melihat bagaimana mereka berinteraksi dengan kemampuan Pembunuh.
+
+**T: Berapa banyak pemain yang bisa bergabung dalam server privat?**
+
+J: Batas saat ini sama dengan batas server publik yaitu 9 pemain (8 Penyintas dan 1 Pembunuh). Beberapa server acara khusus mungkin mengizinkan penonton, tetapi ini ditentukan oleh pengaturan server spesifik pada saat pembuatan.

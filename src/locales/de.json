@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Anleitungen",
-    "crafting": "Herstellung",
-    "items": "Gegenstände",
-    "biomes": "Biome",
-    "building": "Bauen",
-    "support": "Unterstützung"
+    "codes": "Codes",
+    "guide": "Guide",
+    "killers": "Killer",
+    "survivors": "Überlebende",
+    "skins": "Skins",
+    "lore": "Lore",
+    "audio": "Audio"
   },
   "common": {
     "home": "Startseite",

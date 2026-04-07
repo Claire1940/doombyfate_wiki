@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "ガイド",
-    "crafting": "クラフト",
-    "items": "アイテム",
-    "biomes": "バイオーム",
-    "building": "建築",
-    "support": "サポート"
+    "codes": "コード",
+    "guide": "ガイド",
+    "killers": "キラー",
+    "survivors": "サバイバー",
+    "skins": "スキン",
+    "lore": "ロア",
+    "audio": "オーディオ"
   },
   "common": {
     "home": "ホーム",

@@ -10,7 +10,15 @@
       "twitterDescription": "Doom By Fate Wiki tracks active codes, killer and survivor guides, tier lists, maps, skins, and update notes for Roblox's asymmetrical horror hit."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "killers": "Killers",
+    "survivors": "Survivors",
+    "skins": "Skins",
+    "lore": "Lore",
+    "audio": "Audio"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -1346,40 +1354,144 @@
   },
   "pages": {
     "codes": {
-      "title": "Doom By Fate Codes",
-      "description": "All active and expired Doom By Fate codes for free Tix and skin rewards.",
-      "metaTitle": "Doom By Fate Codes - Active Redeem Codes List",
-      "metaDescription": "Find all working Doom By Fate codes for free Tix and skin rewards. Updated daily with new active codes and expired code archive."
+      "title": "Doom by Fate Codes",
+      "description": "Latest working Doom by Fate codes for free gold, gems, and exclusive rewards. Updated regularly with verified active codes.",
+      "metaTitle": "Doom by Fate Codes - Free Rewards & Redemption Guide",
+      "metaDescription": "Get free gold, gems, and exclusive rewards with active Doom by Fate codes. Updated regularly with verified working codes.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Doom by Fate Codes?",
+      "whatIsDescription": "Doom by Fate codes are special promotional strings released by the developers that grant players free in-game rewards. Redeeming these codes is the fastest way to earn gold, experience boosts, and exclusive cosmetics without spending Robux.",
+      "why": "Why Redeem Doom by Fate Codes?",
+      "whySteps": {
+        "step1Title": "Free In-Game Currency",
+        "step1Description": "Codes frequently award gold and gems that would otherwise require grinding hours of matches to earn.",
+        "step2Title": "Exclusive Cosmetics",
+        "step2Description": "Some codes unlock limited-time skins and accessories unavailable through any other means in the game.",
+        "step3Title": "Experience Boosts",
+        "step3Description": "XP multiplier codes help you level up faster, unlocking new killers, survivors, and progression rewards."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "guide": {
+      "title": "Doom by Fate Guide",
+      "description": "Comprehensive Doom by Fate guides covering gameplay mechanics, tier lists, killer strategies, and survivor tips for all skill levels.",
+      "metaTitle": "Doom by Fate Guide - Tips, Tier Lists & Strategy",
+      "metaDescription": "Master Doom by Fate with our comprehensive guides covering killer tier lists, survivor tips, milestone systems, and advanced strategies.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What are Doom by Fate Guides?",
+      "whatIsDescription": "Doom by Fate guides are in-depth articles covering every aspect of the game, from beginner fundamentals to advanced competitive strategies. Whether you want to dominate as a killer or escape as a survivor, these guides have you covered.",
+      "why": "Why Read Doom by Fate Guides?",
+      "whySteps": {
+        "step1Title": "Master Killer & Survivor Mechanics",
+        "step1Description": "Learn the unique abilities, strengths, and weaknesses of every character to make better decisions in matches.",
+        "step2Title": "Climb the Tier Rankings",
+        "step2Description": "Understand which killers and survivors are currently top-tier and why, so you can pick the best options for your playstyle.",
+        "step3Title": "Unlock Hidden Mechanics",
+        "step3Description": "Discover milestone systems, private server commands, and advanced techniques that most players don't know about."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Guides"
     },
     "killers": {
-      "title": "Doom By Fate Killers",
-      "description": "Full roster of killers in Doom By Fate with abilities, costs, and strategy guides.",
-      "metaTitle": "Doom By Fate Killers Guide - All Killers Ranked",
-      "metaDescription": "Complete Doom By Fate killers guide covering every killer's cost, HP, abilities, and best strategies for the current meta."
+      "title": "Doom by Fate Killers",
+      "description": "Full roster of Doom by Fate killers with abilities, stats, strategies, and detailed character breakdowns for every killer in the game.",
+      "metaTitle": "Doom by Fate Killers - All Killers Guide & Abilities",
+      "metaDescription": "Complete Doom by Fate killers guide covering John Doe, The Priest, Jeff the Killer, SCP-106, and every killer's abilities and best strategies.",
+      "categoryLabel": "KILLERS",
+      "whatIs": "What are Doom by Fate Killers?",
+      "whatIsDescription": "Doom by Fate killers are the antagonist characters players can choose to hunt down survivors. Each killer, from the iconic John Doe to the terrifying SCP-106, has unique abilities, movement patterns, and special powers that define the match.",
+      "why": "Why Learn Doom by Fate Killers?",
+      "whySteps": {
+        "step1Title": "Pick the Right Killer",
+        "step1Description": "Each killer has different strengths. Understanding their unique abilities helps you choose the best option for your playstyle.",
+        "step2Title": "Counter Enemy Killers",
+        "step2Description": "As a survivor, knowing each killer's abilities and weaknesses lets you evade them effectively and survive longer.",
+        "step3Title": "Master Advanced Techniques",
+        "step3Description": "Every killer has hidden tech and advanced movement options that separate good players from great ones."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Killers"
     },
     "survivors": {
-      "title": "Doom By Fate Survivors",
-      "description": "Full roster of survivors in Doom By Fate with abilities, costs, and tips.",
-      "metaTitle": "Doom By Fate Survivors Guide - All Survivors Ranked",
-      "metaDescription": "Complete Doom By Fate survivors guide covering every survivor's cost, HP, abilities, and the best picks for new and experienced players."
+      "title": "Doom by Fate Survivors",
+      "description": "Complete guide to all Doom by Fate survivors including Jane Doe, Jester, Martyr, Brawler, Soldier, and Bacon with abilities and tips.",
+      "metaTitle": "Doom by Fate Survivors - All Survivors Guide & Abilities",
+      "metaDescription": "Doom by Fate survivors guide covering Jane Doe, Jester, Martyr, Brawler, Soldier, and Bacon with full ability breakdowns and escape strategies.",
+      "categoryLabel": "SURVIVORS",
+      "whatIs": "What are Doom by Fate Survivors?",
+      "whatIsDescription": "Doom by Fate survivors are the player characters trying to escape or outlast the killer. Each survivor like Jane Doe, Jester, and Brawler brings distinct abilities and playstyles to help their team survive the match.",
+      "why": "Why Learn Doom by Fate Survivors?",
+      "whySteps": {
+        "step1Title": "Choose the Best Survivor",
+        "step1Description": "Different survivors excel in different situations. Learning their abilities helps you pick the most effective character for each match.",
+        "step2Title": "Master Survival Strategies",
+        "step2Description": "Each survivor has unique escape tools and support abilities. Knowing how to use them effectively drastically improves your win rate.",
+        "step3Title": "Build Effective Teams",
+        "step3Description": "Understanding survivor synergies lets you coordinate with teammates to maximize your group's chances of escaping the killer."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Survivors"
     },
-    "tierList": {
-      "title": "Doom By Fate Tier List",
-      "description": "Current tier list ranking all survivors and killers in Doom By Fate.",
-      "metaTitle": "Doom By Fate Tier List - Best Killers and Survivors",
-      "metaDescription": "Updated Doom By Fate tier list ranking the best killers and survivors in the current meta, with detailed analysis for each character."
+    "skins": {
+      "title": "Doom by Fate Skins",
+      "description": "All Doom by Fate skins for killers and survivors including milestone skins, limited editions, and the best cosmetics to buy with your Robux.",
+      "metaTitle": "Doom by Fate Skins - All Cosmetics & Outfits Guide",
+      "metaDescription": "Browse all Doom by Fate skins for killers and survivors. Find the best milestone skins, limited editions, and which cosmetics are worth buying.",
+      "categoryLabel": "SKINS",
+      "whatIs": "What are Doom by Fate Skins?",
+      "whatIsDescription": "Doom by Fate skins are cosmetic outfits that change the visual appearance of killers and survivors. They range from milestone rewards earned through gameplay to exclusive limited-edition cosmetics purchased with Robux.",
+      "why": "Why Explore Doom by Fate Skins?",
+      "whySteps": {
+        "step1Title": "Find the Best Cosmetics",
+        "step1Description": "With dozens of skins available, our guides help you identify the most visually impressive and popular cosmetics in the game.",
+        "step2Title": "Earn Milestone Skins for Free",
+        "step2Description": "Many skins are unlockable through the milestone system. Learn which milestones reward the best cosmetics without spending Robux.",
+        "step3Title": "Evaluate Limited Editions",
+        "step3Description": "Some skins are only available for a limited time. Knowing which ones are worth the investment helps you make smart purchasing decisions."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Skins"
     },
-    "maps": {
-      "title": "Doom By Fate Maps",
-      "description": "All maps in Doom By Fate with objectives, key positions, and strategy tips.",
-      "metaTitle": "Doom By Fate Maps Guide - All Maps Explained",
-      "metaDescription": "Doom By Fate maps guide covering every map's layout, objectives, key positions, and strategies for both killers and survivors."
+    "lore": {
+      "title": "Doom by Fate Lore",
+      "description": "Dive into the Doom by Fate lore covering the backstories of John Doe, Jane Doe, Elliot, and the game's dark narrative universe.",
+      "metaTitle": "Doom by Fate Lore - Characters & Story Explained",
+      "metaDescription": "Explore the deep Doom by Fate lore covering John Doe, Jane Doe, Elliot, and the complete narrative universe behind this popular Roblox horror game.",
+      "categoryLabel": "LORE",
+      "whatIs": "What is Doom by Fate Lore?",
+      "whatIsDescription": "Doom by Fate lore encompasses the rich narrative background of the game's characters and universe. From the relationship between John Doe and Jane Doe to Elliot's mysterious backstory, the game features a deep story that rewards players who explore it.",
+      "why": "Why Explore Doom by Fate Lore?",
+      "whySteps": {
+        "step1Title": "Understand Character Motivations",
+        "step1Description": "Knowing the backstory of each killer and survivor deepens your connection to the game and explains why certain characters behave as they do.",
+        "step2Title": "Discover Hidden Connections",
+        "step2Description": "The lore reveals surprising relationships between characters, like the sibling connection between John Doe and Jane Doe.",
+        "step3Title": "Appreciate the Game's Depth",
+        "step3Description": "Doom by Fate draws inspiration from real internet legends and games like Forsaken, creating a rich tapestry of horror lore worth exploring."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Lore"
     },
-    "updates": {
-      "title": "Doom By Fate Updates",
-      "description": "Latest Doom By Fate patch notes, new content, and version history.",
-      "metaTitle": "Doom By Fate Updates - Patch Notes and New Content",
-      "metaDescription": "Stay up to date with all Doom By Fate updates, patch notes, new characters, skins, and game changes."
+    "audio": {
+      "title": "Doom by Fate Audio",
+      "description": "Doom by Fate soundtracks, OST analysis, and audio guides including the iconic Coolkid theme and all in-game music tracks.",
+      "metaTitle": "Doom by Fate Audio - Soundtrack & OST Guide",
+      "metaDescription": "Explore the complete Doom by Fate audio guide covering the OST, Coolkid theme, and all in-game soundtracks with detailed analysis.",
+      "categoryLabel": "AUDIO",
+      "whatIs": "What is Doom by Fate Audio?",
+      "whatIsDescription": "Doom by Fate audio covers the game's complete soundtrack and sound design. The OST features intense industrial metal tracks like the iconic Coolkid theme that enhance the atmospheric horror experience of each match.",
+      "why": "Why Explore Doom by Fate Audio?",
+      "whySteps": {
+        "step1Title": "Discover the Full OST",
+        "step1Description": "The Doom by Fate soundtrack features unique tracks for each killer and map. Knowing the music helps you identify what's happening in a match.",
+        "step2Title": "Appreciate the Sound Design",
+        "step2Description": "The game's audio cues are gameplay tools. Recognizing killer-specific sounds gives survivors a competitive edge when evading pursuit.",
+        "step3Title": "Explore the Community Favorites",
+        "step3Description": "Tracks like the Coolkid theme have become iconic in the Doom by Fate community. Learn why certain pieces resonate so strongly with the player base."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Audio"
     }
   }
 }
